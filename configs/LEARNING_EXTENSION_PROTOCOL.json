@@ -1,0 +1,137 @@
+{
+  "protocol_id": "learning-extension-protocol",
+  "status": "final",
+  "global_rules": {
+    "report_all_successful_runs": true,
+    "discard_successful_runs": false,
+    "paired_schedule_within_cell": true,
+    "shared_standard_normal_noise_within_cell": true,
+    "primary_methods": [
+      "stable-local-fallback",
+      "unitscope-lambda-sweep",
+      "handle-only-drop-residual",
+      "naive-recalibrated-2c"
+    ],
+    "fixed_lambda": 0.9,
+    "clip_norm": 1.0,
+    "delta": 0.00001,
+    "H": 1,
+    "B": 6,
+    "n_silos": 6,
+    "records_per_round": 512,
+    "per_sample_gradient_chunk": 8,
+    "learning_rate": 1.0,
+    "public_normalizer": 512.0,
+    "test_set_may_not_select_parameters": true
+  },
+  "families": [
+    {
+      "family_id": "credible-accuracy-epsilon8",
+      "label": "epsilon8-utility-boundary",
+      "datasets": ["femnist", "synthea"],
+      "model": {
+        "femnist": "the frozen two-convolution SmallCNN",
+        "synthea": "the frozen two-layer structured MLP"
+      },
+      "privacy": {
+        "epsilon": 8.0,
+        "delta": 0.00001,
+        "rounds": 50,
+        "sampling_amplification": false,
+        "noise_multiplier": 4.901514315076063,
+        "accountant": "the same conservative Gaussian RDP accountant as the frozen main study"
+      },
+      "replicates_per_dataset": 10,
+      "training_seeds": [120, 121, 122, 123, 124, 125, 126, 127, 128, 129],
+      "split_seed_base": 52001,
+      "topology_seed_base": 62001,
+      "evidence_seed_base": 72001,
+      "schedule_seed_base": 82001,
+      "noise_seed_base": 92001,
+      "primary_metric": {
+        "femnist": "writer macro accuracy",
+        "synthea": "patient AUPRC"
+      },
+      "success_criterion": {
+        "integrity": "all four methods complete without NaN and every claimed certificate validates",
+        "absolute_utility": "mean UnitScope FEMNIST writer macro accuracy is at least 0.20 and mean UnitScope Synthea patient AUPRC is at least 0.28",
+        "comparative": "no direction is required and every paired result is reported"
+      },
+      "reporting": "epsilon=8 utility-boundary table; the epsilon=4 main table remains unchanged"
+    },
+    {
+      "family_id": "user-noniid-dirichlet",
+      "label": "non-iid-stress-test",
+      "datasets": ["femnist"],
+      "model": {
+        "femnist": "the frozen two-convolution SmallCNN"
+      },
+      "partition": {
+        "alphas": [0.1, 0.5],
+        "construction": "Dirichlet class-conditional silo assignment for overlapping writers; stable silo for other writers; no record duplication",
+        "overlap_probability": 0.5,
+        "writer_disjoint_train_validation_test": true
+      },
+      "privacy": {
+        "epsilon": 4.0,
+        "delta": 0.00001,
+        "rounds": 50,
+        "sampling_amplification": false,
+        "noise_multiplier": 9.214933748786253
+      },
+      "replicates_per_alpha": 5,
+      "training_seeds": [200, 201, 202, 203, 204],
+      "split_seed_base": 53001,
+      "topology_seed_base": 63001,
+      "evidence_seed_base": 73001,
+      "schedule_seed_base": 83001,
+      "noise_seed_base": 93001,
+      "primary_metric": "writer macro accuracy",
+      "success_criterion": {
+        "integrity": "all four methods complete without NaN and UnitScope remains C-certified",
+        "robustness": "the mean UnitScope drop from alpha 0.5 to alpha 0.1 is no more than 0.05 absolute writer macro accuracy",
+        "comparative": "UnitScope is not required to rank first and an unfavorable result is reported as a regime boundary"
+      },
+      "reporting": "non-IID stress-test table"
+    },
+    {
+      "family_id": "sent140-account-task",
+      "label": "account-level-text-task",
+      "datasets": ["sent140"],
+      "model": "512-dimensional stateless signed hashing features and a 512-64-2 MLP",
+      "identity_semantics": "account, not verified natural person",
+      "task": "binary tweet sentiment with account-disjoint splits and account macro accuracy",
+      "population": "2,000 accounts with at least two records, capped at 32 records per account by a stable public hash",
+      "topology": "six silos, 0.5 account-overlap probability, no record duplication, stable public assignment",
+      "evidence": "controlled q_user=0.5 and q_record_given_handle=0.5",
+      "privacy": {
+        "epsilon": 4.0,
+        "delta": 0.00001,
+        "rounds": 50,
+        "sampling_amplification": false,
+        "noise_multiplier": 9.214933748786253
+      },
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "replicates": 10,
+      "training_seeds": [300, 301, 302, 303, 304, 305, 306, 307, 308, 309],
+      "split_seed_base": 54001,
+      "topology_seed_base": 64001,
+      "evidence_seed_base": 74001,
+      "schedule_seed_base": 84001,
+      "noise_seed_base": 94001,
+      "primary_metric": "account macro accuracy",
+      "success_criterion": {
+        "integrity": "all methods complete without NaN, all account splits are disjoint, and every user-level method validates its declared sensitivity",
+        "external_validity": "UnitScope produces a valid C-certified full-retention plan on both additional modalities",
+        "comparative": "no winning direction is required and all paired outcomes are reported"
+      },
+      "reporting": "Sent140 account-level result table"
+    }
+  ]
+}

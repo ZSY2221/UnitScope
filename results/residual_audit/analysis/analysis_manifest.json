@@ -1,0 +1,24 @@
+{
+  "analysis": "residual-influence-audit",
+  "analysis_hash": "ed53ddbd9fb371804d70ed76fdd3a2fee36ddc1c290ab1ca0589b289872e4c5a",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20270723,
+  "created_at_utc": "2026-07-23T11:23:24.103829+00:00",
+  "endpoint_gate_pass": true,
+  "endpoint_tolerance_by_dataset": {
+    "femnist": 0.0003125,
+    "synthea": 0.0011716461628588166
+  },
+  "method_runs": 160,
+  "output_hashes": {
+    "endpoint_gate.csv": "84e9c17179dca3a3b12d786a9384ebabdad5d72835494b99e9144d18defdba11",
+    "method_summary.csv": "93e72c9ff9aa3359336a7e488c015ccd36a45f8e672c966aafd371c7dc81e4fe",
+    "paired_differences.csv": "b6a894ae4d2cfefb1f7c62ee695c96672ce5d9a67ea6d92726f0a13bda810c72",
+    "round_metrics.csv": "380f5cac85412296961080252e79fcb88583f3d9c22f559643240aefa07390e3",
+    "run_metrics.csv": "2f1d920a966410dc0d7d6751b7208997c2194eea4638e6648d990689488c18db",
+    "subgroup_metrics.csv": "f5a87cac9a453eb67260349776e361967d8634016ed7a424ba2be0fe79aecea1"
+  },
+  "round_rows": 8000,
+  "subgroup_rows": 160,
+  "zero_discarded": true
+}

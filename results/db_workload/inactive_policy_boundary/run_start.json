@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-07-23T09:36:47.683316+00:00",
+  "declaration": {
+    "declaration_file_sha256": "d1d792ac77ae838007a9494e83096c492b79da007d8b0a02b73fd9b81e14414b",
+    "declaration_payload_sha256": "91e5996e56b5526c8d8f8c773070c3bf48998a60c3328d444d43ce0273d1af9e"
+  },
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "epsilons": [
+    1.0,
+    4.0,
+    16.0
+  ],
+  "expected_releases": 90,
+  "seeds": [
+    42001,
+    42002,
+    42003,
+    42004,
+    42005,
+    42006,
+    42007,
+    42008,
+    42009,
+    42010
+  ],
+  "source_fingerprint": "559757dc849f4361a328f456d2c0a20c6df72419068321c753c6be787161e937",
+  "workload": "synthea-person-level-cohort-count-v1"
+}

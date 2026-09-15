@@ -1,0 +1,9 @@
+dataset,method,successful_runs,unique_seeds,nan_metrics,validation_pass_all,epsilon_values,noise_multiplier_values,wall_time_seconds_total,wall_time_seconds_mean,record_utilization_mean
+femnist,full-identity-reference,20,20,0,True,4.0,9.214933748786253,347.50416890054476,17.375208445027237,1.0
+femnist,group-privacy-k2-person-corrected,20,20,0,True,4.0,9.214933748786253,787.3497773007548,39.36748886503774,0.9329101562499998
+femnist,record-level-dp-sgd-reference,20,20,0,True,4.0,9.214933748786253,597.4730132000113,29.873650660000568,1.0
+femnist,uldp-avg-weighted-oracle,20,20,0,True,4.0,9.214933748786253,366.7012056997628,18.33506028498814,1.0
+synthea,full-identity-reference,20,20,0,True,4.0,9.214933748786253,459.2707536997041,22.963537684985205,1.0
+synthea,group-privacy-k2-person-corrected,20,20,0,True,4.0,9.214933748786253,438.87329140043585,21.94366457002179,0.9511757812499999
+synthea,record-level-dp-sgd-reference,20,20,0,True,4.0,9.214933748786253,408.24561559950234,20.412280779975116,1.0
+synthea,uldp-avg-weighted-oracle,20,20,0,True,4.0,9.214933748786253,433.7867120000592,21.68933560000296,1.0

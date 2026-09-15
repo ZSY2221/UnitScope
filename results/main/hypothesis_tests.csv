@@ -1,0 +1,5 @@
+dataset,hypothesis,raw_p,holm_p,reject_at_0.05
+femnist,gain_over_fallback,3.814697265625e-06,3.814697265625e-06,True
+femnist,noninferior_to_handle_only,9.5367431640625e-07,3.814697265625e-06,True
+synthea,gain_over_fallback,9.5367431640625e-07,3.814697265625e-06,True
+synthea,noninferior_to_handle_only,9.5367431640625e-07,3.814697265625e-06,True

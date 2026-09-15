@@ -1,0 +1,86 @@
+{
+  "dataset": "femnist",
+  "lambda": null,
+  "method": "non-private-reference",
+  "run_id": "8062bc042546f4a58ac844b8655e2afadeab19c31d8be7e4ab32bfd6c4f0b646",
+  "seed": 751,
+  "trajectory": [
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 0,
+      "sample_accuracy": 0.0884375,
+      "user_macro_accuracy": 0.0884375
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 10,
+      "sample_accuracy": 0.121875,
+      "user_macro_accuracy": 0.121875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 20,
+      "sample_accuracy": 0.096875,
+      "user_macro_accuracy": 0.096875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 30,
+      "sample_accuracy": 0.0996875,
+      "user_macro_accuracy": 0.0996875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 40,
+      "sample_accuracy": 0.1990625,
+      "user_macro_accuracy": 0.1990625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 50,
+      "sample_accuracy": 0.265,
+      "user_macro_accuracy": 0.265
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 60,
+      "sample_accuracy": 0.273125,
+      "user_macro_accuracy": 0.273125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 70,
+      "sample_accuracy": 0.2584375,
+      "user_macro_accuracy": 0.2584375
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 80,
+      "sample_accuracy": 0.3534375,
+      "user_macro_accuracy": 0.3534375
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 90,
+      "sample_accuracy": 0.4696875,
+      "user_macro_accuracy": 0.4696875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 100,
+      "sample_accuracy": 0.5284375,
+      "user_macro_accuracy": 0.5284375
+    }
+  ]
+}

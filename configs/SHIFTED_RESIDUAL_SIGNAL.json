@@ -1,0 +1,12 @@
+{
+  "family_id": "shifted-residual-signal",
+  "residual_fraction": [0.2, 0.4, 0.6],
+  "zipf_exponent": [1.2, 2.0, 3.0],
+  "rare_label_mass": [0.3, 0.5, 0.7, 0.9],
+  "lambda": 0.5,
+  "C": 1.0,
+  "B": 6,
+  "noise_multiplier": 9.215,
+  "attempts": 36,
+  "random_seed": null
+}

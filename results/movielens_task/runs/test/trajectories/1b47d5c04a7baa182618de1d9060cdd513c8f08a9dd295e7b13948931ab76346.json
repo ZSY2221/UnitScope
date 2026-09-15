@@ -1,0 +1,51 @@
+{
+  "dataset": "movielens1m",
+  "lambda": null,
+  "method": "naive-recalibrated-2c",
+  "run_id": "1b47d5c04a7baa182618de1d9060cdd513c8f08a9dd295e7b13948931ab76346",
+  "seed": 416,
+  "trajectory": [
+    {
+      "epsilon": 0.0,
+      "patient_or_user_auprc": null,
+      "round": 0,
+      "sample_accuracy": 0.49986089214504315,
+      "user_macro_accuracy": 0.5056569907009654
+    },
+    {
+      "epsilon": 1.7096469091901927,
+      "patient_or_user_auprc": null,
+      "round": 10,
+      "sample_accuracy": 0.507187239172772,
+      "user_macro_accuracy": 0.5166561202475777
+    },
+    {
+      "epsilon": 2.456862121625803,
+      "patient_or_user_auprc": null,
+      "round": 20,
+      "sample_accuracy": 0.49123620513771676,
+      "user_macro_accuracy": 0.4863977683601876
+    },
+    {
+      "epsilon": 3.0456862121625807,
+      "patient_or_user_auprc": null,
+      "round": 30,
+      "sample_accuracy": 0.4832606881201892,
+      "user_macro_accuracy": 0.4836768526771808
+    },
+    {
+      "epsilon": 3.5289407275705784,
+      "patient_or_user_auprc": null,
+      "round": 40,
+      "sample_accuracy": 0.5006028007048131,
+      "user_macro_accuracy": 0.504084993329609
+    },
+    {
+      "epsilon": 4.0,
+      "patient_or_user_auprc": null,
+      "round": 50,
+      "sample_accuracy": 0.5119169062413058,
+      "user_macro_accuracy": 0.5161853918539122
+    }
+  ]
+}

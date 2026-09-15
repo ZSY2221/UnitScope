@@ -1,0 +1,71 @@
+seed,scenario,expected_valid,actual_valid,decision,observed_wur,noise_sensitivity,errors,pass
+0,single-user-deletion,True,True,same-epoch-safe,0.9166666666666667,1.0,,True
+0,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+0,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-0 is not frozen in the registry | record future-0 is outside the frozen universe,True
+0,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+0,institution-exit-same-epoch,True,True,requires-new-epoch,38.7166666666666,1.0,,True
+0,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+0,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-0 is not in the frozen registry | record r-edb0166ca80f37d88b95 is covered by multiple identity claims,True
+1,single-user-deletion,True,True,same-epoch-safe,0.9,1.0,,True
+1,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+1,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-1 is not frozen in the registry | record future-1 is outside the frozen universe,True
+1,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+1,institution-exit-same-epoch,True,True,requires-new-epoch,31.199999999999974,1.0,,True
+1,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+1,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-1 is not in the frozen registry | record r-69d2afbaf1b9361deb0b is covered by multiple identity claims,True
+2,single-user-deletion,True,True,same-epoch-safe,0.9166666666666667,1.0,,True
+2,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+2,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-2 is not frozen in the registry | record future-2 is outside the frozen universe,True
+2,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+2,institution-exit-same-epoch,True,True,requires-new-epoch,35.88333333333326,1.0,,True
+2,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+2,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-2 is not in the frozen registry | record r-5a6250405ea77276ee26 is covered by multiple identity claims,True
+3,single-user-deletion,True,True,same-epoch-safe,0.9,1.0,,True
+3,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+3,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-3 is not frozen in the registry | record future-3 is outside the frozen universe,True
+3,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+3,institution-exit-same-epoch,True,True,requires-new-epoch,29.54999999999995,1.0,,True
+3,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+3,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-3 is not in the frozen registry | record r-8ea288c2ff5ba1a3d481 is covered by multiple identity claims,True
+4,single-user-deletion,True,True,same-epoch-safe,0.9166666666666667,1.0,,True
+4,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+4,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-4 is not frozen in the registry | record future-4 is outside the frozen universe,True
+4,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+4,institution-exit-same-epoch,True,True,requires-new-epoch,35.94999999999993,1.0,,True
+4,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+4,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-4 is not in the frozen registry | record r-e9d98eafee46bba344b9 is covered by multiple identity claims,True
+5,single-user-deletion,True,True,same-epoch-safe,0.9166666666666667,1.0,,True
+5,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+5,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-5 is not frozen in the registry | record future-5 is outside the frozen universe,True
+5,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+5,institution-exit-same-epoch,True,True,requires-new-epoch,46.46666666666657,1.0,,True
+5,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+5,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-5 is not in the frozen registry | record r-598905f19741b229fbb6 is covered by multiple identity claims,True
+6,single-user-deletion,True,True,same-epoch-safe,0.9166666666666667,1.0,,True
+6,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+6,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-6 is not frozen in the registry | record future-6 is outside the frozen universe,True
+6,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+6,institution-exit-same-epoch,True,True,requires-new-epoch,40.23333333333325,1.0,,True
+6,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+6,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-6 is not in the frozen registry | record r-d6e81976363852dac3ab is covered by multiple identity claims,True
+7,single-user-deletion,True,True,same-epoch-safe,0.9,1.0,,True
+7,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+7,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-7 is not frozen in the registry | record future-7 is outside the frozen universe,True
+7,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+7,institution-exit-same-epoch,True,True,requires-new-epoch,35.59999999999995,1.0,,True
+7,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+7,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-7 is not in the frozen registry | record r-f591029df8f2dea6a223 is covered by multiple identity claims,True
+8,single-user-deletion,True,True,same-epoch-safe,0.9,1.0,,True
+8,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+8,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-8 is not frozen in the registry | record future-8 is outside the frozen universe,True
+8,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+8,institution-exit-same-epoch,True,True,requires-new-epoch,39.249999999999936,1.0,,True
+8,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+8,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-8 is not in the frozen registry | record r-45f4b1c78aa87460b017 is covered by multiple identity claims,True
+9,single-user-deletion,True,True,same-epoch-safe,0.9166666666666667,1.0,,True
+9,credential-revocation,True,True,fallback-without-refill,0.9166666666666667,1.0,,True
+9,unregistered-new-record,False,False,reject,,1.0,fallback slot future-slot-9 is not frozen in the registry | record future-9 is outside the frozen universe,True
+9,preallocated-new-record,True,True,preallocated-slot,0.016666666666666663,1.0,,True
+9,institution-exit-same-epoch,True,True,requires-new-epoch,45.63333333333326,1.0,,True
+9,institution-exit-new-epoch,True,True,new-epoch-valid,,1.0,,True
+9,credential-reissue-no-refill,False,False,reject,,1.0,partial claim reissue-9 is not in the frozen registry | record r-141cb1c61e8251cf2546 is covered by multiple identity claims,True

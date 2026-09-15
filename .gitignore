@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+data/processed/
+reproduced/
+figures/
+*.log
+!results/mechanism_studies/lambda_frontier/endpoints/femnist/stdout.log
+!results/mechanism_studies/lambda_frontier/endpoints/femnist/stderr.log
+!results/mechanism_studies/lambda_frontier/endpoints/synthea/stdout.log
+!results/mechanism_studies/lambda_frontier/endpoints/synthea/stderr.log
+*.zip
+*.sqlite
+*.lzma

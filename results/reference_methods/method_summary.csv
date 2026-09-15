@@ -1,0 +1,9 @@
+dataset,method,display_name,metric_mean,metric_ci_lower,metric_ci_upper,effective_record_utilization_mean,effective_record_utilization_ci_lower,effective_record_utilization_ci_upper,overflow_drop_fraction_mean,certified_sensitivity_over_c,privacy_semantics,replicates
+femnist,full-identity-reference,Complete-ID Joint Oracle,0.37490098214285716,0.3409724743303572,0.40932932031249997,1.0,1.0,1.0,0.0,1.0,oracle-assumption,20
+femnist,uldp-avg-weighted-oracle,ULDP-FL AVG-w Oracle,0.3684321875,0.3347493694196429,0.4024107388392857,1.0,1.0,1.0,0.0,1.0,oracle-assumption,20
+femnist,group-privacy-k2-person-corrected,Group-2,0.2381298660714286,0.21501084151785713,0.2595914687499999,0.9329101562499998,0.9320800292968748,0.9337480468749998,0.06708984375000016,2.0,user-certified,20
+femnist,record-level-dp-sgd-reference,Record-DP,0.41550464285714295,0.3841978705357143,0.4435631060267857,1.0,1.0,1.0,0.0,1.0,record-dp,20
+synthea,full-identity-reference,Complete-ID Joint Oracle,0.29051459252262457,0.2785158148767018,0.30249128734332037,1.0,1.0,1.0,0.0,1.0,oracle-assumption,20
+synthea,uldp-avg-weighted-oracle,ULDP-FL AVG-w Oracle,0.29032812173629413,0.2783440557022057,0.3023012407211701,1.0,1.0,1.0,0.0,1.0,oracle-assumption,20
+synthea,group-privacy-k2-person-corrected,Group-2,0.2934541235260895,0.28243599268393227,0.30488447197597374,0.9511757812499999,0.9481894042968749,0.9541777832031251,0.04882421875000009,2.0,user-certified,20
+synthea,record-level-dp-sgd-reference,Record-DP,0.2995741785265169,0.29027157423565486,0.30904688313075596,1.0,1.0,1.0,0.0,1.0,record-dp,20

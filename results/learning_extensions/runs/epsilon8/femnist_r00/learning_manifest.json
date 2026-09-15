@@ -1,0 +1,141 @@
+{
+  "config_hash": "c5db85c890b74c2c38ad9fec1e3441ab33d09dd45fa344cb7dcf2395449a535b",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "40607ab73390b7eb868eecd7b9a7351224d2ec856d1e139495b9f8b6cc5f9440",
+    "data_fingerprint": "239b48fb3b3d69e70406d18a0605c821d4db3c803443c64788736bcb9f79ac56",
+    "data_path_name": "emnist_all.sqlite",
+    "dataset": "femnist",
+    "evidence": {
+      "evidence_hash": "d19fb7a971c674e7ff723f62e87554bb8c174f56bdb4019750ed163c898d617e",
+      "full_identity_reference_hash": "166d47ee981be1282a6e4321789dc184cc0f7ba38b76b90460bb63ef81053cd2",
+      "handles_per_user": 1,
+      "health_card_domains": null,
+      "issuance_date": null,
+      "participating_silos": null,
+      "q_record_given_handle_requested": 0.5,
+      "q_user_requested": 0.5,
+      "view": "controlled"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.0,
+        0.1,
+        0.14285714285714285,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        1.0
+      ],
+      "policy_id": "stage2-fixed-lambda090-v1",
+      "scores": null,
+      "selected_lambda": 0.9,
+      "source": "public-policy"
+    },
+    "methods": [
+      "stable-local-fallback",
+      "unitscope-lambda-sweep",
+      "handle-only-drop-residual",
+      "naive-recalibrated-2c"
+    ],
+    "primary_metric": "user_macro_accuracy",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.9,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 4.901514315076063,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "femnist-unitscope-v3",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "448b8ab8a8306bd8370a40fd28991cb3e6083c6fc51126aba6b4f65a4c28bd18",
+    "sampling_amplification_used": false,
+    "scenario": "controlled-middle",
+    "seed_bases": {
+      "evidence": 72001,
+      "noise": 92001,
+      "schedule": 82001,
+      "split": 52001,
+      "topology": 62001
+    },
+    "seeds": [
+      120
+    ],
+    "task": {
+      "account_selection_seed": null,
+      "ambiguous_duplicate_policy": null,
+      "dirichlet_alpha": null,
+      "horizon_days": null,
+      "index_date": null,
+      "lookback_days": null,
+      "maximum_accounts": null,
+      "maximum_examples_per_writer": 32,
+      "maximum_records_per_account": null,
+      "maximum_writers": 1000,
+      "minimum_records_per_account": null,
+      "n_silos": 6,
+      "only_digits": true,
+      "overlap_requested": 0.5,
+      "stable_user_label": false,
+      "text_hash_dimension": null,
+      "writer_selection_offset": 1000,
+      "writer_selection_seed": 31001
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "98edd313ed1435d36637a4ca27deacf008d13ba3c78cd39a97b65fa4b81f0ed1",
+  "plan_config_hash": "0378254090209392f4025d0a6affb75e397aa659e77d1acd456d0bce3b0e2cab",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 8.0,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "ambiguous_duplicate_rows_removed": 0,
+    "handle_users_fully_covered_fraction": 0.0,
+    "handle_users_with_residual_fraction": 1.0,
+    "mean_residual_records_per_handle_user": 16.0,
+    "overlap_fraction": 0.5,
+    "q_record_given_handle_pooled_realized": 0.5,
+    "q_record_given_handle_realized": 0.5,
+    "q_record_total_realized": 0.25,
+    "q_user_realized": 0.5
+  }
+}

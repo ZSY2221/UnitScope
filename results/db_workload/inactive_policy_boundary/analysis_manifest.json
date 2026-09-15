@@ -1,0 +1,14 @@
+{
+  "analysis": "db-workload",
+  "analysis_hash": "8c50ade38cb3eca67a995433d07c3874a423fa1ef6a623e70abf73eb4cc6a71e",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20270724,
+  "created_at_utc": "2026-07-23T09:36:52.326730+00:00",
+  "output_hashes": {
+    "query_audit.json": "01b4a51509b42873aa8986bc669d034f959f20a70eb2318a2cb1f6b1db33c327",
+    "releases.csv": "e15b935b9513a80cb6ffddb46d6d344195c2baeda7e11da4a4e09b6db866faaa",
+    "summary.csv": "1d9720890882326e72000b4a05e0d3ee766c12b2dab3aefca22e9b7020c8c2bb"
+  },
+  "release_rows": 90,
+  "zero_discarded": true
+}

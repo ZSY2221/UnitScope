@@ -1,0 +1,155 @@
+{
+  "config_hash": "ac002898ce677f16feb6aae883f3682d94a23fe30346e5aa1dce4a94075ce1d8",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "499962acd92f895c884a87b7b5c03cb07810490341cb5d4c2521d0aa64312e09",
+    "data_fingerprint": "a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20",
+    "data_path_name": "ml-1m",
+    "dataset": "movielens1m",
+    "evidence": {
+      "evidence_hash": "d44acfb49d5b649b9966be58eed9a7cad9b190698e9d3874e5059af1dd4163be",
+      "full_identity_reference_hash": "ff06745f67f933a1d536751acf33f2538c4df6edb2d6475234e522e9b7ca9a2a",
+      "handles_per_user": 1,
+      "health_card_domains": null,
+      "issuance_date": null,
+      "participating_silos": null,
+      "q_record_given_handle_requested": 0.5,
+      "q_user_requested": 0.5,
+      "view": "controlled"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.0,
+        0.1,
+        0.14285714285714285,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        1.0
+      ],
+      "policy_id": "movielens-balanced-task",
+      "scores": null,
+      "selected_lambda": 0.9,
+      "source": "public-policy"
+    },
+    "methods": [
+      "stable-local-fallback",
+      "unitscope-lambda-sweep",
+      "handle-only-drop-residual",
+      "naive-recalibrated-2c",
+      "full-identity-reference"
+    ],
+    "primary_metric": "user_macro_accuracy",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.9,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 9.214933748786253,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "movielens1m-unitscope",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "d76c9fc24b08165115cf00527d67298ea88b6139596c7f805f13345d5492c874",
+    "sampling_amplification_used": false,
+    "scenario": "custom",
+    "seed_bases": {
+      "evidence": 75001,
+      "noise": 95001,
+      "schedule": 85001,
+      "split": 55001,
+      "topology": 65001
+    },
+    "seeds": [
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "task": {
+      "account_selection_seed": 37102,
+      "ambiguous_duplicate_policy": null,
+      "balance_majority_keep_probability": 0.6109361948210499,
+      "balance_seed": 37101,
+      "dirichlet_alpha": null,
+      "horizon_days": null,
+      "index_date": null,
+      "lookback_days": null,
+      "maximum_accounts": 3000,
+      "maximum_examples_per_writer": 128,
+      "maximum_records_per_account": 24,
+      "maximum_writers": null,
+      "minimum_records_per_account": null,
+      "movielens_task_variant": "balanced-v1",
+      "n_silos": 6,
+      "only_digits": false,
+      "overlap_requested": 0.5,
+      "stable_user_label": false,
+      "text_hash_dimension": null,
+      "writer_selection_offset": null,
+      "writer_selection_seed": null
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "evaluation_split": "test",
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "c4c841e8ffbac25a21e5d6140876c5f9392b8ee3605514ea8b3ed8050f42a52f",
+  "plan_config_hash": "680ca9789938578ef570c5c18daea9ce57f2b8565500b24ab1f6354334cdbfd7",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 4.0,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "ambiguous_duplicate_rows_removed": 0,
+    "handle_users_fully_covered_fraction": 0.0,
+    "handle_users_with_residual_fraction": 1.0,
+    "mean_residual_records_per_handle_user": 9.040952380952382,
+    "overlap_fraction": 0.5,
+    "q_record_given_handle_pooled_realized": 0.5003158227181809,
+    "q_record_given_handle_realized": 0.5003488709902572,
+    "q_record_total_realized": 0.24992111905763567,
+    "q_user_realized": 0.5
+  }
+}

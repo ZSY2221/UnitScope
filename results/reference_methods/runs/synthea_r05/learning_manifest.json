@@ -1,0 +1,137 @@
+{
+  "config_hash": "21ca942fa024692777888f6b5f047805104c1a7cd3abf03ffd408d2749843de7",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "2504e814d057bb71b41c1333742ac5f732607f60cc2abe3cc9d0d8c295dde6f6",
+    "data_fingerprint": "559757dc849f4361a328f456d2c0a20c6df72419068321c753c6be787161e937",
+    "data_path_name": "10k_synthea_covid19_csv",
+    "dataset": "synthea",
+    "evidence": {
+      "evidence_hash": "6739bac2c954fe40c1c3a16fe54e37cdb231c192289ac4187e6d7c7c63c22ff1",
+      "full_identity_reference_hash": "7f1f2780f61bb3853bdc486fb9b0a64cbba989a692156ebd4572f1a3b0b4b01e",
+      "handles_per_user": 1,
+      "health_card_domains": 1,
+      "issuance_date": "2019-07-01",
+      "participating_silos": null,
+      "q_record_given_handle_requested": null,
+      "q_user_requested": null,
+      "view": "health-card"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.0,
+        0.1,
+        0.14285714285714285,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        1.0
+      ],
+      "claim_scope": "frozen repeated-randomization replication on the existing synthetic population, not the original confirmatory family",
+      "dataset": "synthea",
+      "notes": "Lambda 0.9 was chosen after inspecting the earlier descriptive frontier. This record preserves that fact before any result from the replication split is generated.",
+      "policy_id": "posthoc-lambda090-replication-v1",
+      "protected_test_used": true,
+      "replication_split_is_new": true,
+      "selected_lambda": 0.9,
+      "selection_stage": "carried-forward-from-prior-exploratory-frontier",
+      "source": "public-policy"
+    },
+    "methods": [
+      "full-identity-reference",
+      "uldp-avg-weighted-oracle",
+      "group-privacy-k2-person-corrected",
+      "record-level-dp-sgd-reference"
+    ],
+    "primary_metric": "patient_or_user_auprc",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.9,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 9.214933748786253,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "synthea-unitscope-v3",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "c6ca9bc3e6f1e4e28105f6546c99c2a03a18fbcae3da6101dd103ff7ae22e512",
+    "sampling_amplification_used": false,
+    "scenario": "policy-grounded",
+    "seed_bases": {
+      "evidence": 71006,
+      "noise": 91001,
+      "schedule": 81001,
+      "split": 51006,
+      "topology": 61006
+    },
+    "seeds": [
+      105
+    ],
+    "task": {
+      "horizon_days": 365,
+      "index_date": "2020-01-01",
+      "lookback_days": 365,
+      "maximum_examples_per_writer": 128,
+      "maximum_writers": null,
+      "n_silos": 6,
+      "only_digits": false,
+      "overlap_requested": null,
+      "writer_selection_offset": null,
+      "writer_selection_seed": null
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "e579fe8bcd37e9c9e91b594c4881fd530ca8ef50f59c8332a144f9a76970919c",
+  "plan_config_hash": "61d649166984bbc4b3b1697dbb3feceab227bde59848b62626d8fddfe73f6bf9",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 4.0,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "handle_users_fully_covered_fraction": 0.48928453676228156,
+    "handle_users_with_residual_fraction": 0.5107154632377184,
+    "mean_residual_records_per_handle_user": 1.4038905374216948,
+    "overlap_fraction": 0.3698630136986301,
+    "q_record_given_handle_pooled_realized": 0.6120980231392913,
+    "q_record_given_handle_realized": 0.7445434741017173,
+    "q_record_total_realized": 0.40466152734280897,
+    "q_user_realized": 0.5466834895457823
+  }
+}

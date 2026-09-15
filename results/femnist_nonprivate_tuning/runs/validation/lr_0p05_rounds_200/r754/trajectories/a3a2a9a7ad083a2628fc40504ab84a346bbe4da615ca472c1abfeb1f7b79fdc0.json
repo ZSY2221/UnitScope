@@ -1,0 +1,156 @@
+{
+  "dataset": "femnist",
+  "lambda": null,
+  "method": "non-private-reference",
+  "run_id": "a3a2a9a7ad083a2628fc40504ab84a346bbe4da615ca472c1abfeb1f7b79fdc0",
+  "seed": 754,
+  "trajectory": [
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 0,
+      "sample_accuracy": 0.11337300344503602,
+      "user_macro_accuracy": 0.11338750000000002
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 10,
+      "sample_accuracy": 0.1108675227059192,
+      "user_macro_accuracy": 0.11088750000000001
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 20,
+      "sample_accuracy": 0.1108675227059192,
+      "user_macro_accuracy": 0.11088750000000001
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 30,
+      "sample_accuracy": 0.1108675227059192,
+      "user_macro_accuracy": 0.11088750000000001
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 40,
+      "sample_accuracy": 0.11462574381459442,
+      "user_macro_accuracy": 0.1146375
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 50,
+      "sample_accuracy": 0.13247729408080175,
+      "user_macro_accuracy": 0.13245
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 60,
+      "sample_accuracy": 0.18634512997181335,
+      "user_macro_accuracy": 0.1862
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 70,
+      "sample_accuracy": 0.16285624804259316,
+      "user_macro_accuracy": 0.1627625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 80,
+      "sample_accuracy": 0.3012840588787974,
+      "user_macro_accuracy": 0.3010625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 90,
+      "sample_accuracy": 0.33072345756342,
+      "user_macro_accuracy": 0.33061250000000003
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 100,
+      "sample_accuracy": 0.4563106796116505,
+      "user_macro_accuracy": 0.456275
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 110,
+      "sample_accuracy": 0.48011274663326026,
+      "user_macro_accuracy": 0.48019999999999996
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 120,
+      "sample_accuracy": 0.4591293454431569,
+      "user_macro_accuracy": 0.45899999999999996
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 130,
+      "sample_accuracy": 0.49389289069840275,
+      "user_macro_accuracy": 0.49394999999999994
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 140,
+      "sample_accuracy": 0.5493266520513623,
+      "user_macro_accuracy": 0.5489125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 150,
+      "sample_accuracy": 0.5753210147196993,
+      "user_macro_accuracy": 0.5751125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 160,
+      "sample_accuracy": 0.6263701847792045,
+      "user_macro_accuracy": 0.6257874999999999
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 170,
+      "sample_accuracy": 0.5762605699968681,
+      "user_macro_accuracy": 0.5757875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 180,
+      "sample_accuracy": 0.5042279987472597,
+      "user_macro_accuracy": 0.5040875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 190,
+      "sample_accuracy": 0.4688380833072346,
+      "user_macro_accuracy": 0.4685125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 200,
+      "sample_accuracy": 0.40682743501409335,
+      "user_macro_accuracy": 0.4066375
+    }
+  ]
+}

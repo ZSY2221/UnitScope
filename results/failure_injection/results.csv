@@ -1,0 +1,91 @@
+seed,scenario,expected_valid,actual_valid,expected_route,actual_route,partial_units,local_units,noise_sensitivity,errors,pass
+0,valid-control,True,True,accept,accept,335,397,1.0,,True
+0,single-invalid-handle,True,True,fallback,fallback,334,397,1.0,,True
+0,institution-nonresponse,True,True,fallback,fallback,0,448,1.0,,True
+0,cross-domain-replay,False,False,reject,reject,335,397,1.0,evidence domain/epoch does not match public config,True
+0,expired-epoch,False,False,reject,reject,335,397,1.0,evidence domain/epoch does not match public config,True
+0,unregistered-claim,False,False,reject,reject,335,397,1.0,partial claim unregistered-claim is not in the frozen registry | record r-9cc3daf8fc5e20174a5d is covered by multiple identity claims,True
+0,handle-quota-exceeded,False,False,reject,reject,335,397,1.0,partial claim partial-008915c71b15273e exceeds frozen H=2,True
+0,record-count-mismatch,False,False,reject,reject,335,397,1.0,partial claim partial-008915c71b15273e references records outside the frozen universe,True
+0,overlapping-claims,False,False,reject,reject,335,397,1.0,record r-9cc3daf8fc5e20174a5d is covered by multiple identity claims,True
+1,valid-control,True,True,accept,accept,327,380,1.0,,True
+1,single-invalid-handle,True,True,fallback,fallback,326,381,1.0,,True
+1,institution-nonresponse,True,True,fallback,fallback,0,434,1.0,,True
+1,cross-domain-replay,False,False,reject,reject,327,380,1.0,evidence domain/epoch does not match public config,True
+1,expired-epoch,False,False,reject,reject,327,380,1.0,evidence domain/epoch does not match public config,True
+1,unregistered-claim,False,False,reject,reject,327,380,1.0,partial claim unregistered-claim is not in the frozen registry | record r-73ee68356c8b3c43dad3 is covered by multiple identity claims,True
+1,handle-quota-exceeded,False,False,reject,reject,327,380,1.0,partial claim partial-00333249762afcd0 exceeds frozen H=2,True
+1,record-count-mismatch,False,False,reject,reject,327,380,1.0,partial claim partial-00333249762afcd0 references records outside the frozen universe,True
+1,overlapping-claims,False,False,reject,reject,327,380,1.0,record r-73ee68356c8b3c43dad3 is covered by multiple identity claims,True
+2,valid-control,True,True,accept,accept,325,394,1.0,,True
+2,single-invalid-handle,True,True,fallback,fallback,324,394,1.0,,True
+2,institution-nonresponse,True,True,fallback,fallback,0,434,1.0,,True
+2,cross-domain-replay,False,False,reject,reject,325,394,1.0,evidence domain/epoch does not match public config,True
+2,expired-epoch,False,False,reject,reject,325,394,1.0,evidence domain/epoch does not match public config,True
+2,unregistered-claim,False,False,reject,reject,325,394,1.0,partial claim unregistered-claim is not in the frozen registry | record r-54a0bbe9adc5c0b22bbf is covered by multiple identity claims,True
+2,handle-quota-exceeded,False,False,reject,reject,325,394,1.0,partial claim partial-009bad1fef1a4f4a exceeds frozen H=2,True
+2,record-count-mismatch,False,False,reject,reject,325,394,1.0,partial claim partial-009bad1fef1a4f4a references records outside the frozen universe,True
+2,overlapping-claims,False,False,reject,reject,325,394,1.0,record r-54a0bbe9adc5c0b22bbf is covered by multiple identity claims,True
+3,valid-control,True,True,accept,accept,325,386,1.0,,True
+3,single-invalid-handle,True,True,fallback,fallback,324,387,1.0,,True
+3,institution-nonresponse,True,True,fallback,fallback,0,434,1.0,,True
+3,cross-domain-replay,False,False,reject,reject,325,386,1.0,evidence domain/epoch does not match public config,True
+3,expired-epoch,False,False,reject,reject,325,386,1.0,evidence domain/epoch does not match public config,True
+3,unregistered-claim,False,False,reject,reject,325,386,1.0,partial claim unregistered-claim is not in the frozen registry | record r-35796cd3ba70ad47b21f is covered by multiple identity claims,True
+3,handle-quota-exceeded,False,False,reject,reject,325,386,1.0,partial claim partial-0006692d48433ccc exceeds frozen H=2,True
+3,record-count-mismatch,False,False,reject,reject,325,386,1.0,partial claim partial-0006692d48433ccc references records outside the frozen universe,True
+3,overlapping-claims,False,False,reject,reject,325,386,1.0,record r-35796cd3ba70ad47b21f is covered by multiple identity claims,True
+4,valid-control,True,True,accept,accept,326,390,1.0,,True
+4,single-invalid-handle,True,True,fallback,fallback,325,391,1.0,,True
+4,institution-nonresponse,True,True,fallback,fallback,0,435,1.0,,True
+4,cross-domain-replay,False,False,reject,reject,326,390,1.0,evidence domain/epoch does not match public config,True
+4,expired-epoch,False,False,reject,reject,326,390,1.0,evidence domain/epoch does not match public config,True
+4,unregistered-claim,False,False,reject,reject,326,390,1.0,partial claim unregistered-claim is not in the frozen registry | record r-4741d143702d9950b365 is covered by multiple identity claims,True
+4,handle-quota-exceeded,False,False,reject,reject,326,390,1.0,partial claim partial-00085a036bc5765f exceeds frozen H=2,True
+4,record-count-mismatch,False,False,reject,reject,326,390,1.0,partial claim partial-00085a036bc5765f references records outside the frozen universe,True
+4,overlapping-claims,False,False,reject,reject,326,390,1.0,record r-4741d143702d9950b365 is covered by multiple identity claims,True
+5,valid-control,True,True,accept,accept,332,393,1.0,,True
+5,single-invalid-handle,True,True,fallback,fallback,331,393,1.0,,True
+5,institution-nonresponse,True,True,fallback,fallback,0,441,1.0,,True
+5,cross-domain-replay,False,False,reject,reject,332,393,1.0,evidence domain/epoch does not match public config,True
+5,expired-epoch,False,False,reject,reject,332,393,1.0,evidence domain/epoch does not match public config,True
+5,unregistered-claim,False,False,reject,reject,332,393,1.0,partial claim unregistered-claim is not in the frozen registry | record r-10f459df2ca1bc1aa3bd is covered by multiple identity claims,True
+5,handle-quota-exceeded,False,False,reject,reject,332,393,1.0,partial claim partial-0016727a05022068 exceeds frozen H=2,True
+5,record-count-mismatch,False,False,reject,reject,332,393,1.0,partial claim partial-0016727a05022068 references records outside the frozen universe,True
+5,overlapping-claims,False,False,reject,reject,332,393,1.0,record r-10f459df2ca1bc1aa3bd is covered by multiple identity claims,True
+6,valid-control,True,True,accept,accept,320,375,1.0,,True
+6,single-invalid-handle,True,True,fallback,fallback,319,375,1.0,,True
+6,institution-nonresponse,True,True,fallback,fallback,0,424,1.0,,True
+6,cross-domain-replay,False,False,reject,reject,320,375,1.0,evidence domain/epoch does not match public config,True
+6,expired-epoch,False,False,reject,reject,320,375,1.0,evidence domain/epoch does not match public config,True
+6,unregistered-claim,False,False,reject,reject,320,375,1.0,partial claim unregistered-claim is not in the frozen registry | record r-2881e033a96117fa4d36 is covered by multiple identity claims,True
+6,handle-quota-exceeded,False,False,reject,reject,320,375,1.0,partial claim partial-00f204a7531626b4 exceeds frozen H=2,True
+6,record-count-mismatch,False,False,reject,reject,320,375,1.0,partial claim partial-00f204a7531626b4 references records outside the frozen universe,True
+6,overlapping-claims,False,False,reject,reject,320,375,1.0,record r-2881e033a96117fa4d36 is covered by multiple identity claims,True
+7,valid-control,True,True,accept,accept,328,394,1.0,,True
+7,single-invalid-handle,True,True,fallback,fallback,327,394,1.0,,True
+7,institution-nonresponse,True,True,fallback,fallback,0,439,1.0,,True
+7,cross-domain-replay,False,False,reject,reject,328,394,1.0,evidence domain/epoch does not match public config,True
+7,expired-epoch,False,False,reject,reject,328,394,1.0,evidence domain/epoch does not match public config,True
+7,unregistered-claim,False,False,reject,reject,328,394,1.0,partial claim unregistered-claim is not in the frozen registry | record r-2f94c90560808d1ababf is covered by multiple identity claims,True
+7,handle-quota-exceeded,False,False,reject,reject,328,394,1.0,partial claim partial-00388a5bdda57471 exceeds frozen H=2,True
+7,record-count-mismatch,False,False,reject,reject,328,394,1.0,partial claim partial-00388a5bdda57471 references records outside the frozen universe,True
+7,overlapping-claims,False,False,reject,reject,328,394,1.0,record r-2f94c90560808d1ababf is covered by multiple identity claims,True
+8,valid-control,True,True,accept,accept,325,385,1.0,,True
+8,single-invalid-handle,True,True,fallback,fallback,324,385,1.0,,True
+8,institution-nonresponse,True,True,fallback,fallback,0,433,1.0,,True
+8,cross-domain-replay,False,False,reject,reject,325,385,1.0,evidence domain/epoch does not match public config,True
+8,expired-epoch,False,False,reject,reject,325,385,1.0,evidence domain/epoch does not match public config,True
+8,unregistered-claim,False,False,reject,reject,325,385,1.0,partial claim unregistered-claim is not in the frozen registry | record r-070784aa6c0af6423b64 is covered by multiple identity claims,True
+8,handle-quota-exceeded,False,False,reject,reject,325,385,1.0,partial claim partial-01d09e437e2d1df4 exceeds frozen H=2,True
+8,record-count-mismatch,False,False,reject,reject,325,385,1.0,partial claim partial-01d09e437e2d1df4 references records outside the frozen universe,True
+8,overlapping-claims,False,False,reject,reject,325,385,1.0,record r-070784aa6c0af6423b64 is covered by multiple identity claims,True
+9,valid-control,True,True,accept,accept,330,388,1.0,,True
+9,single-invalid-handle,True,True,fallback,fallback,329,389,1.0,,True
+9,institution-nonresponse,True,True,fallback,fallback,0,440,1.0,,True
+9,cross-domain-replay,False,False,reject,reject,330,388,1.0,evidence domain/epoch does not match public config,True
+9,expired-epoch,False,False,reject,reject,330,388,1.0,evidence domain/epoch does not match public config,True
+9,unregistered-claim,False,False,reject,reject,330,388,1.0,partial claim unregistered-claim is not in the frozen registry | record r-8b9029096357a665b7f0 is covered by multiple identity claims,True
+9,handle-quota-exceeded,False,False,reject,reject,330,388,1.0,partial claim partial-003b4fd7cbebd885 exceeds frozen H=2,True
+9,record-count-mismatch,False,False,reject,reject,330,388,1.0,partial claim partial-003b4fd7cbebd885 references records outside the frozen universe,True
+9,overlapping-claims,False,False,reject,reject,330,388,1.0,record r-8b9029096357a665b7f0 is covered by multiple identity claims,True

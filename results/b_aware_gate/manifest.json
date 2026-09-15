@@ -1,0 +1,52 @@
+{
+  "family_id": "b-aware-gate-v1",
+  "seeds": [
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609
+  ],
+  "grid": [
+    {
+      "B": 2,
+      "mixed_local_slots": false
+    },
+    {
+      "B": 2,
+      "mixed_local_slots": true
+    },
+    {
+      "B": 4,
+      "mixed_local_slots": false
+    },
+    {
+      "B": 4,
+      "mixed_local_slots": true
+    },
+    {
+      "B": 6,
+      "mixed_local_slots": false
+    },
+    {
+      "B": 6,
+      "mixed_local_slots": true
+    },
+    {
+      "B": 8,
+      "mixed_local_slots": false
+    },
+    {
+      "B": 8,
+      "mixed_local_slots": true
+    }
+  ],
+  "rows": 240,
+  "config_hash": "e2166008206ce482991e68dc33192e51c5e68b799058f13c3164c86a959cbbc1",
+  "expected": "gated equals stable at B=2 pure and equals ungated elsewhere"
+}

@@ -1,0 +1,41 @@
+{
+  "family_id": "allocation-tradeoff",
+  "allocation_lambda": 0.98,
+  "reference_allocation_lambda": 0.9,
+  "datasets": ["femnist", "synthea"],
+  "methods": [
+    "stable-local-fallback",
+    "unitscope-fixed-0.98",
+    "handle-only-drop-residual"
+  ],
+  "privacy": {
+    "epsilon": 4.0,
+    "delta": 1e-5,
+    "rounds": 50,
+    "sampling_amplification": false
+  },
+  "contract": {
+    "H": 1,
+    "B": 6,
+    "C": 1.0,
+    "public_normalizer": 512.0,
+    "n_silos": 6
+  },
+  "primary": {
+    "training_seeds": [200, 201, 202, 203, 204, 205, 206, 207, 208, 209],
+    "split_seed_base": 52001,
+    "topology_seed_base": 62001,
+    "evidence_seed_base": 72001,
+    "schedule_seed_base": 82001,
+    "noise_seed_base": 92001
+  },
+  "noniid_femnist": {
+    "dirichlet_alpha": 0.5,
+    "training_seeds": [250, 251, 252, 253, 254],
+    "split_seed_base": 52501,
+    "topology_seed_base": 62501,
+    "evidence_seed_base": 72501,
+    "schedule_seed_base": 82001,
+    "noise_seed_base": 92001
+  }
+}

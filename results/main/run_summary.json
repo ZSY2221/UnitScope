@@ -1,0 +1,231 @@
+{
+  "effects": [
+    {
+      "ci_lower": 0.016641626116071426,
+      "ci_upper": 0.032360024553571426,
+      "dataset": "femnist",
+      "effect": "gain_over_fallback",
+      "estimate": 0.02430441964285714,
+      "replicates": 20
+    },
+    {
+      "ci_lower": -0.004474330357142857,
+      "ci_upper": -0.002070312500000007,
+      "dataset": "femnist",
+      "effect": "difference_from_handle_only",
+      "estimate": -0.003255580357142857,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.005525669642857141,
+      "ci_upper": 0.007929687499999994,
+      "dataset": "femnist",
+      "effect": "noninferiority_transformed",
+      "estimate": 0.006744419642857142,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.007104481026785718,
+      "ci_upper": 0.023449804687499985,
+      "dataset": "femnist",
+      "effect": "difference_from_naive_2c",
+      "estimate": 0.015126250000000003,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.8494259755985057,
+      "ci_upper": 0.914957083201565,
+      "dataset": "femnist",
+      "effect": "aggregate_handle_gain_retention",
+      "estimate": 0.8818729913953969,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.016446228794642855,
+      "ci_upper": 0.03248595089285714,
+      "dataset": "femnist",
+      "effect": "hierarchical_gain_over_fallback",
+      "estimate": 0.024304419642857143,
+      "replicates": 20
+    },
+    {
+      "ci_lower": -0.004554715401785714,
+      "ci_upper": -0.0019453124999999998,
+      "dataset": "femnist",
+      "effect": "hierarchical_difference_from_handle_only",
+      "estimate": -0.003255580357142857,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.030845572686928974,
+      "ci_upper": 0.05347494125892032,
+      "dataset": "synthea",
+      "effect": "gain_over_fallback",
+      "estimate": 0.041557510227443306,
+      "replicates": 20
+    },
+    {
+      "ci_lower": -0.005173029838555087,
+      "ci_upper": -0.002948562459872324,
+      "dataset": "synthea",
+      "effect": "difference_from_handle_only",
+      "estimate": -0.004032543488568202,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.004826970161444912,
+      "ci_upper": 0.007051437540127677,
+      "dataset": "synthea",
+      "effect": "noninferiority_transformed",
+      "estimate": 0.005967456511431797,
+      "replicates": 20
+    },
+    {
+      "ci_lower": -0.015722831430596853,
+      "ci_upper": 0.0005534265553759456,
+      "dataset": "synthea",
+      "effect": "difference_from_naive_2c",
+      "estimate": -0.007976888613979886,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.8856396421615003,
+      "ci_upper": 0.932666326080782,
+      "dataset": "synthea",
+      "effect": "aggregate_handle_gain_retention",
+      "estimate": 0.9115477355282882,
+      "replicates": 20
+    },
+    {
+      "ci_lower": 0.030567882434245523,
+      "ci_upper": 0.05438261200527408,
+      "dataset": "synthea",
+      "effect": "hierarchical_gain_over_fallback",
+      "estimate": 0.041557510227443306,
+      "replicates": 20
+    },
+    {
+      "ci_lower": -0.005635433914241414,
+      "ci_upper": -0.0027463845778686003,
+      "dataset": "synthea",
+      "effect": "hierarchical_difference_from_handle_only",
+      "estimate": -0.004032543488568202,
+      "replicates": 20
+    }
+  ],
+  "frozen_at_utc": "2026-07-17T14:55:06.709069+00:00",
+  "method_summary": [
+    {
+      "certified_sensitivity_over_c": 1.0,
+      "dataset": "femnist",
+      "effective_record_utilization_mean": 1.0,
+      "method": "stable-local-fallback",
+      "metric_ci_lower": 0.11904739397321427,
+      "metric_ci_upper": 0.14302452343749997,
+      "metric_mean": 0.13059120535714286,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 1.0,
+      "dataset": "femnist",
+      "effective_record_utilization_mean": 1.0,
+      "method": "unitscope-lambda-sweep",
+      "metric_ci_lower": 0.13888914620535714,
+      "metric_ci_upper": 0.17141354687499996,
+      "metric_mean": 0.154895625,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 1.0,
+      "dataset": "femnist",
+      "effective_record_utilization_mean": 0.2504023437499999,
+      "method": "handle-only-drop-residual",
+      "metric_ci_lower": 0.14172152008928576,
+      "metric_ci_upper": 0.17499017299107142,
+      "metric_mean": 0.15815120535714283,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 2.0,
+      "dataset": "femnist",
+      "effective_record_utilization_mean": 1.0,
+      "method": "naive-recalibrated-2c",
+      "metric_ci_lower": 0.12372726339285714,
+      "metric_ci_upper": 0.15636278124999997,
+      "metric_mean": 0.139769375,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 1.0,
+      "dataset": "synthea",
+      "effective_record_utilization_mean": 1.0,
+      "method": "stable-local-fallback",
+      "metric_ci_lower": 0.20443820541440202,
+      "metric_ci_upper": 0.22842991567288357,
+      "metric_mean": 0.21589386753982814,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 1.0,
+      "dataset": "synthea",
+      "effective_record_utilization_mean": 1.0,
+      "method": "unitscope-lambda-sweep",
+      "metric_ci_lower": 0.24114608321568118,
+      "metric_ci_upper": 0.27362216518196886,
+      "metric_mean": 0.2574513777672715,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 1.0,
+      "dataset": "synthea",
+      "effective_record_utilization_mean": 0.4032988281249999,
+      "method": "handle-only-drop-residual",
+      "metric_ci_lower": 0.2452401661887765,
+      "metric_ci_upper": 0.27761318161247545,
+      "metric_mean": 0.26148392125583964,
+      "replicates": 20
+    },
+    {
+      "certified_sensitivity_over_c": 2.0,
+      "dataset": "synthea",
+      "effective_record_utilization_mean": 1.0,
+      "method": "naive-recalibrated-2c",
+      "metric_ci_lower": 0.2467221328186505,
+      "metric_ci_upper": 0.28393376608085663,
+      "metric_mean": 0.2654282663812514,
+      "replicates": 20
+    }
+  ],
+  "noninferiority_margin": 0.01,
+  "profile": "fixed-allocation",
+  "tests": [
+    {
+      "dataset": "femnist",
+      "holm_p": 3.814697265625e-06,
+      "hypothesis": "gain_over_fallback",
+      "raw_p": 3.814697265625e-06,
+      "reject_at_0.05": true
+    },
+    {
+      "dataset": "femnist",
+      "holm_p": 3.814697265625e-06,
+      "hypothesis": "noninferior_to_handle_only",
+      "raw_p": 9.5367431640625e-07,
+      "reject_at_0.05": true
+    },
+    {
+      "dataset": "synthea",
+      "holm_p": 3.814697265625e-06,
+      "hypothesis": "gain_over_fallback",
+      "raw_p": 9.5367431640625e-07,
+      "reject_at_0.05": true
+    },
+    {
+      "dataset": "synthea",
+      "holm_p": 3.814697265625e-06,
+      "hypothesis": "noninferior_to_handle_only",
+      "raw_p": 9.5367431640625e-07,
+      "reject_at_0.05": true
+    }
+  ]
+}

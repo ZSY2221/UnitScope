@@ -1,0 +1,132 @@
+{
+  "config_hash": "0d2f986dfbc84bc642baddc0fbf8388348e8c7865991ec4cc23a0c83e692c748",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "3fb866391f748c02b65959515f245bb8f2543fa21f606175272183717da69572",
+    "data_fingerprint": "239b48fb3b3d69e70406d18a0605c821d4db3c803443c64788736bcb9f79ac56",
+    "data_path_name": "emnist_all.sqlite",
+    "dataset": "femnist",
+    "evidence": {
+      "evidence_hash": "15a13bf4dd653fa5d1483880c04fb43f13175653009cf583c2f9a19e6bad0ec9",
+      "full_identity_reference_hash": "e28f540afa391051a1239027fd549a6f7781283c1056e5acb7ae3ca826104166",
+      "handles_per_user": 1,
+      "health_card_domains": null,
+      "issuance_date": null,
+      "participating_silos": null,
+      "q_record_given_handle_requested": 0.5,
+      "q_user_requested": 0.25,
+      "view": "controlled"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.0,
+        0.1,
+        0.14285714285714285,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        1.0
+      ],
+      "policy_id": "descriptive-evidence-grid-lambda090-v1",
+      "scores": null,
+      "selected_lambda": 0.9,
+      "source": "public-policy"
+    },
+    "methods": [
+      "handle-only-drop-residual",
+      "unitscope-lambda-sweep"
+    ],
+    "primary_metric": "user_macro_accuracy",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.9,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 9.214933748786253,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "femnist-unitscope-v3",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "9d90a785b8c912f153351188675a9b0f51e004fab8a468fdd84c2c0c7a899602",
+    "sampling_amplification_used": false,
+    "scenario": "custom",
+    "seed_bases": {
+      "evidence": 31003,
+      "noise": 31005,
+      "schedule": 31004,
+      "split": 31001,
+      "topology": 31002
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "task": {
+      "horizon_days": null,
+      "index_date": null,
+      "lookback_days": null,
+      "maximum_examples_per_writer": 32,
+      "maximum_writers": 1000,
+      "n_silos": 6,
+      "only_digits": true,
+      "overlap_requested": 0.5
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "2ac752325d2ab0f711b4fbf95ca42bbc21d4bebc4d8ff620e437e19193126e7c",
+  "plan_config_hash": "85e2c0f67dd26b6eb06bd8a9d1355cd162f47ba512379568bb155acfe11a2c54",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 4.0,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "handle_users_fully_covered_fraction": 0.0,
+    "handle_users_with_residual_fraction": 1.0,
+    "mean_residual_records_per_handle_user": 15.993827160493828,
+    "overlap_fraction": 0.5,
+    "q_record_given_handle_pooled_realized": 0.5000964692263168,
+    "q_record_given_handle_realized": 0.5000995619275189,
+    "q_record_total_realized": 0.1246273680161554,
+    "q_user_realized": 0.24923076923076923
+  }
+}

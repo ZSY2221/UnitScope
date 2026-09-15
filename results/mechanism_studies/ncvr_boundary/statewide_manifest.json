@@ -1,0 +1,21 @@
+{
+  "archive_member": "ncvoter_Statewide.txt",
+  "archive_uncompressed_bytes": 4315619246,
+  "rows_scanned": 9181302,
+  "eligible_active_nonconfidential": 6730028,
+  "selected_people": 250000,
+  "selection_modulus": 16,
+  "load_seconds": 109.98776440000802,
+  "zip": "ncvoter_2026-07-13.zip",
+  "zip_sha256": "dfe78db2658339766a4c688c60a9db7a762ba2cd2a00d54265787bad7a7c9195",
+  "scales": [
+    50000,
+    100000,
+    250000
+  ],
+  "maximum_people": 250000,
+  "two_view_derivation": "deterministic field corruption from one official snapshot",
+  "raw_fields_persisted": false,
+  "result_rows": 9,
+  "warning": "Semi-synthetic multi-source ER view on real public voter-field distributions; not a real hospital federation."
+}

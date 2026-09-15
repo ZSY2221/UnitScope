@@ -1,0 +1,161 @@
+{
+  "config_hash": "aadb5322f6b2168c1850e2693eb00850cf0a56655dac7a4888eef09d200a0aa5",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "bf131db8af2355781a99cd3dbaff1ce822041413a019323ae33295a0dafaaacc",
+    "data_fingerprint": "239b48fb3b3d69e70406d18a0605c821d4db3c803443c64788736bcb9f79ac56",
+    "data_path_name": "emnist_all.sqlite",
+    "dataset": "femnist",
+    "evidence": {
+      "evidence_hash": "be62fab36dc3810e182fae564458022407e3e423424f184ad68d4510069d2279",
+      "full_identity_reference_hash": "3a42ef592104b33f92dace4daa07d227e2792aef548ff38f825342a84aa6aadb",
+      "handles_per_user": 1,
+      "health_card_domains": null,
+      "issuance_date": null,
+      "participating_silos": null,
+      "q_record_given_handle_requested": 0.5,
+      "q_user_requested": 0.25,
+      "view": "controlled"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.0,
+        0.5,
+        0.9
+      ],
+      "coverage_source": "results/unitscope_v3/evidence_grid_v1/analysis_v1/evidence_grid_summary.csv",
+      "coverage_source_sha256": "1346ccdae13d50cf4250cb041f93a41cc8166bdf625d4a905fbf5d229d5a8b24",
+      "dataset": "femnist",
+      "dp_release": {
+        "delta_each": 1e-12,
+        "draw_index": 14,
+        "epsilon_each": 0.05,
+        "handle_record_fraction": 0.49778685897852876,
+        "handle_user_fraction": 0.2422669267268522,
+        "laplace_scale": 0.0125,
+        "public_denominator": 1600,
+        "rng_seed": 980000001
+      },
+      "exact_public_coverage": {
+        "handle_record_fraction": 0.500099561927519,
+        "handle_user_fraction": 0.24923076923076923
+      },
+      "policy_id": "method-v2-direction2v2-q025_r050_rep04",
+      "protected_test_used": false,
+      "public_auxiliary_only": true,
+      "selected_cell": "u0-r1",
+      "selected_lambda": 0.0,
+      "selection_stage": "frozen-dp-recalibrated-coverage-gate",
+      "source": "public-policy",
+      "thresholds": {
+        "low_middle": 0.33,
+        "middle_high": 0.66
+      }
+    },
+    "methods": [
+      "unitscope-lambda-sweep"
+    ],
+    "primary_metric": "user_macro_accuracy",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.0,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 9.417013394361868,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "femnist-unitscope-v3",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "73ff434ced73342bac745c39bc18d4135cae080119a80bdba7613fe27cce5238",
+    "sampling_amplification_used": false,
+    "scenario": "custom",
+    "seed_bases": {
+      "evidence": 940025054,
+      "noise": 960000001,
+      "schedule": 950000001,
+      "split": 920025054,
+      "topology": 930025054
+    },
+    "seeds": [
+      910000005
+    ],
+    "task": {
+      "account_selection_seed": null,
+      "ambiguous_duplicate_policy": null,
+      "balance_majority_keep_probability": null,
+      "balance_seed": null,
+      "dirichlet_alpha": null,
+      "horizon_days": null,
+      "index_date": null,
+      "lookback_days": null,
+      "maximum_accounts": null,
+      "maximum_examples_per_writer": 32,
+      "maximum_records_per_account": null,
+      "maximum_writers": 1000,
+      "minimum_records_per_account": null,
+      "movielens_task_variant": null,
+      "n_silos": 6,
+      "only_digits": true,
+      "overlap_requested": 0.5,
+      "stable_user_label": false,
+      "text_hash_dimension": null,
+      "writer_selection_offset": 1000,
+      "writer_selection_seed": 970000001
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "evaluation_split": "test",
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "c7471b698c0543d726d90d4f973e8124f7babe9a889a4e4c300b53ff5791f508",
+  "plan_config_hash": "8ff52c24a064e495b8d93f9fb911a57610b41269fee2ae366fa3500d18c72509",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 3.9,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "ambiguous_duplicate_rows_removed": 0,
+    "handle_users_fully_covered_fraction": 0.0,
+    "handle_users_with_residual_fraction": 1.0,
+    "mean_residual_records_per_handle_user": 15.987654320987655,
+    "overlap_fraction": 0.5,
+    "q_record_given_handle_pooled_realized": 0.5001929756850637,
+    "q_record_given_handle_realized": 0.5001991238550378,
+    "q_record_total_realized": 0.124633360580853,
+    "q_user_realized": 0.24923076923076923
+  }
+}

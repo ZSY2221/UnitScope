@@ -1,0 +1,40 @@
+{
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "epsilons": [
+    1.0,
+    4.0,
+    16.0
+  ],
+  "expected_release_rows": 90,
+  "fixture_manifest_sha256": "a8212686de26b9dcedf9cca4c66071aa1d0c8638c67a97b8e6d0c035d35cb7b7",
+  "profile": "db-handleonly-policy-fixture",
+  "seeds": [
+    43001,
+    43002,
+    43003,
+    43004,
+    43005,
+    43006,
+    43007,
+    43008,
+    43009,
+    43010
+  ],
+  "source_fingerprint": "559757dc849f4361a328f456d2c0a20c6df72419068321c753c6be787161e937",
+  "status": "final"
+}

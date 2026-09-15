@@ -1,0 +1,6 @@
+method,mean,ci_lower,ci_upper,n_configs,split,task_variant
+stable-local-fallback,0.508332,0.502031,0.514019,10,test,balanced-v1
+unitscope-lambda-sweep,0.510718,0.505422,0.515218,10,test,balanced-v1
+handle-only-drop-residual,0.511139,0.505533,0.515720,10,test,balanced-v1
+naive-recalibrated-2c,0.510773,0.504229,0.516679,10,test,balanced-v1
+full-identity-reference,0.538980,0.536251,0.541362,10,test,balanced-v1

@@ -1,0 +1,51 @@
+{
+  "dataset": "synthea",
+  "lambda": 0.9,
+  "method": "unitscope-lambda-sweep",
+  "run_id": "628ed30064e940c363143d547b3b5dac9f463404712a8480afdd05299302be5f",
+  "seed": 117,
+  "trajectory": [
+    {
+      "epsilon": 0.0,
+      "patient_or_user_auprc": 0.25865727676281214,
+      "round": 0,
+      "sample_accuracy": 0.21979243884358785,
+      "user_macro_accuracy": 0.22437024018746338
+    },
+    {
+      "epsilon": 1.7096469091901927,
+      "patient_or_user_auprc": 0.21771178950791634,
+      "round": 10,
+      "sample_accuracy": 0.7802075611564122,
+      "user_macro_accuracy": 0.7756297598125366
+    },
+    {
+      "epsilon": 2.456862121625803,
+      "patient_or_user_auprc": 0.2337130836161802,
+      "round": 20,
+      "sample_accuracy": 0.7802075611564122,
+      "user_macro_accuracy": 0.7756297598125366
+    },
+    {
+      "epsilon": 3.0456862121625807,
+      "patient_or_user_auprc": 0.26411186492670086,
+      "round": 30,
+      "sample_accuracy": 0.7802075611564122,
+      "user_macro_accuracy": 0.7756297598125366
+    },
+    {
+      "epsilon": 3.5289407275705784,
+      "patient_or_user_auprc": 0.30506366580392175,
+      "round": 40,
+      "sample_accuracy": 0.7802075611564122,
+      "user_macro_accuracy": 0.7756297598125366
+    },
+    {
+      "epsilon": 4.0,
+      "patient_or_user_auprc": 0.3005818255637043,
+      "round": 50,
+      "sample_accuracy": 0.7802075611564122,
+      "user_macro_accuracy": 0.7756297598125366
+    }
+  ]
+}

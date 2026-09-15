@@ -1,0 +1,655 @@
+{
+  "entries": [
+    {
+      "config_hash": "c5db85c890b74c2c38ad9fec1e3441ab33d09dd45fa344cb7dcf2395449a535b",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "98edd313ed1435d36637a4ca27deacf008d13ba3c78cd39a97b65fa4b81f0ed1",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "448b8ab8a8306bd8370a40fd28991cb3e6083c6fc51126aba6b4f65a4c28bd18",
+      "result_directory": "runs/epsilon8/femnist_r00",
+      "seed": 120
+    },
+    {
+      "config_hash": "00ea0f7ed2fa4c4aa03de510bfd681532d1fe8ddc0b61f3f659ccdb8b0fa8599",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "3cd0eb7679584762c0de7e76e14125c0fe60bfc8de340bdcbc65c7785a40c8c3",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "a06969f0b0af3fcbadc15bd6e7589e527f6cfdf9b2f15b469a792e6fa148a50c",
+      "result_directory": "runs/epsilon8/femnist_r01",
+      "seed": 121
+    },
+    {
+      "config_hash": "879db3624ecea46fec56e933b6df1d99e025878f0d25c04092ffb13a974ab100",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "d0711aeea9ea55d42b351f299265b858a077d1f9c35bf8d9ab8ee9317b4acffc",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "6e605759c1ebdb992e26c8fa0f6018b69de86a806e1aafee8550b339de5b4fc4",
+      "result_directory": "runs/epsilon8/femnist_r02",
+      "seed": 122
+    },
+    {
+      "config_hash": "e59b38d82aee8c971cd725321a27fcb01f14fa0cf3d8fc0d0b67cd115d0bfe80",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "97318a4da9510f527307817eaefe9563a697732d58bf2935ccf9d62052980cb4",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "5d4a7331837bfff32580b14d53bf4f881ec6741b09b75d821d02a06efe26e04d",
+      "result_directory": "runs/epsilon8/femnist_r03",
+      "seed": 123
+    },
+    {
+      "config_hash": "51a220e446d730e15c0efb97943036a65322a8018c3915ad822c19d86dbb7dfa",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "aa5cb07b1695e007366c9b4b79f16843606c1e19b9e9ae7240d9eb850475bcda",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "2e74cc4fc2f7e2ced56aa936a0f62f6816a8dec06e7d0a8178b0ed4eacdc5360",
+      "result_directory": "runs/epsilon8/femnist_r04",
+      "seed": 124
+    },
+    {
+      "config_hash": "fa1ef1f86cd91a07c115fdf9392658b388d3f61bcd3f2aaa7fb67bebcce71da1",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "9addba0aacd2f88e2ca83808a444b4cfa9aa84d3cbd0cbf7c3b6de09b70c5063",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "adbe60550d2765b00e03947ff2b4afa701d49249d19fecbf461d78b5bfa33003",
+      "result_directory": "runs/epsilon8/femnist_r05",
+      "seed": 125
+    },
+    {
+      "config_hash": "8b1e409c5baad33e29937fea9d6a9ab488751de74d06faf3ca6520183115e244",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "e4e6259f1a0d9a24f07f37e6ced31dd398643de4df9f8e6ff9283c4575e888b0",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "1612ad7cd0b82ef4dd7a4c1b1358a608385588b14783b64ad81b9fb9af8f2cca",
+      "result_directory": "runs/epsilon8/femnist_r06",
+      "seed": 126
+    },
+    {
+      "config_hash": "26e9d6418c66c3d537c899f4ba6cab4efaf6d921be2f3d138426d99b7fd804a0",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "f89a5e0abc5da8cb71544ce68eb33e3f8dbc95dd710e6f485dcb581f80ab40b6",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "7d4e9e5f1d32a27a77af01aa4d2b1315ca55734f04a3fae94e0355d71121c424",
+      "result_directory": "runs/epsilon8/femnist_r07",
+      "seed": 127
+    },
+    {
+      "config_hash": "752fbee21d9da550327b4f3c6851c85823e61bf71b67028e7c1d8cf9abfcab28",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "642daaee34da92165c0d69f46c5250e2c43a6839f85227418f1870586e87421b",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "b18f8c6bcdbddf1d5d5fa471cbda3e87eb853403a69dba122bb571e4f914cc93",
+      "result_directory": "runs/epsilon8/femnist_r08",
+      "seed": 128
+    },
+    {
+      "config_hash": "bf5ae74b55913636148b0d49d2330c2c5af587c574bfdd90a11b95eca911acd3",
+      "dataset": "femnist",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "53e1fd29a1e01ac273bc3fdd5a4f7c4c77b9eb1ee96a535da8e6fe2397ca0e2e",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "6ac754f4c31a710c2052b223058ceee50ffc826d75ff76670c4cc92c22b0bc8c",
+      "result_directory": "runs/epsilon8/femnist_r09",
+      "seed": 129
+    },
+    {
+      "config_hash": "c3f29c0b6474b6d759dd644122be6e5bc1890584c8d8acefc7414521fb2d7dd0",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "3d6e8c2d82e1389ce0653231c5c4d90722db370cbe290496f24025b9dc95aa6f",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "ba64805164ffddbda075ae6f3b0f56b1347f6e44e5ad167fb0ed29b754b76250",
+      "result_directory": "runs/epsilon8/synthea_r00",
+      "seed": 120
+    },
+    {
+      "config_hash": "4906aff1b829347cb03e44da56d4e3c786f14aa469395fbaa00cdc9bce8fe049",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "49a4fbcf5a80a4f04950481467d6f1af66cbad40d357bddf531cc34ded0f5e64",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "0e5cefbb84b5e18e87906ac710dbbcb94be281019c759c46041a222352a84556",
+      "result_directory": "runs/epsilon8/synthea_r01",
+      "seed": 121
+    },
+    {
+      "config_hash": "7cc139374706aba5543601eea66107b74f35221d3ba39525d807a407d7f51df0",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "81adcda1a0d762b30257698b3b4b4cb94fb678f036b0ad5c6d75cdba8b7ba104",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "0ba73dee4efa4c4dfa8b9be7574865377e21ab184a1f2c7e554e241260d6de17",
+      "result_directory": "runs/epsilon8/synthea_r02",
+      "seed": 122
+    },
+    {
+      "config_hash": "27cdeba0acea51b41e51db8215267ec49b30b9f70df0d769590abdc1f0dbbfe2",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "10533f0b247d15f3f30294027530ba80d4224cef45c90091d61342fce24db4d5",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "a0d513924acab843cf0d430e9b639676b4a4442c304153ca8c60b91028fb488c",
+      "result_directory": "runs/epsilon8/synthea_r03",
+      "seed": 123
+    },
+    {
+      "config_hash": "52a5b1c48e381f7b23b30db772610c6e7499fe98b7d9ab5d89b8616707d7b6c9",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "02ff70768eab06303bd69b4a56a08a6bba8a01cbec5c0d27285580bfd72f24d7",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "8e792c3e767eddbbd57dcfefc3fbd5dca949778de48e4747af87356d7d6b0a68",
+      "result_directory": "runs/epsilon8/synthea_r04",
+      "seed": 124
+    },
+    {
+      "config_hash": "5daa1f1dc16c1a9553b1f70b8561119984a8a246d49626f45a6ead624c667ed9",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "afbdae9e2abeb39bfbc92295f78ae6d01e77d20fc94253f3f0381ed08901a96a",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "c6ea8ee989a78344e50cd1e0bbedd35b19b16b2d29d8294ea86609abbc25aa26",
+      "result_directory": "runs/epsilon8/synthea_r05",
+      "seed": 125
+    },
+    {
+      "config_hash": "bda55c5b5113933d4d1d0eaf9cd1f41e1b91da3fc4302b97eade0a870ccc65e5",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "b7df04dafe7715c74a6b7aaf00e4fbe9bcfd16813f29e515d7c3f07be7da511f",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "f11cae2823ae2229672702c0b708c2f6a14e173f29ffc1df3b4a4421dfd551b6",
+      "result_directory": "runs/epsilon8/synthea_r06",
+      "seed": 126
+    },
+    {
+      "config_hash": "fc7815792c75c341dd497d0a9e1b2ceabbe3f7c0748ebc77b6a7d56eca9eb7f4",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "c0635c88dc165341cc54fc5b7b385198e18b6873ba191f58240e0aaa77d1d618",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "39e5eeedf855291ae8cca0992db93bad1ec089e87eead1492e4459e8d90bc70b",
+      "result_directory": "runs/epsilon8/synthea_r07",
+      "seed": 127
+    },
+    {
+      "config_hash": "85f17817c6b63182095aa5a7ece66433fba9954e944a24301452e98207bf3f1b",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "50058bfa19c715c8213f18ac1a0dbded68de60f77c7fe8d6ee4fbf7c0d95f951",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "76dfb73985b922da3ab3936a3d9db50fe36b01830bcfb662222236840e23c17e",
+      "result_directory": "runs/epsilon8/synthea_r08",
+      "seed": 128
+    },
+    {
+      "config_hash": "9b3cea499ed77ba455269077ea2b70a501c3f89d617cdf3d95875cac874cb573",
+      "dataset": "synthea",
+      "dirichlet_alpha": null,
+      "family": "credible-accuracy-epsilon8-v1",
+      "manifest_hash": "d25f340f11cd928bf37b52af7a2c703c0b08ccab039d80601d416f566445cb0e",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "9e188039c5934bb922cd79f00ccd4cae19a84f21307f21d0f59260af89292ed9",
+      "result_directory": "runs/epsilon8/synthea_r09",
+      "seed": 129
+    },
+    {
+      "config_hash": "efc889e1564890f800b0f8bb6afd599662f21c655284f65b114207baf28ea6e8",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.1,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "12bb83369a32a97ad115240f07e1ae47d5a0e67458c9639f37ba0710ec45a03f",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "2072a80b82335f4d7c0bba87c2d159dc7780c00d5025f5bd83ef39df26ab09ee",
+      "result_directory": "runs/noniid/femnist_alpha0p1_r00",
+      "seed": 200
+    },
+    {
+      "config_hash": "361428001c3e100c880582d95aa68124663d6c6284f9309a3f587ca5b5a9d7e3",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.1,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "fddd7e88b6ddfe0effc748627370079eac5d2774611f358718295e73ad71fc9c",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "2fa8b7b41c7784966be020ed73dd3d8cc611911a87abf53ee3f8ce4af5af2a10",
+      "result_directory": "runs/noniid/femnist_alpha0p1_r01",
+      "seed": 201
+    },
+    {
+      "config_hash": "5c97c3f1694cb63c26e0e3dcfd33137a81301321a774d0026a9c11389c3b93db",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.1,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "c27d638b8d9dd67f78ad9a21d01d985caa597f396352a597465b870ccdf0a4d1",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "c115c27df4c95b4b9a81d310f3d7c760bacba48287cd95d2b8060d90b3ecd150",
+      "result_directory": "runs/noniid/femnist_alpha0p1_r02",
+      "seed": 202
+    },
+    {
+      "config_hash": "cbdf3890a72988273a4b3ab5f95c84d7e14299ff85cbab3aef7baec624e69fb0",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.1,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "b08f7fa3912d8406c616f9d5f074c0c3402c63b845a827be8c786588a3224096",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "97b882a150ee9f64d9690a2c51a07b418105c20194efc13c095a64b72a463f10",
+      "result_directory": "runs/noniid/femnist_alpha0p1_r03",
+      "seed": 203
+    },
+    {
+      "config_hash": "c08d3c59a45d8c3efcc67d8f61446296a00b2b1018971ce4fdcf34421c245710",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.1,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "7690b4e444daf6175ac897727a8e80a128b5815d17ac6895053f03b94b54f866",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "0987bce9b7ff0eeb433907559367df2672972ddc43914c54dc7d8052fc04b089",
+      "result_directory": "runs/noniid/femnist_alpha0p1_r04",
+      "seed": 204
+    },
+    {
+      "config_hash": "aba00b30122af9626dab1c61e6f86174f7576cd236fc6b098aa9a059faf8ba35",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.5,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "b6188d3abe3ea46ac23136029370159ae5240b724f1dedbbaf425018fc241b41",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "1d96c038de1df5e6487247e15bb869513017117b5fd209b0555160b106000872",
+      "result_directory": "runs/noniid/femnist_alpha0p5_r00",
+      "seed": 200
+    },
+    {
+      "config_hash": "e4bc1ced7919ed353a6ee6ae8177bf2c01a2ca523ae81b63af446997f09e58a2",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.5,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "852732c09401a0a9e63988effb0e30d82049c1b68334fa3a614d0009b6778cbc",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "e7b850802bcd2e079a15add809efdd4e8ebac9958fbfb032593d6299e527bbf2",
+      "result_directory": "runs/noniid/femnist_alpha0p5_r01",
+      "seed": 201
+    },
+    {
+      "config_hash": "6879e3022506247b248894a7585d95f35bc4831b26be4c35b94b68201593fe0a",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.5,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "95ee1138dab3142baca25695fdb7ae51964b5aa741e284fde297b70a19aaa070",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "95ec3426b5e816b7c8bf249badaf723e348f9c3d949bfca59d1959fa86e848d0",
+      "result_directory": "runs/noniid/femnist_alpha0p5_r02",
+      "seed": 202
+    },
+    {
+      "config_hash": "30876476fade2b38be84e9c1ccff45678eeeecd21c9e353ed4b3fa915d8d7304",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.5,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "653ae9614fe855598d5fa1a355beb07a464f2994c67a5bd7680deb4097d9436e",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "2e56702d35b9295f97be19ce13168a73bd4e6f91f10b98fab22d27a82a1fc57d",
+      "result_directory": "runs/noniid/femnist_alpha0p5_r03",
+      "seed": 203
+    },
+    {
+      "config_hash": "10fd261638f1cb6ff5aacf0a529f21d68ae064d1b1674b71b81dabc8a5bff8f1",
+      "dataset": "femnist",
+      "dirichlet_alpha": 0.5,
+      "family": "user-noniid-dirichlet-v1",
+      "manifest_hash": "4d61d4a15c7a507ebfa0ee0fff2a5fc4c2901e8f6f844f4a4f681c5b4c7bc0ad",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c"
+      ],
+      "record_view_hash": "a776ddfc4a1a4c114c1dc3d24b93b368a78a3ad9f609cf9f8eb027f2519c48a3",
+      "result_directory": "runs/noniid/femnist_alpha0p5_r04",
+      "seed": 204
+    },
+    {
+      "config_hash": "8470e9b7061e4842f3bde9542ee931ca7cda576a58ef4d65c47a8d66bc120e37",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "46f1b42debbd3345ad8203257254038ad8291396a6d806ba4675ac606a77be69",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "f3222690a16f03524b19bbfd9a442382aaeb281a9b00a702f0b590d3663feb48",
+      "result_directory": "runs/sent140/sent140_r00",
+      "seed": 300
+    },
+    {
+      "config_hash": "3c4198ec51ac11a4553ba49f855a637a302b54682ee2870b466b246962a72ad6",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "606fc2740fa8c07dd2633e4640b05c4062367cf525cba4061da85555ee3fea34",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "4302034f216e9781e652edc3a2d8d2d7585b0868fd4cfc762744580892a4b84d",
+      "result_directory": "runs/sent140/sent140_r01",
+      "seed": 301
+    },
+    {
+      "config_hash": "b34ac76708773335d4bb0ae5eb2aac1fb7f4440ddef98078c9359f2f43f44ac4",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "c428039084eef2c0f5aa1745854dd887a22445b8557426739f970a38880da44d",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "81684ae16a6bc078ce141871e070d48709b53d16d64abfadc711d1c7dc68da9e",
+      "result_directory": "runs/sent140/sent140_r02",
+      "seed": 302
+    },
+    {
+      "config_hash": "97202ae26c3bbabd131c8850682be0850195d2e1f6aeba7716a1302fb2fabdda",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "70b142967a48452694efee4a00af423cee6ae18dda280e8436402cb1ba8468c8",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "0306bdbb0877ed82642995a598e29a1499e532ee8c153b2f96da12c4a8439c04",
+      "result_directory": "runs/sent140/sent140_r03",
+      "seed": 303
+    },
+    {
+      "config_hash": "d1b837ba5f9dd16d0583784781d4e188daa1f06c26779f19ec62d6105a448988",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "adbd73318d1f7b262d55a90d24771b5cc3e3bbd26e54b5eda7041f41b35d5bd6",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "563b91d86052b67d5a689c7e0ad05108c4b1d982cb4f5bac97949c81dddc77de",
+      "result_directory": "runs/sent140/sent140_r04",
+      "seed": 304
+    },
+    {
+      "config_hash": "40996465ceedada69689ca3f4696dd7071a8312572dab19ea992241145577fa9",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "d767c6bb06c0294b05eaa5cde4c8c9e807765d83f3cf6aca7701ad07a052d902",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "1435065a25efdae5d2c44dd892a1825a8fd58a11703678b5a1d6589d27ce007e",
+      "result_directory": "runs/sent140/sent140_r05",
+      "seed": 305
+    },
+    {
+      "config_hash": "fd71c15ddc3961014394159804ccc9456799244cd85c04f8c04f152404b1708a",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "1f1eaa09c19bcb2b059e3ae1b707e5db31eaa56ef568892d79e032c1a04cba04",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "4784556c75c83a941cbfb0078e1f2cb39f068921867da133b5e03c287615b3e2",
+      "result_directory": "runs/sent140/sent140_r06",
+      "seed": 306
+    },
+    {
+      "config_hash": "4c7711ae1f06c1e41f67d4db187db4021c2b13667971df696ec3a7f928bdfab0",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "7631d9aac5843a46a2db31caafc884cf743d2c69560ae4c5109c96e8c08298f8",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "a0849766fc9fec3de8159300b3f5c71872db9cd7ad837fb91ee997da95be8453",
+      "result_directory": "runs/sent140/sent140_r07",
+      "seed": 307
+    },
+    {
+      "config_hash": "8595c4793b963ebd86cd30d6fc694e14d075ba18d4a01fa43ddcf70927dd8bfd",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "7cac62f1f9e40f89ebe305a2a650220b950804aa9e9ec5f2d6537337ccf57c27",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "bb5c4ac5e4519847a90d03129e398a9752e66c4b3cc54ff3bed5b07ecf4ac14c",
+      "result_directory": "runs/sent140/sent140_r08",
+      "seed": 308
+    },
+    {
+      "config_hash": "7021bad7ab501f13083693218321b8af5b81671b78e52890969a412c2fd9f353",
+      "dataset": "sent140",
+      "dirichlet_alpha": null,
+      "family": "sent140-account-task-v1",
+      "manifest_hash": "9ecdab9c9e7f0fa56a75659611fc500539897b48a42ceb36091f1ee97c75c859",
+      "methods": [
+        "stable-local-fallback",
+        "unitscope-lambda-sweep",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "full-identity-reference"
+      ],
+      "record_view_hash": "f610cab88c4cc1af0f52e16fe318660f0f4cf24d5559e867334aa8a840eec659",
+      "result_directory": "runs/sent140/sent140_r09",
+      "seed": 309
+    }
+  ],
+  "profile": "released-learning-extensions"
+}

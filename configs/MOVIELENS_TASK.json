@@ -1,0 +1,102 @@
+{
+  "dataset": "MovieLens 1M",
+  "family_id": "movielens-balanced-task",
+  "frozen_training": {
+    "B": 6,
+    "H": 1,
+    "clip_norm": 1.0,
+    "delta": 1e-05,
+    "epsilon": 4.0,
+    "grad_chunk": 8,
+    "lambda": 0.9,
+    "learning_rate": 1.0,
+    "n_silos": 6,
+    "noise_multiplier": 9.214933748786253,
+    "overlap": 0.5,
+    "q_record_given_handle": 0.5,
+    "q_user": 0.5,
+    "records_per_round": 512,
+    "rounds": 50
+  },
+  "label": "account-level-external-validity",
+  "purpose": "balanced account-level recommendation task",
+  "status": "released",
+  "task": {
+    "account_selection_seed": 37102,
+    "balance_seed": 37101,
+    "class_balance": "derive majority thinning from training data and reuse it on validation and test",
+    "feature_construction": "the existing 46 public genre, release-time, and account-demographic features, with rating excluded",
+    "maximum_accounts": 3000,
+    "maximum_records_per_account": 24,
+    "model": "two-layer MLP with 64 hidden units and two output classes",
+    "split_seed_base": 55001,
+    "topology_seed_base": 65001
+  },
+  "test_phase": {
+    "evaluation_split": "test",
+    "reporting": "all five methods over ten paired configurations",
+    "result": {
+      "all_five_routes_reported": true,
+      "complete_id_oracle_mean_ci": [
+        0.53898,
+        0.536251,
+        0.541362
+      ],
+      "config_hash": "ac002898ce677f16feb6aae883f3682d94a23fe30346e5aa1dce4a94075ce1d8",
+      "handle_only_mean_ci": [
+        0.511139,
+        0.505533,
+        0.51572
+      ],
+      "naive_2c_mean_ci": [
+        0.510773,
+        0.504229,
+        0.516679
+      ],
+      "stable_local_mean_ci": [
+        0.508332,
+        0.502031,
+        0.514019
+      ],
+      "unitscope_mean_ci": [
+        0.510718,
+        0.505422,
+        0.515218
+      ]
+    },
+    "run_count": "one test evaluation per method and seed"
+  },
+  "validation_phase": {
+    "evaluation_split": "validation",
+    "evidence_seed_base": 75001,
+    "methods": [
+      "stable-local-fallback",
+      "unitscope-lambda-sweep",
+      "handle-only-drop-residual",
+      "naive-recalibrated-2c",
+      "full-identity-reference"
+    ],
+    "noise_seed_base": 95001,
+    "observed_result": {
+      "min_class_one_recall": 0.4781651376146789,
+      "min_class_zero_recall": 0.2435328898743533,
+      "min_prediction_entropy_nats": 0.5191523133575635,
+      "paired_configurations": 10,
+      "passed": true
+    },
+    "schedule_seed_base": 85001,
+    "success_criterion": "full-identity validation recall above 0.05 for both classes and entropy above 0.1 nats",
+    "training_seeds": [
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+scenario,decision,seeds,pass_rate,valid_rate,wur_mean,wur_max
+credential-reissue-no-refill,reject,10,1.0,0.0,,
+credential-revocation,fallback-without-refill,10,1.0,1.0,0.9166666666666667,0.9166666666666667
+institution-exit-new-epoch,new-epoch-valid,10,1.0,1.0,,
+institution-exit-same-epoch,requires-new-epoch,10,1.0,1.0,37.848333333333265,46.46666666666657
+preallocated-new-record,preallocated-slot,10,1.0,1.0,0.016666666666666663,0.016666666666666663
+single-user-deletion,same-epoch-safe,10,1.0,1.0,0.9100000000000001,0.9166666666666667
+unregistered-new-record,reject,10,1.0,0.0,,

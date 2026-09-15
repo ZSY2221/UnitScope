@@ -1,0 +1,51 @@
+{
+  "claimed_positive_people": 1002,
+  "historical_people": 8536,
+  "historical_records": 25428,
+  "plans": {
+    "handle-only": {
+      "active_units": 4685,
+      "all_records_assigned_once": true,
+      "certified_sensitivity": 1.0,
+      "dropped_records": 15085,
+      "structural_sensitivity_bound": 1.0,
+      "validation_pass": true
+    },
+    "naive-2c": {
+      "active_units": 12433,
+      "all_records_assigned_once": true,
+      "certified_sensitivity": 2.0,
+      "dropped_records": 0,
+      "structural_sensitivity_bound": 2.0,
+      "validation_pass": true
+    },
+    "unitscope": {
+      "active_units": 12433,
+      "all_records_assigned_once": true,
+      "certified_sensitivity": 1.0,
+      "dropped_records": 0,
+      "structural_sensitivity_bound": 1.0,
+      "validation_pass": true
+    }
+  },
+  "policy": {
+    "B": 6,
+    "C": 1.0,
+    "H": 1,
+    "handle_domains": 1,
+    "issuance_date": "2019-07-01",
+    "participating_silos": [
+      "silo-0",
+      "silo-1",
+      "silo-2",
+      "silo-3"
+    ]
+  },
+  "positive_people": 1825,
+  "protected_release_used": false,
+  "residual_only_people": 3851,
+  "residual_only_positive_people": 823,
+  "residual_positive_fraction": 0.45095890410958905,
+  "residual_positive_fraction_exact": "823/1825",
+  "source_fingerprint": "559757dc849f4361a328f456d2c0a20c6df72419068321c753c6be787161e937"
+}

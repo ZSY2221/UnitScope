@@ -1,0 +1,10 @@
+scenario,seeds,pass_rate,valid_rate
+cross-domain-replay,10,1.0,0.0
+expired-epoch,10,1.0,0.0
+handle-quota-exceeded,10,1.0,0.0
+institution-nonresponse,10,1.0,1.0
+overlapping-claims,10,1.0,0.0
+record-count-mismatch,10,1.0,0.0
+single-invalid-handle,10,1.0,1.0
+unregistered-claim,10,1.0,0.0
+valid-control,10,1.0,1.0

@@ -1,0 +1,40 @@
+{
+  "dry_run": false,
+  "users": [
+    1000,
+    10000,
+    100000,
+    1000000
+  ],
+  "seed": 31001,
+  "population": {
+    "n_silos": 6,
+    "dimension": 8,
+    "overlap_probability": 0.5,
+    "gradient_correlation": 0.5,
+    "norm": 0.6,
+    "records_per_silo": 2,
+    "mixed_local_slots": false
+  },
+  "evidence_policy": {
+    "q_user": 0.5,
+    "q_record_given_handle": 0.5,
+    "handles_per_user": 2,
+    "seed_offset": 1
+  },
+  "public_config": {
+    "task_domain": "compiler-scaling",
+    "epoch": "frozen",
+    "clip_norm": 1.0,
+    "max_handle_groups": 2,
+    "max_fallback_slots": 6,
+    "lambda": 0.5,
+    "public_normalizer": "n_users",
+    "noise_multiplier": 1.0,
+    "rounds": 1,
+    "delta": 1e-05,
+    "n_silos": 6
+  },
+  "method": "unitscope-tuned",
+  "warning": "Oracle validation is an experiment assertion and is excluded from compile_seconds."
+}

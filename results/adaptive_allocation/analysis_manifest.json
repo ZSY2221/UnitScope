@@ -1,0 +1,20 @@
+{
+  "profile": "coverage-adaptive-allocation-confirmation",
+  "analysis_hash": "0bd227fb00119361df478010ef534f6105e669fd6c229bf9a9b1a4d0ffc056f1",
+  "cell_results_sha256": "ff9632333df71d031525bef3f206511fa6ef69dc3067fa7bc3b00d3bf76237bd",
+  "high_coverage_results_sha256": "1bbd930910823931da6cc38f24f9cbe028e95be444a5f1c8c7662eb6c6559a7a",
+  "paired_configurations": 90,
+  "result_rows": 360,
+  "zero_discarded": true,
+  "all_validation_pass": true,
+  "gate_release_rows": 90,
+  "gate_misclassifications": 0,
+  "criterion_no_significantly_negative_cells": true,
+  "criterion_high_coverage_retention_ge_90pct": true,
+  "high_coverage_retention": [0.9481094006874906, 0.9658652101220333, 0.9541771007234279],
+  "overall_pass": true,
+  "learning_epsilon": 3.9,
+  "baseline_epsilon": 4.0,
+  "coverage_release_epsilon_each": 0.05,
+  "total_epsilon": 4.0
+}

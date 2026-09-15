@@ -1,0 +1,86 @@
+{
+  "dataset": "femnist",
+  "lambda": null,
+  "method": "non-private-reference",
+  "run_id": "4ce11c7d41f24547ecc5c3a9ae41792ed5b2becbd97ac86fca74fe91e0b11093",
+  "seed": 754,
+  "trajectory": [
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 0,
+      "sample_accuracy": 0.11337300344503602,
+      "user_macro_accuracy": 0.11338750000000002
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 10,
+      "sample_accuracy": 0.15941121202630754,
+      "user_macro_accuracy": 0.1594125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 20,
+      "sample_accuracy": 0.3178828687754463,
+      "user_macro_accuracy": 0.317975
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 30,
+      "sample_accuracy": 0.4265580958346383,
+      "user_macro_accuracy": 0.4260625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 40,
+      "sample_accuracy": 0.2812402129658628,
+      "user_macro_accuracy": 0.2810625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 50,
+      "sample_accuracy": 0.42436580018791104,
+      "user_macro_accuracy": 0.4239625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 60,
+      "sample_accuracy": 0.4575634199812089,
+      "user_macro_accuracy": 0.45769999999999994
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 70,
+      "sample_accuracy": 0.3861572189163796,
+      "user_macro_accuracy": 0.38566249999999996
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 80,
+      "sample_accuracy": 0.4963983714375196,
+      "user_macro_accuracy": 0.4960125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 90,
+      "sample_accuracy": 0.49232696523645475,
+      "user_macro_accuracy": 0.491775
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 100,
+      "sample_accuracy": 0.4400250548073912,
+      "user_macro_accuracy": 0.4401125
+    }
+  ]
+}

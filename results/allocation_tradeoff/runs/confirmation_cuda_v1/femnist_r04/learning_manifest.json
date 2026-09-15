@@ -1,0 +1,141 @@
+{
+  "config_hash": "767e42ade7f9cefcc43622674fce7d6e5bbc041b1b28b7de4845fa4db9486ba0",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "bf131db8af2355781a99cd3dbaff1ce822041413a019323ae33295a0dafaaacc",
+    "data_fingerprint": "239b48fb3b3d69e70406d18a0605c821d4db3c803443c64788736bcb9f79ac56",
+    "data_path_name": "emnist_all.sqlite",
+    "dataset": "femnist",
+    "evidence": {
+      "evidence_hash": "2f8c3ee059cfe2897f23b945c1b5bbbc368a479f6b917f950123e2ad2937be2e",
+      "full_identity_reference_hash": "5d034c630aa55e4ae710dea0549c9993f2116d32b1000f894b5f497b678e150e",
+      "handles_per_user": 1,
+      "health_card_domains": null,
+      "issuance_date": null,
+      "participating_silos": null,
+      "q_record_given_handle_requested": 0.5,
+      "q_user_requested": 0.5,
+      "view": "controlled"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.95,
+        0.98
+      ],
+      "dataset": "femnist",
+      "policy_id": "method-v2-refined-lambda098",
+      "protected_test_used": false,
+      "public_auxiliary_only": true,
+      "selected_lambda": 0.98,
+      "selection_stage": "frozen-frontier-exploration",
+      "source": "public-policy"
+    },
+    "methods": [
+      "stable-local-fallback",
+      "handle-only-drop-residual",
+      "unitscope-lambda-sweep"
+    ],
+    "primary_metric": "user_macro_accuracy",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.98,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 9.214933748786253,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "femnist-unitscope-v3",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "2e74cc4fc2f7e2ced56aa936a0f62f6816a8dec06e7d0a8178b0ed4eacdc5360",
+    "sampling_amplification_used": false,
+    "scenario": "controlled-middle",
+    "seed_bases": {
+      "evidence": 72005,
+      "noise": 92001,
+      "schedule": 82001,
+      "split": 52005,
+      "topology": 62005
+    },
+    "seeds": [
+      204
+    ],
+    "task": {
+      "account_selection_seed": null,
+      "ambiguous_duplicate_policy": null,
+      "balance_majority_keep_probability": null,
+      "balance_seed": null,
+      "dirichlet_alpha": null,
+      "horizon_days": null,
+      "index_date": null,
+      "lookback_days": null,
+      "maximum_accounts": null,
+      "maximum_examples_per_writer": 32,
+      "maximum_records_per_account": null,
+      "maximum_writers": 1000,
+      "minimum_records_per_account": null,
+      "movielens_task_variant": null,
+      "n_silos": 6,
+      "only_digits": true,
+      "overlap_requested": 0.5,
+      "stable_user_label": false,
+      "text_hash_dimension": null,
+      "writer_selection_offset": 1000,
+      "writer_selection_seed": 31001
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "evaluation_split": "test",
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "2156e536a4b1cf1a7cfe70ae9daa4b541aae913ba2e55748324190bf577e1c95",
+  "plan_config_hash": "066783c2d9f6139bffbf2e605ed20717fb680258a1e8ed343cfe65c31145e818",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 4.0,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "ambiguous_duplicate_rows_removed": 0,
+    "handle_users_fully_covered_fraction": 0.0,
+    "handle_users_with_residual_fraction": 1.0,
+    "mean_residual_records_per_handle_user": 15.990769230769232,
+    "overlap_fraction": 0.5,
+    "q_record_given_handle_pooled_realized": 0.49995189069566054,
+    "q_record_given_handle_realized": 0.4999384615384616,
+    "q_record_total_realized": 0.2501083032490975,
+    "q_user_realized": 0.5
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "code_tree": "artifact_v1 parent executor; endpoint-fidelity gate PASS",
+  "config_hashes": [
+    "0b85a9f6790f449d47e4bf77b048205c4bec28732b1b56d9bc1e8d9b820074d7",
+    "10688cdb9f8e75ad844e13f32b268ea61be7cf95c9bbb976f793d263982f39b9",
+    "3169cba4abc8ffdb65c644403299d17db0f60916238e7204f0c10a8f56b75528",
+    "369969d4f18efb1f6cffd60151990154caf44021dc85cd97bb2303a72125c129",
+    "374cb3ce78fca9e908c48239603195306d6df3afee5be99faec6fa0094ba6382",
+    "44fe979856b63517899b46b01a477860ed023985fe9272642760e952ac36ffd1",
+    "53b355ba7ede7e2307d3c46820f847053cb541eda37564de25e11a353ce7b6f2",
+    "6c538d9f90d941978bc8dfae4041fa9f292de16bc8686911e541b079c8f0c9b5",
+    "70abe5d4dda0a1490a2a322fa88bf0d8000d96a246bfd50992c6dfac075778b3",
+    "75d02d261233247ab78236627b3585a92cf8aca976c1200116f836e2f227709c",
+    "767e42ade7f9cefcc43622674fce7d6e5bbc041b1b28b7de4845fa4db9486ba0",
+    "7de0305845e23eb8f7a9f71eb89ad8398e905b692afbb7781811c974ca28004e",
+    "8e9c4226a98ee27f20e8f7cf6a00f55d84285e1835da8909d4b2a76075d168af",
+    "9e1b658a879cbc76a0c172d66f233e98524419f8bd3db26b412af4ef9e0585fd",
+    "a5cd40abd1bf95cfc897e82a178b6c7e0f21510172dc25dbc6a0d8773ae5a277",
+    "af9211c1d3f95a092eb478dedffe5d1fe717232e2af4632fd75f10403901d632",
+    "b9db9ffd117a6f2fa29bee18e1fd622b85f3274eee4b0444796cc5525dde2543",
+    "c033045e984da65d027b071cf594d18e516926854608dd9d2e6a42cf278c0f7a",
+    "cd41d4ea30a676ba9a0d0a62581b9b77ee4a4cac2ac3839a8c66ce387bbf8e00",
+    "ce066cfd07f9c8649143a6640690893b52b57033102b0443c0742d169458683a",
+    "d6655df64e7c3c099eeb3c9517b91d98a1e251270326d3e38abfae710f55d8e9",
+    "d702b918fc20a8c2880c6af238f90e0d892f8e1784b67ff350d4055cbe86c991",
+    "e1c749e04dfe9b43ca7c493ecb1703da9c27dd283d6b514d62db3e6671bc48a8",
+    "e7051b1d13b670feafb16ff5c88e81ec6b966de67757ba5a8c09e44d12f554ea",
+    "f579e8f9193a4f7169acc9ec5469f10a6b5bb7e6593c39088b6f128503b2f927"
+  ],
+  "declarations": {
+    "non_iid_appendix.md": "6571b7b37e13c6e85175d0fd8bc87e39ec209ed812782cf79fda29ee9139f7d5",
+    "refined_lambda.md": "5b6577a6395c0c1cfc6b8d20427016a025734e2c0f1ab4d1023fd68008bf198a"
+  },
+  "entries": [
+    {
+      "config_hash": "d6655df64e7c3c099eeb3c9517b91d98a1e251270326d3e38abfae710f55d8e9",
+      "directory": "femnist_noniid_r00",
+      "manifest_hash": "a78f67bd9d6e1f3ffbdd275fd001efc73fb818e4bf49331351060e0bf9b1743c"
+    },
+    {
+      "config_hash": "af9211c1d3f95a092eb478dedffe5d1fe717232e2af4632fd75f10403901d632",
+      "directory": "femnist_noniid_r01",
+      "manifest_hash": "bab709de3becbfc49fa22634bded7823a8b5848093ada5d63c4d2c15a0e41d43"
+    },
+    {
+      "config_hash": "10688cdb9f8e75ad844e13f32b268ea61be7cf95c9bbb976f793d263982f39b9",
+      "directory": "femnist_noniid_r02",
+      "manifest_hash": "12c26aecb99f075fc2c2ded755ee6cfba5cf82b2e71ff7d44c4766a1c07bcad7"
+    },
+    {
+      "config_hash": "369969d4f18efb1f6cffd60151990154caf44021dc85cd97bb2303a72125c129",
+      "directory": "femnist_noniid_r03",
+      "manifest_hash": "5af61e4a2af1bccc0fb799f3ab146f0bd475547b0ed1e68c53b11ea489a012d3"
+    },
+    {
+      "config_hash": "ce066cfd07f9c8649143a6640690893b52b57033102b0443c0742d169458683a",
+      "directory": "femnist_noniid_r04",
+      "manifest_hash": "486a969a8c8e8d75eb30f0c0dd71301805e4d980e720eed3e9e7f6de588afb65"
+    },
+    {
+      "config_hash": "6c538d9f90d941978bc8dfae4041fa9f292de16bc8686911e541b079c8f0c9b5",
+      "directory": "femnist_r00",
+      "manifest_hash": "84a3fb89b68b9b54d4d2630f73bb7994e577fbf0bd8e0de1823015c4de740097"
+    },
+    {
+      "config_hash": "53b355ba7ede7e2307d3c46820f847053cb541eda37564de25e11a353ce7b6f2",
+      "directory": "femnist_r01",
+      "manifest_hash": "db9dd1915b03416972cfd25de42681785eb23e613fa8d4a8bff8a8ba694e4852"
+    },
+    {
+      "config_hash": "9e1b658a879cbc76a0c172d66f233e98524419f8bd3db26b412af4ef9e0585fd",
+      "directory": "femnist_r02",
+      "manifest_hash": "6b2cc414be2f0610564e8aca3f47546cd98e1ef73480ea284a8fa7e7e1240f3b"
+    },
+    {
+      "config_hash": "3169cba4abc8ffdb65c644403299d17db0f60916238e7204f0c10a8f56b75528",
+      "directory": "femnist_r03",
+      "manifest_hash": "a9c5be2664fbcbafe7ad56192deb3d574be8e9857341fc65c4d7045b5697ee17"
+    },
+    {
+      "config_hash": "767e42ade7f9cefcc43622674fce7d6e5bbc041b1b28b7de4845fa4db9486ba0",
+      "directory": "femnist_r04",
+      "manifest_hash": "2156e536a4b1cf1a7cfe70ae9daa4b541aae913ba2e55748324190bf577e1c95"
+    },
+    {
+      "config_hash": "0b85a9f6790f449d47e4bf77b048205c4bec28732b1b56d9bc1e8d9b820074d7",
+      "directory": "femnist_r05",
+      "manifest_hash": "eb476686727d85c297de3f8e155071fecc6cf10c4644e5ceed4a0dba62d5f49c"
+    },
+    {
+      "config_hash": "cd41d4ea30a676ba9a0d0a62581b9b77ee4a4cac2ac3839a8c66ce387bbf8e00",
+      "directory": "femnist_r06",
+      "manifest_hash": "597b84fb660c5dfa67406eb68a3903eed878c5f2c0ee6266ad68d38c3bf67c59"
+    },
+    {
+      "config_hash": "e1c749e04dfe9b43ca7c493ecb1703da9c27dd283d6b514d62db3e6671bc48a8",
+      "directory": "femnist_r07",
+      "manifest_hash": "b9aad419a9820c3f58f90e90851f07a9030aa875b5e03c4c1ce7555e280b0e15"
+    },
+    {
+      "config_hash": "70abe5d4dda0a1490a2a322fa88bf0d8000d96a246bfd50992c6dfac075778b3",
+      "directory": "femnist_r08",
+      "manifest_hash": "636baa9b81b8b5f5d0f95b8fc0c60c85a7b507444fc27dc42d7f14747cb8beb2"
+    },
+    {
+      "config_hash": "d702b918fc20a8c2880c6af238f90e0d892f8e1784b67ff350d4055cbe86c991",
+      "directory": "femnist_r09",
+      "manifest_hash": "a55949906e9ab806987ecffdd537c374820da4df75c22e611cf07f53259c0886"
+    },
+    {
+      "config_hash": "7de0305845e23eb8f7a9f71eb89ad8398e905b692afbb7781811c974ca28004e",
+      "directory": "synthea_r00",
+      "manifest_hash": "3492adfd08a1369af23d2e1aa1496eaab8099aca242f0f1a8cd621dc49943891"
+    },
+    {
+      "config_hash": "e7051b1d13b670feafb16ff5c88e81ec6b966de67757ba5a8c09e44d12f554ea",
+      "directory": "synthea_r01",
+      "manifest_hash": "ba92fdd62b0c57f324c904a6305c333f0dff92748df46488df56803d2f6c65a4"
+    },
+    {
+      "config_hash": "a5cd40abd1bf95cfc897e82a178b6c7e0f21510172dc25dbc6a0d8773ae5a277",
+      "directory": "synthea_r02",
+      "manifest_hash": "b3ac6de83294771099c9969424e1c82709be370d599e78bb569799f83674ca09"
+    },
+    {
+      "config_hash": "b9db9ffd117a6f2fa29bee18e1fd622b85f3274eee4b0444796cc5525dde2543",
+      "directory": "synthea_r03",
+      "manifest_hash": "52854690707d092b7cdba98149ca82438533fa5898eb3e819143842c92c4b768"
+    },
+    {
+      "config_hash": "f579e8f9193a4f7169acc9ec5469f10a6b5bb7e6593c39088b6f128503b2f927",
+      "directory": "synthea_r04",
+      "manifest_hash": "d1959d1ca00da73160418f30ffd1774e6d7dac4460899ce83666b609be6398b8"
+    },
+    {
+      "config_hash": "75d02d261233247ab78236627b3585a92cf8aca976c1200116f836e2f227709c",
+      "directory": "synthea_r05",
+      "manifest_hash": "3d2eea768d04bae63f6857c547667a6db1d2bbb42fd0242974178423964b0ce0"
+    },
+    {
+      "config_hash": "374cb3ce78fca9e908c48239603195306d6df3afee5be99faec6fa0094ba6382",
+      "directory": "synthea_r06",
+      "manifest_hash": "99077a51f28031727ac9417aaa6057c1a62dabb2a7da38dbd866b2ea84bc027b"
+    },
+    {
+      "config_hash": "44fe979856b63517899b46b01a477860ed023985fe9272642760e952ac36ffd1",
+      "directory": "synthea_r07",
+      "manifest_hash": "ff7abb92e8fd01e8cb3a542119ab0f5bb9d14c2e6edde2c3f724ecf319664718"
+    },
+    {
+      "config_hash": "8e9c4226a98ee27f20e8f7cf6a00f55d84285e1835da8909d4b2a76075d168af",
+      "directory": "synthea_r08",
+      "manifest_hash": "b2d56fb9edd81f89f15809c7774e3fe7d0e9a54205519c9d5d66c961dbe13881"
+    },
+    {
+      "config_hash": "c033045e984da65d027b071cf594d18e516926854608dd9d2e6a42cf278c0f7a",
+      "directory": "synthea_r09",
+      "manifest_hash": "b622db9010c1cd6093cadbe5aaa24a1e5ca381bdca02766368e9a3ab1660e989"
+    }
+  ],
+  "profile": "method-v2-refined-lambda-confirmation"
+}

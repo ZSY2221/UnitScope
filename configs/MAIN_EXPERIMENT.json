@@ -1,0 +1,29 @@
+{
+  "profile": "fixed-allocation-lambda-0.9",
+  "datasets": ["femnist", "synthea"],
+  "methods": [
+    "stable-local-fallback",
+    "unitscope-lambda-sweep",
+    "handle-only-drop-residual",
+    "naive-recalibrated-2c"
+  ],
+  "replicates_per_dataset": 20,
+  "training_seeds": {"first": 100, "last": 119},
+  "split_seed_base": 51001,
+  "topology_seed_base": 61001,
+  "evidence_seed_base": 71001,
+  "schedule_seed_base": 81001,
+  "noise_seed_base": 91001,
+  "C": 1,
+  "H": 1,
+  "B": 6,
+  "lambda": 0.9,
+  "epsilon": 4,
+  "delta": 0.00001,
+  "rounds": 50,
+  "records_per_round": 512,
+  "gradient_chunk": 8,
+  "learning_rate": 1,
+  "public_normalizer": 512,
+  "noninferiority_margin": 0.01
+}

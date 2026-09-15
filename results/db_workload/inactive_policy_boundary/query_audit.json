@@ -1,0 +1,30 @@
+{
+  "all_seeds_reported": true,
+  "claim_purity_pass": true,
+  "exactly_one_claim_per_query_person": true,
+  "fixture_distinct_count": 1,
+  "fixture_person_hash": "788d60b3ab87a517ea68eeff",
+  "fixture_records": 2,
+  "fixture_silos": [
+    "silo-1",
+    "silo-2"
+  ],
+  "naive_deterministic_answer_matches_oracle": true,
+  "naive_plan_certificate": 2.0,
+  "naive_plan_validation_pass": true,
+  "positive_person_reference_count": 1002,
+  "query_semantics": "COUNT(DISTINCT natural_person) with positive future-inpatient label",
+  "query_universe_people": 4685,
+  "query_universe_records": 10343,
+  "release_rows": 90,
+  "source_fingerprint": "559757dc849f4361a328f456d2c0a20c6df72419068321c753c6be787161e937",
+  "stable_local_deterministic_count": 1154,
+  "stable_local_duplicate_ratio": 1.1516966067864272,
+  "stable_local_excess_count": 152,
+  "stable_local_relative_bias": 0.15169660678642716,
+  "unit_deterministic_answer_matches_oracle": true,
+  "unit_plan_certificate": 1.0,
+  "unit_plan_validation_pass": true,
+  "valid_claims": 4685,
+  "zero_discarded": true
+}

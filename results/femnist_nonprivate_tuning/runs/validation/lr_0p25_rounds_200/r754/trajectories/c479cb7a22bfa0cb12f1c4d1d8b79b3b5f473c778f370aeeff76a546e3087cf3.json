@@ -1,0 +1,156 @@
+{
+  "dataset": "femnist",
+  "lambda": null,
+  "method": "non-private-reference",
+  "run_id": "c479cb7a22bfa0cb12f1c4d1d8b79b3b5f473c778f370aeeff76a546e3087cf3",
+  "seed": 754,
+  "trajectory": [
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 0,
+      "sample_accuracy": 0.11337300344503602,
+      "user_macro_accuracy": 0.11338750000000002
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 10,
+      "sample_accuracy": 0.15941121202630754,
+      "user_macro_accuracy": 0.1594125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 20,
+      "sample_accuracy": 0.3178828687754463,
+      "user_macro_accuracy": 0.317975
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 30,
+      "sample_accuracy": 0.4265580958346383,
+      "user_macro_accuracy": 0.4260625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 40,
+      "sample_accuracy": 0.2812402129658628,
+      "user_macro_accuracy": 0.2810625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 50,
+      "sample_accuracy": 0.42436580018791104,
+      "user_macro_accuracy": 0.4239625
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 60,
+      "sample_accuracy": 0.4575634199812089,
+      "user_macro_accuracy": 0.45769999999999994
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 70,
+      "sample_accuracy": 0.3861572189163796,
+      "user_macro_accuracy": 0.38566249999999996
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 80,
+      "sample_accuracy": 0.4963983714375196,
+      "user_macro_accuracy": 0.4960125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 90,
+      "sample_accuracy": 0.49232696523645475,
+      "user_macro_accuracy": 0.491775
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 100,
+      "sample_accuracy": 0.4400250548073912,
+      "user_macro_accuracy": 0.4401125
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 110,
+      "sample_accuracy": 0.6003758221108675,
+      "user_macro_accuracy": 0.59985
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 120,
+      "sample_accuracy": 0.6720952082680864,
+      "user_macro_accuracy": 0.6718500000000001
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 130,
+      "sample_accuracy": 0.8264954588161604,
+      "user_macro_accuracy": 0.826
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 140,
+      "sample_accuracy": 0.8117757594738491,
+      "user_macro_accuracy": 0.8114
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 150,
+      "sample_accuracy": 0.8183526464140307,
+      "user_macro_accuracy": 0.8178749999999999
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 160,
+      "sample_accuracy": 0.8975884747886,
+      "user_macro_accuracy": 0.8972
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 170,
+      "sample_accuracy": 0.8546821171312246,
+      "user_macro_accuracy": 0.8543875
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 180,
+      "sample_accuracy": 0.9066708424678985,
+      "user_macro_accuracy": 0.9063499999999999
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 190,
+      "sample_accuracy": 0.9066708424678985,
+      "user_macro_accuracy": 0.9063499999999999
+    },
+    {
+      "epsilon": null,
+      "patient_or_user_auprc": null,
+      "round": 200,
+      "sample_accuracy": 0.917319135609145,
+      "user_macro_accuracy": 0.9169749999999999
+    }
+  ]
+}

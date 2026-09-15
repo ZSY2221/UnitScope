@@ -1,0 +1,60 @@
+{
+  "result_rows": 75,
+  "zero_discarded": true,
+  "registry_sha256": "a91d35f37e41785df56431dc95c599af83f0c262423bbfb97edf4370fc785c18",
+  "primary": [
+    {
+      "dataset": "femnist",
+      "pairs": 10,
+      "refined_mean": 0.14740169642857143,
+      "handle_mean": 0.14746419642857145,
+      "stable_mean": 0.12845080357142855,
+      "refined_minus_handle": -6.250000000000561e-05,
+      "rmh_ci_lower": -0.0019375000000000058,
+      "rmh_ci_upper": 0.0018593749999999923,
+      "ci_contains_zero": true,
+      "noninferior_margin_pass": true,
+      "gain_over_stable": 0.018950892857142857,
+      "gain_ci_lower": 0.0030243303571428617,
+      "gain_ci_upper": 0.030875334821428537,
+      "fixed_gain_frozen": 0.02430441964285714,
+      "gain_retention": 0.7797303180087397,
+      "retention_ge_90pct": false,
+      "fixed_gap_frozen": -0.003255580357142857,
+      "observed_gap_shrink_fraction": 0.9808021940349657,
+      "predicted_gap_shrink_fraction": 0.8,
+      "shrink_prediction_deviation": 0.18080219403496567
+    },
+    {
+      "dataset": "synthea",
+      "pairs": 10,
+      "refined_mean": 0.22518729145457902,
+      "handle_mean": 0.22588122873168728,
+      "stable_mean": 0.19658009680718252,
+      "refined_minus_handle": -0.0006939372771082337,
+      "rmh_ci_lower": -0.0009016448803546051,
+      "rmh_ci_upper": -0.0005159197636134906,
+      "ci_contains_zero": false,
+      "noninferior_margin_pass": true,
+      "gain_over_stable": 0.028607194647396583,
+      "gain_ci_lower": 0.022025727545112582,
+      "gain_ci_upper": 0.03502603600388156,
+      "fixed_gain_frozen": 0.041557510227443306,
+      "gain_retention": 0.6883760478149451,
+      "retention_ge_90pct": false,
+      "fixed_gap_frozen": -0.004032543488568202,
+      "observed_gap_shrink_fraction": 0.8279157362901439,
+      "predicted_gap_shrink_fraction": 0.8,
+      "shrink_prediction_deviation": 0.027915736290143878
+    }
+  ],
+  "noniid": {
+    "pairs": 5,
+    "refined_minus_handle_mean": -0.001593750000000002,
+    "ci_lower": -0.0026875000000000093,
+    "ci_upper": -0.0005312500000000025,
+    "gain_over_stable_mean": 0.03615160714285713,
+    "gain_ci_lower": 0.023579821428571412,
+    "gain_ci_upper": 0.05015624999999999
+  }
+}

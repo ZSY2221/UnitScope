@@ -1,0 +1,21 @@
+{
+  "archive_member": "ncvoter1.txt",
+  "archive_uncompressed_bytes": 61805147,
+  "rows_scanned": 140855,
+  "eligible_active_nonconfidential": 105187,
+  "selected_people": 50000,
+  "selection_modulus": 1,
+  "load_seconds": 4.187651700005517,
+  "zip": "ncvoter1.zip",
+  "zip_sha256": "b36c62507d04f3c21c6c4985ef1ea3aac45ad65d8ba70bdb2832fbe58125db6d",
+  "scales": [
+    10000,
+    25000,
+    50000
+  ],
+  "maximum_people": 50000,
+  "two_view_derivation": "deterministic field corruption from one official snapshot",
+  "raw_fields_persisted": false,
+  "result_rows": 9,
+  "warning": "Semi-synthetic multi-source ER view on real public voter-field distributions; not a real hospital federation."
+}

@@ -1,0 +1,51 @@
+{
+  "dataset": "femnist",
+  "lambda": 1.0,
+  "method": "handle-only-drop-residual",
+  "run_id": "a26d68c67f0bbe0c667053617ea6544bd492a9217663bdaa46cd6a814a563f36",
+  "seed": 910000001,
+  "trajectory": [
+    {
+      "epsilon": 0.0,
+      "patient_or_user_auprc": null,
+      "round": 0,
+      "sample_accuracy": 0.108923269260822,
+      "user_macro_accuracy": 0.10893145161290323
+    },
+    {
+      "epsilon": 1.7096469091901927,
+      "patient_or_user_auprc": null,
+      "round": 10,
+      "sample_accuracy": 0.09892170651664323,
+      "user_macro_accuracy": 0.09892137096774194
+    },
+    {
+      "epsilon": 2.456862121625803,
+      "patient_or_user_auprc": null,
+      "round": 20,
+      "sample_accuracy": 0.09329582747304266,
+      "user_macro_accuracy": 0.09329133064516128
+    },
+    {
+      "epsilon": 3.0456862121625807,
+      "patient_or_user_auprc": null,
+      "round": 30,
+      "sample_accuracy": 0.09376465072667604,
+      "user_macro_accuracy": 0.09376512096774194
+    },
+    {
+      "epsilon": 3.5289407275705784,
+      "patient_or_user_auprc": null,
+      "round": 40,
+      "sample_accuracy": 0.0875136740115643,
+      "user_macro_accuracy": 0.08750504032258064
+    },
+    {
+      "epsilon": 4.0,
+      "patient_or_user_auprc": null,
+      "round": 50,
+      "sample_accuracy": 0.07766838568526332,
+      "user_macro_accuracy": 0.07766633064516129
+    }
+  ]
+}

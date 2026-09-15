@@ -1,0 +1,15 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "backend": "two-party additive-sharing prototype",
+  "measured": "share generation, local party aggregation, reconstruction, exact communication bytes",
+  "projected": "LAN and WAN transfer time from declared bandwidth/RTT",
+  "excluded": "secret entity resolution, hidden access patterns, malicious security, remote TEE attestation",
+  "rows": 30,
+  "all_correct": true
+}

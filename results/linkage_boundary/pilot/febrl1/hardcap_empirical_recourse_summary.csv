@@ -1,0 +1,26 @@
+threshold,K,mean_d_w_empirical,p95_d_w_empirical,p99_d_w_empirical,max_d_w_empirical,max_changed_surviving_nodes,max_component_size,max_degree_observed,kappa_hc_conservative_observed_degree,worst_entity_id,fraction_d_w_le_4,fraction_d_w_le_8,fraction_d_w_le_16,pair_precision,pair_recall,pair_f1,predicted_pairs,true_positive_pairs,total_true_pairs,exact_multi_entity_recovery,disclaimer
+0.72,2,1.07,1.0,5.0,5,2,4,3,36,364,0.988,1.0,1.0,1.0,0.966,0.982706002034588,483,483,500,0.966,empirical deletion recourse is not a deterministic certificate
+0.72,4,1.034,1.0,2.0,2,2,4,3,68,364,1.0,1.0,1.0,0.9760479041916168,0.978,0.977022977022977,501,489,500,0.966,empirical deletion recourse is not a deterministic certificate
+0.72,8,1.034,1.0,2.0,2,2,4,3,132,364,1.0,1.0,1.0,0.9760479041916168,0.978,0.977022977022977,501,489,500,0.966,empirical deletion recourse is not a deterministic certificate
+0.72,16,1.034,1.0,2.0,2,2,4,3,260,364,1.0,1.0,1.0,0.9760479041916168,0.978,0.977022977022977,501,489,500,0.966,empirical deletion recourse is not a deterministic certificate
+0.72,32,1.034,1.0,2.0,2,2,4,3,516,364,1.0,1.0,1.0,0.9760479041916168,0.978,0.977022977022977,501,489,500,0.966,empirical deletion recourse is not a deterministic certificate
+0.76,2,1.032,1.0,2.0,2,0,2,1,20,91,1.0,1.0,1.0,1.0,0.968,0.983739837398374,484,484,500,0.968,empirical deletion recourse is not a deterministic certificate
+0.76,4,1.032,1.0,2.0,2,0,2,1,36,91,1.0,1.0,1.0,1.0,0.968,0.983739837398374,484,484,500,0.968,empirical deletion recourse is not a deterministic certificate
+0.76,8,1.032,1.0,2.0,2,0,2,1,68,91,1.0,1.0,1.0,1.0,0.968,0.983739837398374,484,484,500,0.968,empirical deletion recourse is not a deterministic certificate
+0.76,16,1.032,1.0,2.0,2,0,2,1,132,91,1.0,1.0,1.0,1.0,0.968,0.983739837398374,484,484,500,0.968,empirical deletion recourse is not a deterministic certificate
+0.76,32,1.032,1.0,2.0,2,0,2,1,260,91,1.0,1.0,1.0,1.0,0.968,0.983739837398374,484,484,500,0.968,empirical deletion recourse is not a deterministic certificate
+0.8,2,1.052,2.0,2.0,2,0,2,1,20,149,1.0,1.0,1.0,1.0,0.948,0.973305954825462,474,474,500,0.948,empirical deletion recourse is not a deterministic certificate
+0.8,4,1.052,2.0,2.0,2,0,2,1,36,149,1.0,1.0,1.0,1.0,0.948,0.973305954825462,474,474,500,0.948,empirical deletion recourse is not a deterministic certificate
+0.8,8,1.052,2.0,2.0,2,0,2,1,68,149,1.0,1.0,1.0,1.0,0.948,0.973305954825462,474,474,500,0.948,empirical deletion recourse is not a deterministic certificate
+0.8,16,1.052,2.0,2.0,2,0,2,1,132,149,1.0,1.0,1.0,1.0,0.948,0.973305954825462,474,474,500,0.948,empirical deletion recourse is not a deterministic certificate
+0.8,32,1.052,2.0,2.0,2,0,2,1,260,149,1.0,1.0,1.0,1.0,0.948,0.973305954825462,474,474,500,0.948,empirical deletion recourse is not a deterministic certificate
+0.84,2,1.118,2.0,2.0,2,0,2,1,20,227,1.0,1.0,1.0,1.0,0.882,0.9373007438894793,441,441,500,0.882,empirical deletion recourse is not a deterministic certificate
+0.84,4,1.118,2.0,2.0,2,0,2,1,36,227,1.0,1.0,1.0,1.0,0.882,0.9373007438894793,441,441,500,0.882,empirical deletion recourse is not a deterministic certificate
+0.84,8,1.118,2.0,2.0,2,0,2,1,68,227,1.0,1.0,1.0,1.0,0.882,0.9373007438894793,441,441,500,0.882,empirical deletion recourse is not a deterministic certificate
+0.84,16,1.118,2.0,2.0,2,0,2,1,132,227,1.0,1.0,1.0,1.0,0.882,0.9373007438894793,441,441,500,0.882,empirical deletion recourse is not a deterministic certificate
+0.84,32,1.118,2.0,2.0,2,0,2,1,260,227,1.0,1.0,1.0,1.0,0.882,0.9373007438894793,441,441,500,0.882,empirical deletion recourse is not a deterministic certificate
+0.88,2,1.15,2.0,2.0,2,0,2,1,20,227,1.0,1.0,1.0,1.0,0.85,0.9189189189189189,425,425,500,0.85,empirical deletion recourse is not a deterministic certificate
+0.88,4,1.15,2.0,2.0,2,0,2,1,36,227,1.0,1.0,1.0,1.0,0.85,0.9189189189189189,425,425,500,0.85,empirical deletion recourse is not a deterministic certificate
+0.88,8,1.15,2.0,2.0,2,0,2,1,68,227,1.0,1.0,1.0,1.0,0.85,0.9189189189189189,425,425,500,0.85,empirical deletion recourse is not a deterministic certificate
+0.88,16,1.15,2.0,2.0,2,0,2,1,132,227,1.0,1.0,1.0,1.0,0.85,0.9189189189189189,425,425,500,0.85,empirical deletion recourse is not a deterministic certificate
+0.88,32,1.15,2.0,2.0,2,0,2,1,260,227,1.0,1.0,1.0,1.0,0.85,0.9189189189189189,425,425,500,0.85,empirical deletion recourse is not a deterministic certificate

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    0.0,
+    0.5,
+    0.9
+  ],
+  "coverage_source": "results/unitscope_v3/evidence_grid_v1/analysis_v1/evidence_grid_summary.csv",
+  "coverage_source_sha256": "1346ccdae13d50cf4250cb041f93a41cc8166bdf625d4a905fbf5d229d5a8b24",
+  "dataset": "femnist",
+  "dp_release": {
+    "delta_each": 1e-12,
+    "draw_index": 53,
+    "epsilon_each": 0.05,
+    "handle_record_fraction": 0.7391229152361506,
+    "handle_user_fraction": 0.5137866518639861,
+    "laplace_scale": 0.0125,
+    "public_denominator": 1600,
+    "rng_seed": 980000001
+  },
+  "exact_public_coverage": {
+    "handle_record_fraction": 0.7499503722084367,
+    "handle_user_fraction": 0.5
+  },
+  "policy_id": "method-v2-direction2v2-q050_r075_rep03",
+  "protected_test_used": false,
+  "public_auxiliary_only": true,
+  "selected_cell": "u1-r2",
+  "selected_lambda": 0.5,
+  "selection_stage": "frozen-dp-recalibrated-coverage-gate",
+  "source": "public-policy",
+  "thresholds": {
+    "low_middle": 0.33,
+    "middle_high": 0.66
+  }
+}

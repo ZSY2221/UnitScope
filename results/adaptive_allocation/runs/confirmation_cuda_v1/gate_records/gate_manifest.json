@@ -1,0 +1,16 @@
+{
+  "declaration_sha256": "b602b691cde7031256e49796fddc993028aa36c276a1c2e86292048238a0a498",
+  "delta_each": 1e-12,
+  "epsilon_each": 0.05,
+  "gate_releases_sha256": "30af6dcc427900a0e9ec4c62e61002b7c815b0a2aa71765762ed1016e2854967",
+  "learning_epsilon": 3.9,
+  "misclassifications": 0,
+  "profile": "method-v2-direction2v2-recalibrated-gate",
+  "public_denominator": 1600,
+  "rng_seed": 980000001,
+  "rows": 90,
+  "source_sha256": "1346ccdae13d50cf4250cb041f93a41cc8166bdf625d4a905fbf5d229d5a8b24",
+  "total_epsilon": 4.0,
+  "total_gate_epsilon": 0.1,
+  "zero_discarded": true
+}

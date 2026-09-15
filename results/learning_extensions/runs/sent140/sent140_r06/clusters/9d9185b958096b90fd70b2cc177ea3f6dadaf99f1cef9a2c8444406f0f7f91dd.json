@@ -1,0 +1,3208 @@
+{
+  "clusters": [
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "1552fc6dfb5e24af0f160947",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "24f55650b83b470b5862de38",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.8,
+      "binary_label": null,
+      "cluster_id": "f038ad94cbc0bcf3555adb66",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "744c75980541d171ed428855",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "fb2ea0a362308c733c04ed78",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "04475ea9d334c323b6f6c35f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.21428571428571427,
+      "binary_label": null,
+      "cluster_id": "8d83ea615282230e2b56b05d",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 14
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "c24d8331aaf745965272cdf4",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "486e686c4ba388080a19db4d",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "bc8bd5c23b569e341f854a27",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "4decaf0582f37738c3fdf46a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "a9dba0651e1947cd3e199964",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.8571428571428571,
+      "binary_label": null,
+      "cluster_id": "454adbfb811e6a44896e9152",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "2713fba13d9361e82ae2e9f1",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "befac01e3d9321bdb60f22ce",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "23fdb77d28ba7da20ae72837",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "18d667e38ef11c1f2eef1460",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "0ca4401c72a9af37456647f0",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "140cf9f48e91025cec73ea6a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "2a53ef406d3ae78a74c0129c",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "511e7ae82543ae26decedf05",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "a7766163d78bcac0778e7589",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 20
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "2e4fe36f7adda549e50cbb35",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "a096cad3acb7149c5e10629f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "c46825bfe38abf614b2e415b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "0efe63eb99ffbc7d4392c865",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "b539f7b37348c6c41bd37261",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "4314073de61f189f939d5d1a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "95f6087eefce1f067948acec",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "0a9456d8a74def24a232b251",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.16666666666666666,
+      "binary_label": null,
+      "cluster_id": "5892e6da3e4d7f38349122e7",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "5209a7489edaaa743ccdc1cf",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "f56ca82680ec37ae6cdff81b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "e4dc04fe01bc19fd522dbfcd",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "77b164acbc2e320c8924e7cc",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "c363d429aa238f3f6e03e07a",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "d6fdc3bd5426b6414bc488b3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.2222222222222222,
+      "binary_label": null,
+      "cluster_id": "fa9c4fb1b271ec46e6e13b12",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 9
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "2481cc64a1c3f01fe8542987",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "d3c7cff1c0a1e6f945b96f8c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "2bd8841ef4e50c58d2897269",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "d706b63765c4a1da602f1c9d",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "03a8255e420423db00b9f39f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 9
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "eb94983d1b157b1dae31db4b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "9d86f9a402c5c66da82e7d53",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "0017634d533a76edc2f618c9",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "93c93fef7fae75da5be498e3",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "84d773fa8548595e8de72a90",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "7c1787ed8049bf6ab371cef1",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "f843547b546ed7d4ed7d985c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "79de8a1b10544020038ac36d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "7968d0fcbbff60624c430374",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.375,
+      "binary_label": null,
+      "cluster_id": "851edf86040de7bd4786d0c0",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 16
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "26514fd0771f0dbf9db03492",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "03e9519076edeaeb52a7884c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "17bd63a2fb3e06e7a564f994",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "8b1a3d518899a00cf26ee465",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "d87b69d571a837ccd2b98f84",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "96241bc32329548228a175f2",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "bed6c44a966f5d372c118399",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "856e33d693857e92975ec436",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "830fba79858a66dba0ee48fb",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "c82f9ccc20532e04c9342d01",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "4993af05b32f26fafe3586be",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "b99371f2137c0a654b734384",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.2,
+      "binary_label": null,
+      "cluster_id": "270bf275de3ab0a8ed3cdbbe",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 15
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "78618b91fa6663df22cdb48b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "0868e694f608f1536da06865",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "3a26bc2e4d61c99c21397de4",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "7d1d23d8be889888cf2a64a7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "efe41171a874fd1b23e6bc6a",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "86411b75e5b6780b286edd46",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "d05d92b343912cd002098e80",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "affdcca2d28e71049bdd5b74",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "766dede481717d2b9aedea87",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "3953a95a06c522dcabb29ab5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.6,
+      "binary_label": null,
+      "cluster_id": "9af04709d2e32d5beaf629ac",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "0aa960026f5ed07f131ba1d6",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 10
+    },
+    {
+      "accuracy": 0.8333333333333334,
+      "binary_label": null,
+      "cluster_id": "d83d09aec8aeedaae7047943",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "0a8bc587d776f1276d3e7da2",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "062e6df3ce11ee0f2b2181d9",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "5e6efcec1195214a0ab25fd3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "3145b14adf67fa16b56ff7fc",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "2df92b0e53a219ef15aa545d",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "ddaa963262b7da11897dbe6e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "f9760f7fa87af6a8fc3345fa",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "e8280b90caf83a7662ef61d7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "fa6ebed56174c5fa5c00c873",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "fb77b622878946400be4f652",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5555555555555556,
+      "binary_label": null,
+      "cluster_id": "baba8d0f550dc93b36978f56",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 9
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "5a2cc504df8b1963e3ea4eef",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "8a82b3b478c32a0e9328c3d4",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "f7915e39173d5e91c2ce508b",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.7142857142857143,
+      "binary_label": null,
+      "cluster_id": "4f8e4a5f3ef3793acae27c13",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "8333ca7ed290f1c19288afe6",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "0f1bea7b8a59187f9d824c63",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "6d26b92f889d1320ccd7a3de",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "fb80d366e2b75626ae7f71a7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "d6e803baf27067dbd9b1bd4e",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.3076923076923077,
+      "binary_label": null,
+      "cluster_id": "746827e08062565b3a135a96",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 26
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "4e3209f4f7cb52264193239e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "60e7c46abc1a50a2ed63b881",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "38bbb72eef8ea971b98e843d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "669258265c7e746faaad2269",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "6f90fcf4824ec8875467a4f3",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "064cdb17819cd2c8e793c7ce",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "579f651b225e7cd2f553bd10",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "1bbb2233ea30456c1f26667e",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "52b3c03f0d4a05ae5edb387e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "d5f8e1bbba2b32be71294ab4",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "104e7995c72ef23678dc55c7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "c4c38faf5bc23de50aff06fb",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "228b1c0f5ef40401d07783bb",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "8f78ee8b34a397fa3d62bf6c",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.7272727272727273,
+      "binary_label": null,
+      "cluster_id": "e6280769c0e0bfb654276cd8",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 11
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "53aa7bd29a3aee765fc030d6",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "37c270f267713637932105bb",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "9e662f05cd63dae1aece035c",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 10
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "1500cdf65032cd1f84d5cb91",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.7142857142857143,
+      "binary_label": null,
+      "cluster_id": "168ea08a60aca24b7f2ab8c0",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "af1b9034f376eff8d0950b13",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 24
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "6b09d94677b3e86b19173235",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "3ab032c64357fc1ad1482fc3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "656a13e6660ace368cea16f3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "74e6ce2e429288f0b0581939",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "aad42185b9ab5d2403b63b27",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "322edd3cd4bf3eaf38eb55cc",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "9533d23fb1a0859d16130451",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "861c38178139070f36736631",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "8f77875e93e144c081d48aa8",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "2367df7ff4cd61ea82bb2d82",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "4ee04f60637b57e9ec8fb4f2",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "3beb455c53ca38e75a9f6349",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.26666666666666666,
+      "binary_label": null,
+      "cluster_id": "896e04aa1cb6485dabd77562",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 15
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "0da603a2a47daa78765bce24",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "927bc690ec2fc5619599b60e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "6407399cec27e710828b5a26",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "7634a75b2ffb6c784c1fa4ba",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "fca95eb26badd650d6405fbc",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "edf7df834ec1a8559a45222c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "69dc8418c6edb2d5cb87dcda",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "7a57d808f3b6700901dd6925",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "0fd2b44470db7df403363b8f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "c288de3ef16a442dc27623af",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "e47251eab98b43f421be0f90",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "51a026605c73ba8c3b5624f6",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "fcde7f84d266210ba7b5f85d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.42857142857142855,
+      "binary_label": null,
+      "cluster_id": "db54683debfe6b3df5b16a49",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "b7aad625cfa89c1fa1425452",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "4d0f76e278cfd21771e40699",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "619d1aff1a1b407d0afd1965",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "8fd8e968245014f0df764b4c",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "ec7e2a110ea27087deea2574",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "e8fb7068c850bfc127850423",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "e0511cc01bfb5069e6201ed0",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "258cd140079b33bbb64b1913",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "b7a3c0ea05eeaada325470d5",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.42857142857142855,
+      "binary_label": null,
+      "cluster_id": "dc943adabd9f06831ac8e058",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "99f65dfb66baf9835fe232fe",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5769230769230769,
+      "binary_label": null,
+      "cluster_id": "45c540f482874714507ed7bc",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 26
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "e636dfab1618699eae3abac8",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "471ef6891088f5983381633b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "bd5fe4ab4027c639164294ed",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.6,
+      "binary_label": null,
+      "cluster_id": "f46dda96fde63b1757356b49",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "39eb021c0efce46cabb2e9d9",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "962cc843c084e8b1b059882b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.7,
+      "binary_label": null,
+      "cluster_id": "6a79c113d3a073b335ba7d1a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 10
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "a42b776604bd64d0280aa996",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "701eda6d5521c5a5264d438d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "e4e71120ee55b1cdb1ec2de0",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "84969d616b569c67cbfe0391",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "5463fb11b8324b32650ba3af",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "f1500547b425b65953c89788",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "afbb059b8658b11f0edd5e06",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "02855c6d5de771baa6261baf",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "6dbc5b7a398306987f348a92",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "0622121a21d1016c63be3ac5",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "3c7389ce8dd213d63b49c085",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "a7107ca8425dd1f3a19e5c2b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "7f91002f0622817aeb584132",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.625,
+      "binary_label": null,
+      "cluster_id": "951b4e07b47576223d2203f7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 32
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "5b498265cc3f8a67b5f09d3c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "569c88cf3d0b07e0011a9101",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "bc623227353adb4286c6ced4",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.8,
+      "binary_label": null,
+      "cluster_id": "eeb7b0a6b719218599d3eb0c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.625,
+      "binary_label": null,
+      "cluster_id": "22fe7f91fdfc81ea4b7745f0",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.23076923076923078,
+      "binary_label": null,
+      "cluster_id": "605d0aa539864a6ee1746baa",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 13
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "bdf659141986124e38af8bdd",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.8,
+      "binary_label": null,
+      "cluster_id": "20b343c8b54b934a5f63dc51",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "a5a191688628f1a098905c08",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "d368aa705363159045f1ade5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "4d84fbe5245ef594b7bbf1a4",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "36835fb54a6524eee6d83742",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "135a5126b4cb909b5ca10849",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "6252622c2a8cc1997c0acffe",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "38ef8ac2bf36c737d6de051a",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "4bb61b295a2c8cc33d3206db",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.18181818181818182,
+      "binary_label": null,
+      "cluster_id": "aab84898c6cda00cd6503622",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 11
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "121f36a7aa01eb43989cd73e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "f28c4852a7b196885bbc11c7",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "7f93ab69f78faec52b7cdcd3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.2,
+      "binary_label": null,
+      "cluster_id": "45ae33edd73a3317d032971e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "0313d666d9ec52508ce336db",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "81d89e8b65b53f03fe7a6082",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "798c4257235161202528dd21",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "8685f14549b17043300d6417",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "c62b8eca8850b7b210db1018",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "41dc30e2ffc2930908e0e1e4",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "7ca22e4d52a48f68d989405a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "6dd353f3cd7c19ecfeffb5c4",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "655e9fb3451c67c2f715b77f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "be2e1304f39b52dea0056802",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "9e71e80577dd64b4c365f5b0",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "2e11dc5618c6e9c6d48f89b7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "68d7a48825f002774c73ff0b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "51fbdb8d67ad6371feed5e1f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "b323b112764132081db22915",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "a18f45e85f24be25317f1086",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "301d2fdd0f1fc5ae22848e9a",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "eca548a443dec1bc30533414",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "3e530111a1dc235db2cb8fb5",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "3090e4c060b2066a7cc1968f",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "1e965f2db092c47f527819b1",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "d01f6a41bc55d5153aa26401",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "042ce1431ccf258aafa34328",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "452e4a33e419482a14817acb",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.46153846153846156,
+      "binary_label": null,
+      "cluster_id": "d33c71f6777c5dcc90cd6d03",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 13
+    },
+    {
+      "accuracy": 0.16666666666666666,
+      "binary_label": null,
+      "cluster_id": "1a338091ab599557c1cc307a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.2857142857142857,
+      "binary_label": null,
+      "cluster_id": "53cabfc06f4773dffffd5983",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 28
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "1c0eb916a4fe467dc90e62c5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.7777777777777778,
+      "binary_label": null,
+      "cluster_id": "c65a7c0a683f7a72aef0e6ca",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 9
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "b4dfe8a909206f2735008622",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "7d65387db61f884e3bb4f9a6",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "85af7c8e481e22fbc1d9b35e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "bc208e7ee2786edc82a788e7",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "2ae54a0e24eb173ad54def53",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "b9473df5940de2879c904d15",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "144aefadb2047bb6d846d6cc",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.9090909090909091,
+      "binary_label": null,
+      "cluster_id": "76845daac7a63379693f0c19",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 11
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "887c494e65ca1fe924599621",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "d1b9341285950d16154d64c6",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "3d79c728c2ebb2ef34f090a5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "21b01196b79d88b7520f8501",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "13787f1a696d1ec329e0667b",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "4c4259008edea4a79db3e25f",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "546945ba4aa18a25a0908c22",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "483f6090f52c1edd59877643",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.8333333333333334,
+      "binary_label": null,
+      "cluster_id": "8adfec6b366e7aa4c10ac259",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "33a2f360dc4aa251e9535f04",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "22fcc40e65ad6dab1e147662",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "17b2f9ace554bd2ad0a3b425",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "5f3b45c69ad41124d213b04f",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.42857142857142855,
+      "binary_label": null,
+      "cluster_id": "1a118e76c0ad76725f25bfa2",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.2,
+      "binary_label": null,
+      "cluster_id": "8daacc53ba7e34a2ff551d18",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "55e2723f3a9c41e4fb8dc389",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "d17903000fa87e6a4a283c42",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "909a02c3e82069d95455435c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.14285714285714285,
+      "binary_label": null,
+      "cluster_id": "f0fabbfd0033b496c0453881",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 14
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "476379533b537f7ba2387073",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "401aa76fe69d5c70fc60ecf9",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "43142fa75c7e2286f49d8b0e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "5ca65d6f31875bdd3ab49dea",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "6b34512163074698962e86ad",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "fc85510aeab4a8abc89492f3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "562cd7fae7bda401409c996b",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "ee10cb78408c3f33ab18c242",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.15625,
+      "binary_label": null,
+      "cluster_id": "55d7ca7b5bc860a3ae5f2624",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 32
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "68f328cce2a1345c4ebe6ded",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "b3b65b5265237034591a6d17",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.56,
+      "binary_label": null,
+      "cluster_id": "3635e93ed225fdc53863324a",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 25
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "8f47ff71881c83a4bee32f62",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "f57d00250999654112626ad8",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "77d010812b5aba2daf2a9d8d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.2,
+      "binary_label": null,
+      "cluster_id": "8e5d80a49a59f3deca017aba",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "2e17ef04a3c6b8eb0ef12257",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "3fb162452f51e90cb7831f20",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "d14f9c7819d24f11f934a174",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.8333333333333334,
+      "binary_label": null,
+      "cluster_id": "1fbdcc79889784cb3500134f",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "2433f26442e8372e2b415009",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "57a42c6ea39944c229ad7990",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.1,
+      "binary_label": null,
+      "cluster_id": "5d6bf2195cf6ce8fa1bf3369",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 10
+    },
+    {
+      "accuracy": 0.625,
+      "binary_label": null,
+      "cluster_id": "95930a22a4ba7d168e9f7be7",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "5c26d8530ba7eb75f3d2c499",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "4c40cd811e9bd0c25bd91925",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "44e1047e06b9e1d9a9965434",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "5408673e132dc885955adf7b",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "4879fa4a1fe2ba3889c8f8e5",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "e411590dfd033b418402ad87",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "f66addcd7c44f7824bfd18db",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "9e9ecc1469393e64605a3eb7",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "17305da5f3944485edf5c7b6",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "71b770fa1388e386556bbfa1",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "6f42a9ad85c98e7181142ca2",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "3d5db42b8a06f7db2eddfe35",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "b8fe62d4ec99378446478699",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "fe1ab64dc76ff3f69ba137d6",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "c3e6349972fa9b10606e09e6",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "906a197859b99062ea2f18cf",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "bf4f63ddbfa0b28fde5e030f",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "81c2baaab40b59ad8f0e7b48",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "92b1efa52b76d980ef5260f9",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "e5f6c08fa13dff2bb0f6862b",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.875,
+      "binary_label": null,
+      "cluster_id": "a7a9d710eaae03371b26c932",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "07fc1e92bf0a882b5b4e69c4",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "876f3f96282dde52db3d8d39",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "5cb9465b4e779dc4bbd7bf35",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "8537ca87ac34fa0602aa0298",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.8571428571428571,
+      "binary_label": null,
+      "cluster_id": "ecdbabd44160997c3638ddf7",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "dfc1665bb4080e7d26bae4b2",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "1d22b6e4b851fb6edaca3fc3",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "389803cdd92b1009baaff716",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "abcdadc918a1c7e46f6b63b9",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "276ad3b48c715401b758557b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "7b5a45f998c84b283f52ff14",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "bd43521b3a3f51e8376d4281",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "7358b602d8694e709e8eef20",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "a19fa4fe6405ab686b3f3179",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "ca238cb66a38d3f822d20c83",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.7777777777777778,
+      "binary_label": null,
+      "cluster_id": "9cb00ca3b02c4d3740df83d6",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 9
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "451d3a9dfb1e6b07d6b143a0",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "35c839f0c8d1234ce0987704",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "8185cff997a2c91584e7c843",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "811d110580638a8ac9944bd7",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "24a004d40410f329d01cad03",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.38461538461538464,
+      "binary_label": null,
+      "cluster_id": "2ba66e3657f1cda3f982cc92",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 13
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "9453b158814685fe4428eba5",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "f2869d2c8a15dd4bd59ba715",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.7142857142857143,
+      "binary_label": null,
+      "cluster_id": "4b55d3f4e61b7c292652056e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.42857142857142855,
+      "binary_label": null,
+      "cluster_id": "9a29c32de6159dab62de559a",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "e7b7772aa8e14c54bcafdcaa",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "a6b67786ec37dcf850050365",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.16129032258064516,
+      "binary_label": null,
+      "cluster_id": "9ef1b41eeefb53ec7ac6eeb0",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 31
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "74fea23a46352f3e145c74b0",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "72a0f247772b155852e9814e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "8cc4b2471058477c3b423f2d",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.7222222222222222,
+      "binary_label": null,
+      "cluster_id": "605a2f392270521a7614759c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 18
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "e5961e6fd232d2f2b4a9e0c2",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6,
+      "binary_label": null,
+      "cluster_id": "c3212d61455813bed9894e32",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "3c44f4f3e7059935f94fe5d1",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "8f2dea49134e6a5f50edf463",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "917258f9b779f09b2f206b03",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "5df499102370c13721f1b273",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "d05b1baba2d51f331faa33a9",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "142be8d3f15f5f1c14f1d2c9",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "4b4f96ddfaa26d4365b7da8d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6,
+      "binary_label": null,
+      "cluster_id": "12dd487e4c338702f67d51cf",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "5346f96aad381868e2a60937",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "383fe023f1b21e314c971958",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "53d0b154c8341e1f5c943a9d",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "a22cb1fade01609151571307",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "9054a9409a5c24a128ba38e3",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "85dc31b8f659297ff72c5c91",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.8,
+      "binary_label": null,
+      "cluster_id": "fe67c702f01564059d37aeaf",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "d4ce83948fbcaf3c501d32c2",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "84fdc82cc4354b4204c924ec",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "8096107a508945d17e0697fd",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.08333333333333333,
+      "binary_label": null,
+      "cluster_id": "11be53414dfe60c3bcb0d077",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 12
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "feec429eeff16dcb461ab76e",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "eb9f0ea5fa07e27174978668",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "binary_label": null,
+      "cluster_id": "41df1f4611c7b6e86b1bc862",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.125,
+      "binary_label": null,
+      "cluster_id": "5567142fbee107fd91ff5b43",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "1c995ac831605d56ed6cdb5e",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "2a6e4cdff22f9d5887171fa5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "d46661d4ede3d4c43b04c926",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "674fb908a5e7d57a206f72df",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "25df9a2e7e1d5367cd202ce2",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "d9ed342a8ded2fbc71e77c8c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "aacd2711c4b267dbf54c0122",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "3c37fe29a13aeb0b6a83ed15",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "143bbb61d420e9aa84c9a065",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.14285714285714285,
+      "binary_label": null,
+      "cluster_id": "d2c829d6798c05d9489a0873",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 7
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "53451a5264c519495563b911",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.375,
+      "binary_label": null,
+      "cluster_id": "4fd546c9cbf55e19ecce1cd4",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 0.4,
+      "binary_label": null,
+      "cluster_id": "662732f71d32eca8b7e6c517",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "3709a2b903afc4f5d6fdb68c",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "ead3446ec79d84367c64e7e5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "c32f2855bd0d9d76ba138320",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.75,
+      "binary_label": null,
+      "cluster_id": "29ba01fe45794fdb3c391b83",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 8
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "0abb7d33a2e0ae74458ce225",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "52a24f15ced1d1595fcadd6c",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "efb4e7007ccfeb1d0bdee401",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "b049ee9f630226e420aee91b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.25,
+      "binary_label": null,
+      "cluster_id": "f3c30618d980d15cdd64e7bb",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 32
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "8781eed593b7022c493e6e44",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "1f4fbc03dc916ca3eeb09013",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "28b7a491c26eb58e80249483",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "d56bf9e42151dc08342d5c43",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.8333333333333334,
+      "binary_label": null,
+      "cluster_id": "7a94f8316dbaae9013419f9b",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 12
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "818ed7bbc2b82cca0aec2a41",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 4
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "b485a24c211692cdbc681e89",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 6
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "af06c90a21665bd644a4a06b",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.6,
+      "binary_label": null,
+      "cluster_id": "d0fea2e5ccce7a3b48f5b619",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "9f627ff3ed3f553dff841f92",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.5,
+      "binary_label": null,
+      "cluster_id": "a3ed88b80ea570bacdb100b3",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "2a679a5e0e7fddae65b8c1ea",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "binary_label": null,
+      "cluster_id": "796ce6559bc14fa566eecbd4",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.2,
+      "binary_label": null,
+      "cluster_id": "37d575a4d1b571fc9406da4a",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 5
+    },
+    {
+      "accuracy": 1.0,
+      "binary_label": null,
+      "cluster_id": "b777c9f6dd2a5294914e35b5",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 2
+    },
+    {
+      "accuracy": 0.0,
+      "binary_label": null,
+      "cluster_id": "f810c2dd1703dbe95b94e68e",
+      "evidence_group": "no-handle",
+      "positive_probability": null,
+      "records": 3
+    },
+    {
+      "accuracy": 0.8333333333333334,
+      "binary_label": null,
+      "cluster_id": "15e3f18ed95d3921fddfbd97",
+      "evidence_group": "handle-with-residual",
+      "positive_probability": null,
+      "records": 12
+    }
+  ],
+  "dataset": "sent140",
+  "method": "naive-recalibrated-2c",
+  "run_id": "9d9185b958096b90fd70b2cc177ea3f6dadaf99f1cef9a2c8444406f0f7f91dd",
+  "seed": 306
+}

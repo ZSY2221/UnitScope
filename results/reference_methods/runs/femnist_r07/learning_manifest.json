@@ -1,0 +1,137 @@
+{
+  "config_hash": "31769bd66fc319a13a2ccd1653d99cc3a1a74e2e279b149367b3f27371583c64",
+  "dry_run": false,
+  "environment": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "implementation": "CPython",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "protobuf": "4.25.8",
+      "scikit-learn": "1.7.2",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.18",
+    "torch_cuda": "12.8"
+  },
+  "frozen_configuration": {
+    "code_tree_hash": "2504e814d057bb71b41c1333742ac5f732607f60cc2abe3cc9d0d8c295dde6f6",
+    "data_fingerprint": "239b48fb3b3d69e70406d18a0605c821d4db3c803443c64788736bcb9f79ac56",
+    "data_path_name": "emnist_all.sqlite",
+    "dataset": "femnist",
+    "evidence": {
+      "evidence_hash": "0e822dbd28ec7e1ab3af0522c74f7fe9648dab6ffb19e9fe608a4e506d57c481",
+      "full_identity_reference_hash": "596143361aec9fad17bbd63c8c5fd0d30dde1ae7beb85c719a3e4e6e9c033a6a",
+      "handles_per_user": 1,
+      "health_card_domains": null,
+      "issuance_date": null,
+      "participating_silos": null,
+      "q_record_given_handle_requested": 0.5,
+      "q_user_requested": 0.5,
+      "view": "controlled"
+    },
+    "lambda_selection": {
+      "candidates": [
+        0.0,
+        0.1,
+        0.14285714285714285,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        1.0
+      ],
+      "claim_scope": "frozen repeated-randomization replication on an untouched writer pool, not the original confirmatory family",
+      "dataset": "femnist",
+      "notes": "Lambda 0.9 was chosen after inspecting the earlier descriptive frontier. This record preserves that fact before any result from the replication split is generated.",
+      "policy_id": "posthoc-lambda090-replication-v1",
+      "protected_test_used": true,
+      "replication_split_is_new": true,
+      "selected_lambda": 0.9,
+      "selection_stage": "carried-forward-from-prior-exploratory-frontier",
+      "source": "public-policy"
+    },
+    "methods": [
+      "full-identity-reference",
+      "uldp-avg-weighted-oracle",
+      "group-privacy-k2-person-corrected",
+      "record-level-dp-sgd-reference"
+    ],
+    "primary_metric": "user_macro_accuracy",
+    "public_config": {
+      "clip_norm": 1.0,
+      "delta": 1e-05,
+      "epoch": "frozen-v1",
+      "lambda_": 0.9,
+      "max_fallback_slots": 6,
+      "max_handle_groups": 1,
+      "n_silos": 6,
+      "noise_multiplier": 9.214933748786253,
+      "public_normalizer": 512.0,
+      "query_reduction": "fixed-weighted-sum",
+      "rounds": 50,
+      "task_domain": "femnist-unitscope-v3",
+      "use_sampling_amplification": false
+    },
+    "record_view_hash": "24cb9ef3a339d100f2bb2df774a7e516ff506d7534d5187fcc6fb46b5c09f2ca",
+    "sampling_amplification_used": false,
+    "scenario": "controlled-middle",
+    "seed_bases": {
+      "evidence": 71008,
+      "noise": 91001,
+      "schedule": 81001,
+      "split": 51008,
+      "topology": 61008
+    },
+    "seeds": [
+      107
+    ],
+    "task": {
+      "horizon_days": null,
+      "index_date": null,
+      "lookback_days": null,
+      "maximum_examples_per_writer": 32,
+      "maximum_writers": 1000,
+      "n_silos": 6,
+      "only_digits": true,
+      "overlap_requested": 0.5,
+      "writer_selection_offset": 1000,
+      "writer_selection_seed": 31001
+    },
+    "training": {
+      "device": "cuda",
+      "evaluation_checkpoints": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "learning_rate": 1.0,
+      "per_sample_grad_chunk": 8,
+      "records_per_round": 512,
+      "rounds": 50
+    }
+  },
+  "manifest_hash": "acc9bf97a3cd996abbc23ac2efa4527495b014898f7526d9887a7a66d8639007",
+  "plan_config_hash": "85e2c0f67dd26b6eb06bd8a9d1355cd162f47ba512379568bb155acfe11a2c54",
+  "privacy": {
+    "delta": 1e-05,
+    "epsilon": 4.0,
+    "sampling_amplification_used": false
+  },
+  "realized": {
+    "handle_users_fully_covered_fraction": 0.0,
+    "handle_users_with_residual_fraction": 1.0,
+    "mean_residual_records_per_handle_user": 16.0,
+    "overlap_fraction": 0.5,
+    "q_record_given_handle_pooled_realized": 0.5,
+    "q_record_given_handle_realized": 0.5,
+    "q_record_total_realized": 0.25,
+    "q_user_realized": 0.5
+  }
+}

@@ -1,0 +1,708 @@
+{
+  "analysis_code_sha256": "079e5bcad75d332c9a6eb980c483906a90531134b5d4d7515817970708a5d837",
+  "config_hashes": [
+    "09435ef626cc3fb66a02206edb5bcfe63e78317108f232c3195e7b195e4ad649",
+    "0d1428ea55029c12d63b6caab4711b6938954355549e30f850545306af209bdc",
+    "1431da2b4d2703cd0b28dd3e6d833089515657a374b57494394b999ff0497ef1",
+    "186b5fd7103428594f4d15131c931154f1eb064164a2c439bc7536ddc6b2ecd4",
+    "1932967ad2395558afb7e794f868d26de6f9ad9f47f4251962a49f0431895609",
+    "1c4e14ad48d74fa6b210debb720ceff6ebdddeb7c287da2155105a431a78c88c",
+    "23da1c0c692ae454db6e5ea6da7f66613b3e4f16585e6290e7b23790c012af36",
+    "3882b760de9f14f69895a52425b97408c2c30624af4be0d25aa30aa0ef81736f",
+    "4128b7dd897a92a7b94ce632e2e28a1ef50373aa78f58a331653e0dbfd742834",
+    "45ce8903c962c236722196bc8247c61031be171c2c53d735f2e87cea68ce8910",
+    "47bc3a072f4f6debcc9399a2d5f308966d5bc60ad94c25c6e0db86cba685c7ff",
+    "4bfe85a41fbcb8a44c2f9e8db8b327338e76e0ebfdcb115e9358a4e62f7ba8b0",
+    "510b6f1bdd5ba40ab06a9823e41d96e27c9c42a56845ae25c5e5f852ad4047cc",
+    "71a2ab32e02aa99f2b1e1037959252124cea8700a7ecb84257fdee0a068a1f28",
+    "748c53e38bccd2af41a1dc34564556148da1675b9e3f34d81303db7c73781cc0",
+    "749e27f77a7037d0c81454e1313a6f04615d48371ccd43731678247050eb93bf",
+    "79b7475f9bfd7bbb881366c3c49df9f60e9635c4b0e0e814bd7897d00b676e15",
+    "7e36e58947a84df3ef64de6febfa22b4f269925fbcfa2923abb24aacecbe2edb",
+    "7e5a7b1076ff2cb16324c00267a273a1d37e60817c0c3a0697dfe7dbe151f94a",
+    "8c609628a48c2926d0761e77dbc17d1bc1be4a7345b13c52e896fedd56bbf5a9",
+    "8ef342ee954aa08f30f70996253356a686d3a55d6ec6d8e7278f1dca8394cb25",
+    "9815ecbe72958d8f98fa0c8ea102ec4650eddc0e990042d487341c0df152a1b4",
+    "ab5dfaa5f4fb3282f59854f280b023a9d1fa6db3eabed86ddc4f6f526ab7597b",
+    "aec31288e825f5b6202f899202a2da072d686b037db9f111c097a0add687dd49",
+    "afc56ee9720c064cdf5d49f598493d9497fe56e6a7cf9ff44e5e2722c579eb9b",
+    "b1b1309a33b1e34d0b618a5ca7f6d5da0c564696d660c2a71f16b95a403a7027",
+    "bbba70590c7087a7717ba711525322ef392ba21329c5b66580f486f63609b6aa",
+    "c11287c63edf9f0e7f9de1fa6038f0ae2c680647b80e4e42adfe4648025f90b8",
+    "c6f64944409e52d4e37c9d97fd68dd3e7c3960251fa7fcfbf293c2b583450189",
+    "c8dde836a082a7722481d04b62477f6e8786b83268904e25ed53794ca5a4b91a",
+    "cec0b640d1e77bff2229948df926be3a3c2e353c80684d8dd2817ef4d510ad58",
+    "d70a180f5508e7573ecbb4d014534797d3f0d72e20743a993062ff461f2c9abc",
+    "e053a3f1a4ed3327554ff80483edfb100213ce8501889316627382d3f2e524b2",
+    "e58ef83359425f44d62846069e651fa2ba0aa4885bab44eb48b36989d4a1da92",
+    "e960eefb0789e65fbf2afefc8bc87bc264aba51c1fcc10bef86d17e7263e5b50",
+    "e96943b4a75c52e0274f8248cc952d1da4ec5944a007b8845ab49d2a6bac947b",
+    "f5d1b7326bf49a8dea1be089663a275898dc61ac42d570c677f60bd9c3355d98",
+    "f8d14b468eb5d6f8cc61da45173a493c266cae5a600402dfaa43e4012c536b22",
+    "fdabbf02ba53d26ae82af264523418cecad0114b6cf92fb0952c4473155d2077",
+    "fee41d625ab60e8fb87422413820a729026c86555b4a416d9bbcdc5aff048173"
+  ],
+  "entries": [
+    {
+      "config_hash": "cec0b640d1e77bff2229948df926be3a3c2e353c80684d8dd2817ef4d510ad58",
+      "dataset": "femnist",
+      "manifest_hash": "12e5e1898ab70274c6b11f9cc979b8ad70d14f8819f00186e04c63ca5a092b0b",
+      "record_view_hash": "2ce14cd12f56288bd8d0728264522587f3252e3f8abf63a4d264ae0b0aaaed3b",
+      "replicate": 0,
+      "result_directory": "runs/femnist_r00",
+      "seed": 100,
+      "seed_bases": {
+        "evidence": 71001,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51001,
+        "topology": 61001
+      }
+    },
+    {
+      "config_hash": "510b6f1bdd5ba40ab06a9823e41d96e27c9c42a56845ae25c5e5f852ad4047cc",
+      "dataset": "femnist",
+      "manifest_hash": "b389cacbcc2d7a60be1596bd94efd6086e1263adb707c46ae6d72f38d6acdcbc",
+      "record_view_hash": "f5c9e748bc6743f83e750656812d7f7826b8dfd6084b98803a586502f26c7691",
+      "replicate": 1,
+      "result_directory": "runs/femnist_r01",
+      "seed": 101,
+      "seed_bases": {
+        "evidence": 71002,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51002,
+        "topology": 61002
+      }
+    },
+    {
+      "config_hash": "7e36e58947a84df3ef64de6febfa22b4f269925fbcfa2923abb24aacecbe2edb",
+      "dataset": "femnist",
+      "manifest_hash": "39b4aaccdaf43af918db70e59265013dd17a67ce949552aba60413d27f9a2610",
+      "record_view_hash": "4df215cf8e8939509d86acf08344f5d65867a92db83dbc0e4c9a87f5282fcc09",
+      "replicate": 2,
+      "result_directory": "runs/femnist_r02",
+      "seed": 102,
+      "seed_bases": {
+        "evidence": 71003,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51003,
+        "topology": 61003
+      }
+    },
+    {
+      "config_hash": "7e5a7b1076ff2cb16324c00267a273a1d37e60817c0c3a0697dfe7dbe151f94a",
+      "dataset": "femnist",
+      "manifest_hash": "51ac3532ef9ca78f2f3bcdd5cf5188833d4ca28719ee2705bcdaba84c0f1fcfa",
+      "record_view_hash": "7fd90e82c6088332575335ee8f5288e3e203bb3cd9dd62262c2921d267aeea9c",
+      "replicate": 3,
+      "result_directory": "runs/femnist_r03",
+      "seed": 103,
+      "seed_bases": {
+        "evidence": 71004,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51004,
+        "topology": 61004
+      }
+    },
+    {
+      "config_hash": "23da1c0c692ae454db6e5ea6da7f66613b3e4f16585e6290e7b23790c012af36",
+      "dataset": "femnist",
+      "manifest_hash": "93f00606b8597402a8af246bcc5aea00fb4d7d96dde7040f4a708855d24f6b35",
+      "record_view_hash": "5e6db24481cd716b3fb8928a62d49d9d0668c87deb3f064739f3e93889531fbe",
+      "replicate": 4,
+      "result_directory": "runs/femnist_r04",
+      "seed": 104,
+      "seed_bases": {
+        "evidence": 71005,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51005,
+        "topology": 61005
+      }
+    },
+    {
+      "config_hash": "fdabbf02ba53d26ae82af264523418cecad0114b6cf92fb0952c4473155d2077",
+      "dataset": "femnist",
+      "manifest_hash": "c4f7fb6b8945781448ecfcea03fde91fe23419e8e7342f04ba7523036c57ea76",
+      "record_view_hash": "fea79595e85efb8c61149bcd8e709fb2739a2471dfb9e2a4efa8688d898430ec",
+      "replicate": 5,
+      "result_directory": "runs/femnist_r05",
+      "seed": 105,
+      "seed_bases": {
+        "evidence": 71006,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51006,
+        "topology": 61006
+      }
+    },
+    {
+      "config_hash": "b1b1309a33b1e34d0b618a5ca7f6d5da0c564696d660c2a71f16b95a403a7027",
+      "dataset": "femnist",
+      "manifest_hash": "4877aad21fbf48f8f803732459aa7538e01a3bc1a4af70c1d08c54946ba291a3",
+      "record_view_hash": "998b0fa565122324a3f35c19b9fa1f64dc2a8f9f7908792db2be9129c5ad58a2",
+      "replicate": 6,
+      "result_directory": "runs/femnist_r06",
+      "seed": 106,
+      "seed_bases": {
+        "evidence": 71007,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51007,
+        "topology": 61007
+      }
+    },
+    {
+      "config_hash": "47bc3a072f4f6debcc9399a2d5f308966d5bc60ad94c25c6e0db86cba685c7ff",
+      "dataset": "femnist",
+      "manifest_hash": "c7a3dcf7f246db13a3bedaf19e1d21ba6f4713a25c46dcd8355ace10c82c69df",
+      "record_view_hash": "24cb9ef3a339d100f2bb2df774a7e516ff506d7534d5187fcc6fb46b5c09f2ca",
+      "replicate": 7,
+      "result_directory": "runs/femnist_r07",
+      "seed": 107,
+      "seed_bases": {
+        "evidence": 71008,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51008,
+        "topology": 61008
+      }
+    },
+    {
+      "config_hash": "0d1428ea55029c12d63b6caab4711b6938954355549e30f850545306af209bdc",
+      "dataset": "femnist",
+      "manifest_hash": "334a188aabc69b0ea94c98b30cfe43f46214ac86f9ffab6793ab498ae7a38205",
+      "record_view_hash": "771392d73d6ff7363b613f40c739207bfa9ac1b815348a053b8d9adaef40dcfe",
+      "replicate": 8,
+      "result_directory": "runs/femnist_r08",
+      "seed": 108,
+      "seed_bases": {
+        "evidence": 71009,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51009,
+        "topology": 61009
+      }
+    },
+    {
+      "config_hash": "c11287c63edf9f0e7f9de1fa6038f0ae2c680647b80e4e42adfe4648025f90b8",
+      "dataset": "femnist",
+      "manifest_hash": "6e5f6364b86e002f39a502f51ca55280a282ab2ce5a4a39e960778079c489966",
+      "record_view_hash": "a577d0e49ad793b07b2f83688b0b0592d26ac826c2443413ece6325946b2cf40",
+      "replicate": 9,
+      "result_directory": "runs/femnist_r09",
+      "seed": 109,
+      "seed_bases": {
+        "evidence": 71010,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51010,
+        "topology": 61010
+      }
+    },
+    {
+      "config_hash": "749e27f77a7037d0c81454e1313a6f04615d48371ccd43731678247050eb93bf",
+      "dataset": "femnist",
+      "manifest_hash": "ee665dc7fd6d2d18678ee212c3234cf5625aa53f3b5851a57b923a357f1c9547",
+      "record_view_hash": "52cd0af6505b3da05930b96417bbb93440d613a332e8261c95c10507ec0f0e74",
+      "replicate": 10,
+      "result_directory": "runs/femnist_r10",
+      "seed": 110,
+      "seed_bases": {
+        "evidence": 71011,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51011,
+        "topology": 61011
+      }
+    },
+    {
+      "config_hash": "e960eefb0789e65fbf2afefc8bc87bc264aba51c1fcc10bef86d17e7263e5b50",
+      "dataset": "femnist",
+      "manifest_hash": "a25aa3f3bcce4684fb83cb15b59236e2dc7a1c6295a20aa5f6e282567ab1d195",
+      "record_view_hash": "d213e77a63e77d8febd7a96008eb48678502ca0786b5cf90e713877f97018e13",
+      "replicate": 11,
+      "result_directory": "runs/femnist_r11",
+      "seed": 111,
+      "seed_bases": {
+        "evidence": 71012,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51012,
+        "topology": 61012
+      }
+    },
+    {
+      "config_hash": "8ef342ee954aa08f30f70996253356a686d3a55d6ec6d8e7278f1dca8394cb25",
+      "dataset": "femnist",
+      "manifest_hash": "f613cfaa7511de5347eaabd386933783087e80e1e92312107e04998a29f73271",
+      "record_view_hash": "7f08f8edf99ba982c55e72c25156950807b506bcb8a13397ed1ca93e5ef893fa",
+      "replicate": 12,
+      "result_directory": "runs/femnist_r12",
+      "seed": 112,
+      "seed_bases": {
+        "evidence": 71013,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51013,
+        "topology": 61013
+      }
+    },
+    {
+      "config_hash": "c8dde836a082a7722481d04b62477f6e8786b83268904e25ed53794ca5a4b91a",
+      "dataset": "femnist",
+      "manifest_hash": "91359308fdc1bcc2b1f47bf27bcb73490c8bb8b52c4151a20362348a15ddeb79",
+      "record_view_hash": "d287c99ff6e873e211d3c408d1e945860dba84ceaef90473690fcd6aaaa82343",
+      "replicate": 13,
+      "result_directory": "runs/femnist_r13",
+      "seed": 113,
+      "seed_bases": {
+        "evidence": 71014,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51014,
+        "topology": 61014
+      }
+    },
+    {
+      "config_hash": "4bfe85a41fbcb8a44c2f9e8db8b327338e76e0ebfdcb115e9358a4e62f7ba8b0",
+      "dataset": "femnist",
+      "manifest_hash": "ead4ae4ed46fd0e72077766c6f92270f044f95e3b69a971c9a28d251b74ed4b0",
+      "record_view_hash": "0daa1460bc317b8c4992dd9d1f448e580fa4c62e970187643aa6947e2ad23731",
+      "replicate": 14,
+      "result_directory": "runs/femnist_r14",
+      "seed": 114,
+      "seed_bases": {
+        "evidence": 71015,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51015,
+        "topology": 61015
+      }
+    },
+    {
+      "config_hash": "45ce8903c962c236722196bc8247c61031be171c2c53d735f2e87cea68ce8910",
+      "dataset": "femnist",
+      "manifest_hash": "c7947280712a1dc7a33fd266c98f55fe069cf14488d72f473c746bf5998089e8",
+      "record_view_hash": "c22ff6c8cd463496c321645396c99500a1e9840dcd0c25ae18a0ca53d6dd777f",
+      "replicate": 15,
+      "result_directory": "runs/femnist_r15",
+      "seed": 115,
+      "seed_bases": {
+        "evidence": 71016,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51016,
+        "topology": 61016
+      }
+    },
+    {
+      "config_hash": "9815ecbe72958d8f98fa0c8ea102ec4650eddc0e990042d487341c0df152a1b4",
+      "dataset": "femnist",
+      "manifest_hash": "a49d49a356e9c0b2a5f4c3ba6ff8c1af085311c6c14925462eb30ccf3834aa1c",
+      "record_view_hash": "0806360ca68f8d78ee1e422347ca84e69677800322a664fd0aedb35d705d54ec",
+      "replicate": 16,
+      "result_directory": "runs/femnist_r16",
+      "seed": 116,
+      "seed_bases": {
+        "evidence": 71017,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51017,
+        "topology": 61017
+      }
+    },
+    {
+      "config_hash": "748c53e38bccd2af41a1dc34564556148da1675b9e3f34d81303db7c73781cc0",
+      "dataset": "femnist",
+      "manifest_hash": "1428a41ab2f7e3a719eea7dad4309688cc6b09c6a1d4f02a88d49c9cae9fd2b7",
+      "record_view_hash": "917eb560b7900fcf6d22fd9a0a16facdf10dd5497fdd37c1ca6543c33e151042",
+      "replicate": 17,
+      "result_directory": "runs/femnist_r17",
+      "seed": 117,
+      "seed_bases": {
+        "evidence": 71018,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51018,
+        "topology": 61018
+      }
+    },
+    {
+      "config_hash": "79b7475f9bfd7bbb881366c3c49df9f60e9635c4b0e0e814bd7897d00b676e15",
+      "dataset": "femnist",
+      "manifest_hash": "f558f226ce7f3613336035907e7f4a58a432a59d95facf33da7a97db4f800422",
+      "record_view_hash": "a2e846a10c4ae673f6aeb1e34b2bf1684a52d396c7ed0925747f1026ea2ed73b",
+      "replicate": 18,
+      "result_directory": "runs/femnist_r18",
+      "seed": 118,
+      "seed_bases": {
+        "evidence": 71019,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51019,
+        "topology": 61019
+      }
+    },
+    {
+      "config_hash": "8c609628a48c2926d0761e77dbc17d1bc1be4a7345b13c52e896fedd56bbf5a9",
+      "dataset": "femnist",
+      "manifest_hash": "37d7b6b3f962b0e716410bd6b7d7d06d92a30a06f9303f0bebd2e57e0b9d3187",
+      "record_view_hash": "54b66c0699ce279c87b4b99e57f394022b225d203be67d7967a89d716206a891",
+      "replicate": 19,
+      "result_directory": "runs/femnist_r19",
+      "seed": 119,
+      "seed_bases": {
+        "evidence": 71020,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51020,
+        "topology": 61020
+      }
+    },
+    {
+      "config_hash": "1932967ad2395558afb7e794f868d26de6f9ad9f47f4251962a49f0431895609",
+      "dataset": "synthea",
+      "manifest_hash": "4e7b46915c81b9891a8477cb6016ba6b48ad4b6f2bf3607e0cf02535c4a1dd35",
+      "record_view_hash": "ae573e07d8fd70f2957c49b1b00dfd711e8e0ab1ea4d99252fb79f46429f3c5c",
+      "replicate": 0,
+      "result_directory": "runs/synthea_r00",
+      "seed": 100,
+      "seed_bases": {
+        "evidence": 71001,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51001,
+        "topology": 61001
+      }
+    },
+    {
+      "config_hash": "71a2ab32e02aa99f2b1e1037959252124cea8700a7ecb84257fdee0a068a1f28",
+      "dataset": "synthea",
+      "manifest_hash": "d47d9840cf1f863ccc4467e3960742269cff651da137710b743be64ecd6787d1",
+      "record_view_hash": "58e2f7703e855a5bb6dc4c69d869af9f1a96b3cd5c5adc5d9dd7eb450b2d5553",
+      "replicate": 1,
+      "result_directory": "runs/synthea_r01",
+      "seed": 101,
+      "seed_bases": {
+        "evidence": 71002,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51002,
+        "topology": 61002
+      }
+    },
+    {
+      "config_hash": "4128b7dd897a92a7b94ce632e2e28a1ef50373aa78f58a331653e0dbfd742834",
+      "dataset": "synthea",
+      "manifest_hash": "1a4c9e60426f03552fe699bf889820a082a3290e2b1563ae24c07fca6d971562",
+      "record_view_hash": "dea0f99b7e48f5068ec1a157e6f9b663c3385a96db62379620747ec576fda529",
+      "replicate": 2,
+      "result_directory": "runs/synthea_r02",
+      "seed": 102,
+      "seed_bases": {
+        "evidence": 71003,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51003,
+        "topology": 61003
+      }
+    },
+    {
+      "config_hash": "fee41d625ab60e8fb87422413820a729026c86555b4a416d9bbcdc5aff048173",
+      "dataset": "synthea",
+      "manifest_hash": "a3af7a0c2f13acec24a33f1fa64907709abcf8ad2fd5ae7663b80fec10f4f742",
+      "record_view_hash": "6b1e15212daa19f84b0649ab2a1d5f7497ed804d460fa5f030a0b6ade22e3a2a",
+      "replicate": 3,
+      "result_directory": "runs/synthea_r03",
+      "seed": 103,
+      "seed_bases": {
+        "evidence": 71004,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51004,
+        "topology": 61004
+      }
+    },
+    {
+      "config_hash": "09435ef626cc3fb66a02206edb5bcfe63e78317108f232c3195e7b195e4ad649",
+      "dataset": "synthea",
+      "manifest_hash": "7947901a305c28ab4f5269453d68fa2d24ba73e6fe110002401349b8eaf42ff5",
+      "record_view_hash": "46c182146b20845b19bc79d18dae78470c3a9915d80e2cf3f3a049a0bcef0da8",
+      "replicate": 4,
+      "result_directory": "runs/synthea_r04",
+      "seed": 104,
+      "seed_bases": {
+        "evidence": 71005,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51005,
+        "topology": 61005
+      }
+    },
+    {
+      "config_hash": "ab5dfaa5f4fb3282f59854f280b023a9d1fa6db3eabed86ddc4f6f526ab7597b",
+      "dataset": "synthea",
+      "manifest_hash": "686f8a645239beda528ca99b217b3948576cb34aaa985676ebd2ed01d4c31448",
+      "record_view_hash": "c6ca9bc3e6f1e4e28105f6546c99c2a03a18fbcae3da6101dd103ff7ae22e512",
+      "replicate": 5,
+      "result_directory": "runs/synthea_r05",
+      "seed": 105,
+      "seed_bases": {
+        "evidence": 71006,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51006,
+        "topology": 61006
+      }
+    },
+    {
+      "config_hash": "3882b760de9f14f69895a52425b97408c2c30624af4be0d25aa30aa0ef81736f",
+      "dataset": "synthea",
+      "manifest_hash": "0d8983bf3f91abab348ead86af872231c494a3f5ff363e2c6a5ffcff4ef4cf19",
+      "record_view_hash": "1314f6b74762d033ecb87c3e4784244a0e40bfde07a54f4dc2783e6c23693da8",
+      "replicate": 6,
+      "result_directory": "runs/synthea_r06",
+      "seed": 106,
+      "seed_bases": {
+        "evidence": 71007,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51007,
+        "topology": 61007
+      }
+    },
+    {
+      "config_hash": "1c4e14ad48d74fa6b210debb720ceff6ebdddeb7c287da2155105a431a78c88c",
+      "dataset": "synthea",
+      "manifest_hash": "8b8d9d38c4222ded42590c743865263e022941c236dac8a285a56041ff05a926",
+      "record_view_hash": "8f0bffcc13d045bfb867731a1265ac71e9bc722c27dd5761aa6c2f632a651724",
+      "replicate": 7,
+      "result_directory": "runs/synthea_r07",
+      "seed": 107,
+      "seed_bases": {
+        "evidence": 71008,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51008,
+        "topology": 61008
+      }
+    },
+    {
+      "config_hash": "afc56ee9720c064cdf5d49f598493d9497fe56e6a7cf9ff44e5e2722c579eb9b",
+      "dataset": "synthea",
+      "manifest_hash": "97ffa3cc126694a8655fc999a497f289955a5acfd73e12a85d1544404d51c555",
+      "record_view_hash": "180fc385375e8c542ed7c7f7b5efa7d913db166bbedcdbf9c69065bd24cf193f",
+      "replicate": 8,
+      "result_directory": "runs/synthea_r08",
+      "seed": 108,
+      "seed_bases": {
+        "evidence": 71009,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51009,
+        "topology": 61009
+      }
+    },
+    {
+      "config_hash": "186b5fd7103428594f4d15131c931154f1eb064164a2c439bc7536ddc6b2ecd4",
+      "dataset": "synthea",
+      "manifest_hash": "9c324111db24d910387bdbc34db5eded94a9f758cbe6cd6acadf10aadd2f84c0",
+      "record_view_hash": "cb954ebb674eaab99832f9d31b61b666a8edd85462f971f6d218e26ec7cf7b6e",
+      "replicate": 9,
+      "result_directory": "runs/synthea_r09",
+      "seed": 109,
+      "seed_bases": {
+        "evidence": 71010,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51010,
+        "topology": 61010
+      }
+    },
+    {
+      "config_hash": "e96943b4a75c52e0274f8248cc952d1da4ec5944a007b8845ab49d2a6bac947b",
+      "dataset": "synthea",
+      "manifest_hash": "b5bccfad02180d10dad217c6b81315066a50fd20c40640315b52ee971a918e66",
+      "record_view_hash": "401e14b0197bf02ffb2de80818193003b657bccb242caae5840aa8ad24f71ce2",
+      "replicate": 10,
+      "result_directory": "runs/synthea_r10",
+      "seed": 110,
+      "seed_bases": {
+        "evidence": 71011,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51011,
+        "topology": 61011
+      }
+    },
+    {
+      "config_hash": "e053a3f1a4ed3327554ff80483edfb100213ce8501889316627382d3f2e524b2",
+      "dataset": "synthea",
+      "manifest_hash": "1953a2bb925ae406c80b3f3157866c11bc303bf94cbd6b01291ba2d53f76d1c6",
+      "record_view_hash": "7eecfeaf2232a9a763e2568f1200fb15cd88827827c0e597bf702b1ac266b272",
+      "replicate": 11,
+      "result_directory": "runs/synthea_r11",
+      "seed": 111,
+      "seed_bases": {
+        "evidence": 71012,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51012,
+        "topology": 61012
+      }
+    },
+    {
+      "config_hash": "f5d1b7326bf49a8dea1be089663a275898dc61ac42d570c677f60bd9c3355d98",
+      "dataset": "synthea",
+      "manifest_hash": "273f0171b0413d70a85549a3ff6832a3d60a963851d8ffdb14a0f5a3eac4b794",
+      "record_view_hash": "07442725693722d4d002f8030d6f4d1ddf37a155cc953d64af9287218c8b777e",
+      "replicate": 12,
+      "result_directory": "runs/synthea_r12",
+      "seed": 112,
+      "seed_bases": {
+        "evidence": 71013,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51013,
+        "topology": 61013
+      }
+    },
+    {
+      "config_hash": "c6f64944409e52d4e37c9d97fd68dd3e7c3960251fa7fcfbf293c2b583450189",
+      "dataset": "synthea",
+      "manifest_hash": "243733cf0c4348a2edac51c5325e5722c6ce5295c76b9b3f8442b1f0f7c7034c",
+      "record_view_hash": "67b82b11003c5bd810f6ef9d5724758f8986645793c4822d7311b36e91e2e0f3",
+      "replicate": 13,
+      "result_directory": "runs/synthea_r13",
+      "seed": 113,
+      "seed_bases": {
+        "evidence": 71014,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51014,
+        "topology": 61014
+      }
+    },
+    {
+      "config_hash": "aec31288e825f5b6202f899202a2da072d686b037db9f111c097a0add687dd49",
+      "dataset": "synthea",
+      "manifest_hash": "9624e16ea72be9a34c37979c936745767daab848dff31ebf56dcbaa1d213fc87",
+      "record_view_hash": "137f32f3505c3945183555e3492d911c070e18fc3f338e223937b160015e3df3",
+      "replicate": 14,
+      "result_directory": "runs/synthea_r14",
+      "seed": 114,
+      "seed_bases": {
+        "evidence": 71015,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51015,
+        "topology": 61015
+      }
+    },
+    {
+      "config_hash": "1431da2b4d2703cd0b28dd3e6d833089515657a374b57494394b999ff0497ef1",
+      "dataset": "synthea",
+      "manifest_hash": "df488753cf8c8718822a31904944b2c214e9493fad2f618a3844873f68b5ddf1",
+      "record_view_hash": "585302cd1e3236c0e2a68307fad0975f60b4ca1d85a4b7e374697ce5cb191aa4",
+      "replicate": 15,
+      "result_directory": "runs/synthea_r15",
+      "seed": 115,
+      "seed_bases": {
+        "evidence": 71016,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51016,
+        "topology": 61016
+      }
+    },
+    {
+      "config_hash": "e58ef83359425f44d62846069e651fa2ba0aa4885bab44eb48b36989d4a1da92",
+      "dataset": "synthea",
+      "manifest_hash": "e1a85066ec8400ca20de0254eac318b12024508f8246e666e0e012454aa2d513",
+      "record_view_hash": "fd532f21964acbf26963f4785a4d07f2e0c446e69835b9ad2208cffb520cc2e9",
+      "replicate": 16,
+      "result_directory": "runs/synthea_r16",
+      "seed": 116,
+      "seed_bases": {
+        "evidence": 71017,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51017,
+        "topology": 61017
+      }
+    },
+    {
+      "config_hash": "d70a180f5508e7573ecbb4d014534797d3f0d72e20743a993062ff461f2c9abc",
+      "dataset": "synthea",
+      "manifest_hash": "dc8ae69739f1bb85efb58d3452bd826b7b667ca1ff7d19b8f6f67c4debb2ddf4",
+      "record_view_hash": "ff322852e1010776d3a0ab46e7c5a90124a53a44a8f506a57f99fedb2faa53aa",
+      "replicate": 17,
+      "result_directory": "runs/synthea_r17",
+      "seed": 117,
+      "seed_bases": {
+        "evidence": 71018,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51018,
+        "topology": 61018
+      }
+    },
+    {
+      "config_hash": "f8d14b468eb5d6f8cc61da45173a493c266cae5a600402dfaa43e4012c536b22",
+      "dataset": "synthea",
+      "manifest_hash": "94390c8363d564548ef1a80d6eeeb0139460934e7162c830f503235f285f8b82",
+      "record_view_hash": "573323ae043e864d4f3756d5fbb5c576d8bf27a1a00c969a17c885a72261c880",
+      "replicate": 18,
+      "result_directory": "runs/synthea_r18",
+      "seed": 118,
+      "seed_bases": {
+        "evidence": 71019,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51019,
+        "topology": 61019
+      }
+    },
+    {
+      "config_hash": "bbba70590c7087a7717ba711525322ef392ba21329c5b66580f486f63609b6aa",
+      "dataset": "synthea",
+      "manifest_hash": "46f1bcf9533d052a3369db5f76dd9cc170c1f0580c7b5baef1bbc28b01938e51",
+      "record_view_hash": "5f6617c096f876f730b20a7ac1c65f902619389852d077eba8bd09f3e954528b",
+      "replicate": 19,
+      "result_directory": "runs/synthea_r19",
+      "seed": 119,
+      "seed_bases": {
+        "evidence": 71020,
+        "noise": 91001,
+        "schedule": 81001,
+        "split": 51020,
+        "topology": 61020
+      }
+    }
+  ],
+  "femnist_population": "writers ranked 1000--1999 under selection seed 31001; absent from the original top-1000 pool",
+  "frozen_at_utc": "2026-07-17T14:55:06.709069+00:00",
+  "hypotheses": {
+    "gain_over_fallback": "mean(UnitScope-Fixed(.9) - Stable-Local) > 0",
+    "noninferior_to_handle_only": "mean(UnitScope-Fixed(.9) - Handle-Only) > -0.01"
+  },
+  "methods": [
+    "handle-only-drop-residual",
+    "naive-recalibrated-2c",
+    "stable-local-fallback",
+    "unitscope-lambda-sweep"
+  ],
+  "multiplicity": "Holm correction over four primary one-sided tests",
+  "noninferiority_margin": 0.01,
+  "original_confirmatory_results_are_not_pooled": true,
+  "profile": "lambda090-protocol-revision-replication-v1",
+  "protocol_deviation_sha256": "57abe2826222bfcecc44174823751b6d5c4dd71aea31898794b01ae99eb1922b",
+  "replicates_per_dataset": 20,
+  "selection_disclosure": "lambda=0.9 and the 0.01 margin were chosen after the earlier exploratory frontier",
+  "synthea_population": "same official 10k synthetic population with repeated user-disjoint random splits",
+  "synthea_seed_limitation": "topology and health-card evidence are deterministic for a fixed population; only split and training randomness vary"
+}

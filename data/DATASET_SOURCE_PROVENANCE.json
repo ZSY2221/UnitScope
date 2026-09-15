@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-07-14T16:00:00+08:00",
+  "sources": [
+    {
+      "id": "tff_federated_emnist",
+      "role": "formal_main_task_1",
+      "origin": "https://storage.googleapis.com/tff-datasets-public/emnist_all.sqlite.lzma",
+      "upstream_code": "https://github.com/google-parfait/tensorflow-federated/blob/main/tensorflow_federated/python/simulation/datasets/emnist.py",
+      "compressed_bytes": 170507172,
+      "compressed_sha256": "c3aaf91b4cf4e69d53d81627ad119eccdc878ff906f68e66063ff10f67faad48",
+      "decompressed_bytes": 4708990976,
+      "decompressed_sha256": "239b48fb3b3d69e70406d18a0605c821d4db3c803443c64788736bcb9f79ac56",
+      "identity_semantics": "writer",
+      "scope": "real writer groups; simulated silos without record duplication"
+    },
+    {
+      "id": "leaf_code",
+      "role": "dataset_lineage_and_preprocessing_reference",
+      "repository": "https://github.com/TalwalkarLab/leaf",
+      "local_path": "baselines/official/LEAF",
+      "commit": "09ec454a5675e32e1f0546b456b77857fdece018",
+      "clone": "clean_shallow",
+      "identity_semantics": "writer"
+    },
+    {
+      "id": "synthea_10k_covid_csv",
+      "role": "formal_main_task_2",
+      "origin": "https://github.com/synthetichealth/synthea-sample-data/raw/refs/heads/main/downloads/10k_synthea_covid19_csv.zip",
+      "repository": "https://github.com/synthetichealth/synthea-sample-data",
+      "compressed_bytes": 56851927,
+      "compressed_sha256": "559757dc849f4361a328f456d2c0a20c6df72419068321c753c6be787161e937",
+      "identity_semantics": "synthetic patient",
+      "scope": "synthetic patients and encounters"
+    },
+    {
+      "id": "sentiment140",
+      "role": "supplementary_account_level_task",
+      "origin": "http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip",
+      "lineage_reference": "https://github.com/TalwalkarLab/leaf/tree/master/data/sent140",
+      "compressed_bytes": 81363704,
+      "compressed_sha256": "004a3772c8a7ff9bbfeb875880f47f0679d93fc63e5cf9cff72d54a8a6162e57",
+      "identity_semantics": "account",
+      "scope": "account groups, not verified natural persons"
+    },
+    {
+      "id": "movielens_1m",
+      "role": "supplementary_account_level_recommendation_task",
+      "origin": "https://files.grouplens.org/datasets/movielens/ml-1m.zip",
+      "source_page": "https://grouplens.org/datasets/movielens/1m/",
+      "readme": "https://files.grouplens.org/datasets/movielens/ml-1m-README.txt",
+      "compressed_bytes": 5917549,
+      "compressed_md5": "c4d9eecfca2ab87c1945afe126590906",
+      "compressed_sha256": "a6898adb50b9ca05aa231689da44c217cb524e7ebd39d264c56e2832f2c54e20",
+      "identity_semantics": "anonymized MovieLens account",
+      "scope": "account groups, not verified natural persons",
+      "redistribution": "raw data excluded; downloader and checksums included"
+    },
+    {
+      "id": "febrl_1_2_3",
+      "role": "identity_and_wur_boundary_study",
+      "origin": "recordlinkage.datasets",
+      "package_version": "0.16",
+      "datasets": ["febrl1", "febrl2", "febrl3"],
+      "identity_semantics": "synthetic entity with duplicate records",
+      "preparation": "adapters/per2025/prepare_febrl.py"
+    },
+    {
+      "id": "ncvr_statewide_2026_07_13",
+      "role": "identity_and_wur_scale_study",
+      "origin": "https://s3.amazonaws.com/dl.ncsbe.gov/data/ncvoter_Statewide.zip",
+      "recorded_bytes": 517980796,
+      "recorded_version": "hhBFefdjI7raPYd2N7ba5mKubUv_D346",
+      "sha256": "dfe78db2658339766a4c688c60a9db7a762ba2cd2a00d54265787bad7a7c9195",
+      "identity_semantics": "public voter registration record",
+      "redistribution": "raw snapshot excluded; aggregate results included",
+      "reproduction_limit": "the public URL is mutable and does not provide the frozen historical object"
+    }
+  ]
+}

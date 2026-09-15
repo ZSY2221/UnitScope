@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "config_hash": "f4bfed36a11444c6955e459ecd7262283866011c0c9cca5cf559cb739898e769",
+      "dataset": "movielens1m",
+      "dirichlet_alpha": null,
+      "family": "movielens-balanced-task",
+      "methods": [
+        "full-identity-reference",
+        "handle-only-drop-residual",
+        "naive-recalibrated-2c",
+        "stable-local-fallback",
+        "unitscope-lambda-sweep"
+      ],
+      "result_directory": "runs/test"
+    }
+  ],
+  "profile": "movielens-balanced-task"
+}

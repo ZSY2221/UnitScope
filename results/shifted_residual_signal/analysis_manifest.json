@@ -1,0 +1,26 @@
+{
+  "attempts": 36,
+  "best": {
+    "residual_fraction": 0.6,
+    "zipf_exponent": 1.2,
+    "rare_label_mass": 0.9,
+    "lambda": 0.5,
+    "residual_radius_over_C": 0.08333333333333333,
+    "signal_proxy": 0.06123724356957945,
+    "noise_sd_proxy": 0.7679166666666666,
+    "snr": 0.07974464707921362,
+    "detectable": false
+  },
+  "detectable_any": false,
+  "construction": {
+    "residual_fraction": 0.4,
+    "zipf_exponent": 2.0,
+    "rare_label_mass": 0.7,
+    "lambda": 0.5
+  },
+  "c_envelope": {
+    "handle": 0.5,
+    "residual": 0.5,
+    "total": 1.0
+  }
+}

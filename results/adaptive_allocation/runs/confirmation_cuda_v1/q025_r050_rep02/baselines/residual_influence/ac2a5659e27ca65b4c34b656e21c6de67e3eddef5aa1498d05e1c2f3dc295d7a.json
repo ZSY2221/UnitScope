@@ -1,0 +1,358 @@
+{
+  "dataset": "femnist",
+  "method": "unitscope-lambda-sweep",
+  "residual_influence": [
+    {
+      "active_residual_units": 372,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.10089324675169414,
+      "round": 1,
+      "saturated_residual_units": 372
+    },
+    {
+      "active_residual_units": 376,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.06241325979424505,
+      "round": 2,
+      "saturated_residual_units": 376
+    },
+    {
+      "active_residual_units": 365,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07795824274766441,
+      "round": 3,
+      "saturated_residual_units": 365
+    },
+    {
+      "active_residual_units": 385,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07956251425459164,
+      "round": 4,
+      "saturated_residual_units": 385
+    },
+    {
+      "active_residual_units": 354,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.12570518786680518,
+      "round": 5,
+      "saturated_residual_units": 354
+    },
+    {
+      "active_residual_units": 358,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.034958033057971453,
+      "round": 6,
+      "saturated_residual_units": 358
+    },
+    {
+      "active_residual_units": 362,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.05379994751759316,
+      "round": 7,
+      "saturated_residual_units": 362
+    },
+    {
+      "active_residual_units": 363,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.0937934834586345,
+      "round": 8,
+      "saturated_residual_units": 363
+    },
+    {
+      "active_residual_units": 364,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.06373708903327331,
+      "round": 9,
+      "saturated_residual_units": 364
+    },
+    {
+      "active_residual_units": 355,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.06363548930415114,
+      "round": 10,
+      "saturated_residual_units": 355
+    },
+    {
+      "active_residual_units": 360,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.10003442037515739,
+      "round": 11,
+      "saturated_residual_units": 360
+    },
+    {
+      "active_residual_units": 372,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.10599113029171596,
+      "round": 12,
+      "saturated_residual_units": 372
+    },
+    {
+      "active_residual_units": 351,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.09170464681309685,
+      "round": 13,
+      "saturated_residual_units": 351
+    },
+    {
+      "active_residual_units": 361,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07265949370010924,
+      "round": 14,
+      "saturated_residual_units": 361
+    },
+    {
+      "active_residual_units": 379,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.05518686477328733,
+      "round": 15,
+      "saturated_residual_units": 379
+    },
+    {
+      "active_residual_units": 361,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.18263274015018502,
+      "round": 16,
+      "saturated_residual_units": 361
+    },
+    {
+      "active_residual_units": 372,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.08510653176743155,
+      "round": 17,
+      "saturated_residual_units": 372
+    },
+    {
+      "active_residual_units": 368,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.08876169434390623,
+      "round": 18,
+      "saturated_residual_units": 368
+    },
+    {
+      "active_residual_units": 371,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.08398675934624006,
+      "round": 19,
+      "saturated_residual_units": 371
+    },
+    {
+      "active_residual_units": 367,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.13331133680740234,
+      "round": 20,
+      "saturated_residual_units": 367
+    },
+    {
+      "active_residual_units": 369,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.11660961160293654,
+      "round": 21,
+      "saturated_residual_units": 369
+    },
+    {
+      "active_residual_units": 362,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.08555534520350822,
+      "round": 22,
+      "saturated_residual_units": 362
+    },
+    {
+      "active_residual_units": 365,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07752927075927307,
+      "round": 23,
+      "saturated_residual_units": 365
+    },
+    {
+      "active_residual_units": 351,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.1095984825896405,
+      "round": 24,
+      "saturated_residual_units": 351
+    },
+    {
+      "active_residual_units": 372,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.13982449030791255,
+      "round": 25,
+      "saturated_residual_units": 372
+    },
+    {
+      "active_residual_units": 367,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.06046049101950153,
+      "round": 26,
+      "saturated_residual_units": 367
+    },
+    {
+      "active_residual_units": 355,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07937431870716793,
+      "round": 27,
+      "saturated_residual_units": 355
+    },
+    {
+      "active_residual_units": 359,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.0949728771037058,
+      "round": 28,
+      "saturated_residual_units": 359
+    },
+    {
+      "active_residual_units": 376,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.06650893995531813,
+      "round": 29,
+      "saturated_residual_units": 376
+    },
+    {
+      "active_residual_units": 365,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.08619177822435661,
+      "round": 30,
+      "saturated_residual_units": 365
+    },
+    {
+      "active_residual_units": 364,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.11358723074463609,
+      "round": 31,
+      "saturated_residual_units": 364
+    },
+    {
+      "active_residual_units": 361,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.106801668925095,
+      "round": 32,
+      "saturated_residual_units": 361
+    },
+    {
+      "active_residual_units": 372,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.0990183350265911,
+      "round": 33,
+      "saturated_residual_units": 372
+    },
+    {
+      "active_residual_units": 354,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.079444582371211,
+      "round": 34,
+      "saturated_residual_units": 354
+    },
+    {
+      "active_residual_units": 372,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.11336177418556899,
+      "round": 35,
+      "saturated_residual_units": 372
+    },
+    {
+      "active_residual_units": 368,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.10657892408439763,
+      "round": 36,
+      "saturated_residual_units": 368
+    },
+    {
+      "active_residual_units": 357,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07187971901170026,
+      "round": 37,
+      "saturated_residual_units": 357
+    },
+    {
+      "active_residual_units": 383,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.09682826260588058,
+      "round": 38,
+      "saturated_residual_units": 383
+    },
+    {
+      "active_residual_units": 356,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.06978734551920449,
+      "round": 39,
+      "saturated_residual_units": 356
+    },
+    {
+      "active_residual_units": 369,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.12774457210735846,
+      "round": 40,
+      "saturated_residual_units": 369
+    },
+    {
+      "active_residual_units": 358,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.07627543707258276,
+      "round": 41,
+      "saturated_residual_units": 358
+    },
+    {
+      "active_residual_units": 362,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.09190520219144482,
+      "round": 42,
+      "saturated_residual_units": 362
+    },
+    {
+      "active_residual_units": 365,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.11734120927565184,
+      "round": 43,
+      "saturated_residual_units": 365
+    },
+    {
+      "active_residual_units": 377,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.11139117069443755,
+      "round": 44,
+      "saturated_residual_units": 377
+    },
+    {
+      "active_residual_units": 367,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.10658130628955415,
+      "round": 45,
+      "saturated_residual_units": 367
+    },
+    {
+      "active_residual_units": 363,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.08404583575533058,
+      "round": 46,
+      "saturated_residual_units": 363
+    },
+    {
+      "active_residual_units": 374,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.09625165910661038,
+      "round": 47,
+      "saturated_residual_units": 374
+    },
+    {
+      "active_residual_units": 359,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.10154634933334587,
+      "round": 48,
+      "saturated_residual_units": 359
+    },
+    {
+      "active_residual_units": 365,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.09324940668153534,
+      "round": 49,
+      "saturated_residual_units": 365
+    },
+    {
+      "active_residual_units": 365,
+      "residual_clip_saturation_rate": 1.0,
+      "residual_norm_share": 0.09798421193304134,
+      "round": 50,
+      "saturated_residual_units": 365
+    }
+  ],
+  "run_id": "ac2a5659e27ca65b4c34b656e21c6de67e3eddef5aa1498d05e1c2f3dc295d7a",
+  "seed": 910000003
+}

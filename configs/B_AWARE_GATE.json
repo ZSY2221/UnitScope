@@ -1,0 +1,43 @@
+{
+  "family_id": "b-aware-gate",
+  "status": "released",
+  "label": "theory-predicted-operational-gate",
+  "purpose": "apply the Theorem 5.5 pure-local B=2 boundary while using lambda=0.75 elsewhere",
+  "grid": {
+    "B": [2, 4, 6, 8],
+    "local_semantics": ["pure", "mixed"],
+    "H": 2,
+    "lambda_selected": 0.75,
+    "gated_lambda": "0 when B=2 and local semantics are pure, otherwise 0.75"
+  },
+  "protocol": {
+    "n_users": 1000,
+    "dimension": 64,
+    "n_silos": 6,
+    "q_user": 0.75,
+    "q_record_given_handle": 0.5,
+    "overlap": 0.75,
+    "gradient_correlation": 0.5,
+    "vector_norm": 0.6,
+    "records_per_silo": 2,
+    "handles_per_user": 2,
+    "target_epsilon": 8.0,
+    "delta": 0.000001,
+    "rounds": 1,
+    "query": "one-release fixed weighted sum of bounded vectors"
+  },
+  "paired_configurations": {
+    "seeds": [600, 601, 602, 603, 604, 605, 606, 607, 608, 609],
+    "count_per_grid_cell": 10,
+    "shared_population_and_noise_within_seed": true
+  },
+  "methods": ["stable-local-fallback", "ungated-unitscope-lambda075", "gated-unitscope"],
+  "expected_result": "At B=2 pure, gated UnitScope equals Stable-Local. At every other cell, gated UnitScope equals ungated UnitScope.",
+  "observed_result": {
+    "rows": 240,
+    "config_hash": "e2166008206ce482991e68dc33192e51c5e68b799058f13c3164c86a959cbbc1",
+    "b2_pure_gated_vs_stable_max_abs": 0.0,
+    "all_other_gated_vs_ungated_max_abs": 0.0,
+    "expected_behavior_passed": true
+  }
+}

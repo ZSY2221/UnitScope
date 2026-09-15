@@ -1,0 +1,12 @@
+{
+  "dataset": "femnist",
+  "method": "non-private-reference",
+  "selection_split": "validation",
+  "selection_rule": "highest mean; ties use fewer rounds, then lower learning rate",
+  "selected_learning_rate": 0.25,
+  "selected_rounds": 200,
+  "test_mean_user_macro_accuracy": 0.9153125,
+  "test_bootstrap_95_interval": [0.9052187500000001, 0.92340625],
+  "validation_runs": 60,
+  "test_runs": 5
+}

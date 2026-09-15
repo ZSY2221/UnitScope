@@ -1,0 +1,46 @@
+{
+  "family_id": "femnist-utility-context",
+  "status": "released",
+  "purpose": "FEMNIST model-capacity and privacy-budget context",
+  "dataset": {
+    "name": "FEMNIST",
+    "model": "the frozen two-convolution SmallCNN",
+    "writer_selection": "the same top-1000 writer pool and writer-disjoint split construction as the main study",
+    "maximum_examples_per_writer": 32,
+    "n_silos": 6,
+    "overlap": 0.5,
+    "q_user": 0.5,
+    "q_record_given_handle": 0.5
+  },
+  "paired_configurations": {
+    "training_seeds": [700, 701, 702, 703, 704],
+    "split_seed_base": 56001,
+    "topology_seed_base": 66001,
+    "evidence_seed_base": 76001,
+    "schedule_seed_base": 86001,
+    "noise_seed_base": 96001
+  },
+  "privacy_curve": {
+    "epsilon": [4, 8, 16, 32],
+    "delta": 0.00001,
+    "rounds": 50,
+    "sampling_amplification": false,
+    "method": "UnitScope-Fixed(lambda=0.9)"
+  },
+  "non_private_upper_bound": {
+    "method": "non-private",
+    "epsilon": "not applicable",
+    "same_model_and_splits": true,
+    "observed_mean_ci": [0.124125, 0.11984375, 0.1325],
+    "note": "This 50-round reference is reported as model-capacity context, not as an accuracy upper bound."
+  },
+  "observed_privacy_curve": {
+    "epsilon_4_mean_ci": [0.15365625, 0.1416875, 0.168875],
+    "epsilon_8_mean_ci": [0.15209375, 0.1165625, 0.20346875],
+    "epsilon_16_mean_ci": [0.1589375, 0.13209375, 0.182375],
+    "epsilon_32_mean_ci": [0.19328125, 0.16353125, 0.222375],
+    "configuration_count_per_point": 5,
+    "all_runs_reported": true
+  },
+  "reporting": "model-capacity context"
+}
