@@ -74,11 +74,12 @@ Values are SHA-256 over the complete file bytes; paths are repository-relative.
 | `experiments/unitscope/torch_training.py` | `ddaf14b9d0b10f857e83309f5754f333659aced9d74a21d81db8f0200dc211f2` |
 | `experiments/unitscope/vector_experiment.py` | `e0cdd092c086769bb064370c67b096166faf9c8181bb9fd4d3c85f4c696b16a7` |
 | `LICENSE` | `2169d217c70b3a165e8ec70b723f5440f8cddd74483fda4a20e3e35567a605e4` |
-| `plotting/plot_paper_figures.py` | `58205aee66165fff8beaf6896a2dd37a148f91b735baeb09bb447c902dc9df6f` |
+| `plotting/plot_paper_figures.py` | `5e9d4f2cd7abe4f6f939da9b5a123808f72a4aa8566f01a96e59a04665952356` |
 | `pytest.ini` | `fbc662756964543a5b7d76aed0f70089144963904ee860c8ae435b2d1831e380` |
-| `README.md` | `581bad99b784df01dd558848d88f46d15fb9ceee41d6671ee620105535af2de2` |
+| `README.md` | `8e1ae2ac190910a526b40fb9ef7f196ac0689d8fd733876f9ef0842fb86254de` |
 | `reproduce.py` | `cf6da7e1e96dd45cdd9dd00e27ad1164c19bb87cddb316f2e34481606837d705` |
 | `requirements.txt` | `a21ad867c2a41ce07647bc97708ffd5832047f4d678732293a739c9064e67f9b` |
+| `UnitScope_Supplementary.pdf` | `d380ac07e863b739b5ecfd9739ff05cea5de32d77e6fee012dd916c52ddd683f` |
 | `results/adaptive_allocation/all_results.csv` | `30d4e2280ecb7088cfb2207348734401f18cdf6fade1a374ee64e81d764c5fcc` |
 | `results/adaptive_allocation/analysis_manifest.json` | `67c66506ffbed45be5b3363c803950681b005148684f6b6a0f2fba9555d1e8ee` |
 | `results/adaptive_allocation/cell_results.csv` | `ff9632333df71d031525bef3f206511fa6ef69dc3067fa7bc3b00d3bf76237bd` |

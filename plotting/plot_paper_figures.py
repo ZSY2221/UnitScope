@@ -976,10 +976,10 @@ def gradient_geometry() -> None:
         * (1 - row.noisy_mse_mean / fallback.loc[row.gradient_correlation]),
         axis=1,
     )
-    fig, ax = plt.subplots(figsize=(3.33, 2.0))
-    ax.set_position(
-        (0.1187603853853854, 0.2037516666666667, 0.8687261011011012, 0.7754133333333333)
-    )
+    # Reserve explicit room for the vertical ylabel and the external legend.
+    # The previous fixed Bbox cropped the top of the ylabel in the exported PDF.
+    fig, ax = plt.subplots(figsize=(3.33, 2.18))
+    fig.subplots_adjust(left=0.22, right=0.99, bottom=0.22, top=0.78)
     for index, (correlation, group) in enumerate(fixed.groupby("gradient_correlation")):
         group = group.sort_values("lambda")
         plot_method(
@@ -990,22 +990,31 @@ def gradient_geometry() -> None:
             rf"cosine ${correlation:.1f}$",
             proposed=np.isclose(correlation, 0.0),
         )
-    ax.axhline(0, color=COLORS["gray"], linewidth=0.8)
     ax.set_xlabel(r"Partial-handle allocation $\lambda$")
-    ax.set_ylabel("Noisy-MSE reduction vs. fallback (%)")
+    ax.set_ylabel("Noisy-MSE reduction vs. fallback (%)", labelpad=4)
     light_horizontal_grid(ax)
-    ax.legend(ncol=2, loc="lower center")
-    bbox_inches = Bbox.from_bounds(
-        0.01666999999999998,
-        0.01667000000000002,
-        3.2966600000000006,
-        1.96666,
+    legend = ax.legend(
+        ncol=3,
+        loc="lower center",
+        bbox_to_anchor=(0.5, 1.02),
+        borderaxespad=0.0,
+        handlelength=1.6,
+        handletextpad=0.35,
+        columnspacing=0.75,
+        labelspacing=0.2,
     )
-    fig.savefig(FIGURES / "fig5_gradient_geometry.pdf", bbox_inches=bbox_inches)
+    fig.savefig(
+        FIGURES / "fig5_gradient_geometry.pdf",
+        bbox_inches="tight",
+        bbox_extra_artists=(legend,),
+        pad_inches=0.08,
+    )
     fig.savefig(
         FIGURES / "fig5_gradient_geometry.png",
         dpi=300,
-        bbox_inches=bbox_inches,
+        bbox_inches="tight",
+        bbox_extra_artists=(legend,),
+        pad_inches=0.08,
     )
     plt.close(fig)
 

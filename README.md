@@ -3,6 +3,13 @@
 This repository contains the UnitScope compiler, experiment drivers, released
 run directories, and the tables used in the paper and supplementary material.
 
+## Supplementary material
+
+The supplementary PDF containing complete formal proofs and additional
+experimental results is available here:
+
+[UnitScope_Supplementary.pdf](UnitScope_Supplementary.pdf)
+
 ## Setup
 
 Python 3.12 is used for the release checks. Create an environment and install
